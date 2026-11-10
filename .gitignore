@@ -1,0 +1,13 @@
+# Whitelist: the raw measurement folders (~14 GB of .lvm/.mat/.fig) must never be committed.
+/*
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/lvm_reader.py
+!/LVM_reader.m
+!/notebooks/
+!/.github/
+
+.ipynb_checkpoints/
+__pycache__/
+_site/
