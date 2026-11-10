@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LVM trace browser</title>
+<style>
+  :root {
+    --surface: #fcfcfb; --surface-2: #f1f0ec; --border: #d8d7d0;
+    --text: #0b0b0b; --text-2: #52514e; --muted: #8a8983; --grid: #e4e3de; --axis: #b5b4ad;
+    --accent: #2a78d6;
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --surface: #1a1a19; --surface-2: #252524; --border: #3a3a38;
+      --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86; --grid: #2e2e2c; --axis: #55544f;
+      --accent: #3987e5;
+      --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--surface); color: var(--text);
+         font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { padding: 16px 16px 8px; display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+  h1 { font-size: 20px; margin: 0; font-weight: 600; }
+  header a { color: var(--accent); text-decoration: none; }
+  header a:hover { text-decoration: underline; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; padding: 8px 16px;
+              border-bottom: 1px solid var(--border); }
+  input[type=search], select, button {
+    font: inherit; color: var(--text); background: var(--surface-2); border: 1px solid var(--border);
+    border-radius: 6px; padding: 6px 10px; }
+  input[type=search] { width: 180px; }
+  select { min-width: 0; max-width: min(520px, 100%); flex: 1 1 320px; }
+  button { cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  button:disabled { opacity: .45; cursor: default; }
+  .group { display: flex; gap: 6px; align-items: center; }
+  .channels { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: center; }
+  .channels label, .opt { display: inline-flex; gap: 5px; align-items: center; cursor: pointer; color: var(--text-2); }
+  .swatch { width: 12px; height: 3px; border-radius: 2px; display: inline-block; }
+  .info { padding: 8px 16px; color: var(--text-2); display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 13px; }
+  .info b { color: var(--text); font-weight: 600; }
+  #plot { width: 100%; height: calc(100vh - 190px); min-height: 420px; }
+  .hint { color: var(--muted); font-size: 12px; padding: 0 16px 16px; }
+  kbd { font: 11px ui-monospace, monospace; border: 1px solid var(--border); border-radius: 4px; padding: 0 4px; }
+  #status { padding: 24px 16px; color: var(--text-2); }
+  html, body { overflow-x: hidden; }
+  .controls > * { min-width: 0; }
+  @media (max-width: 700px) {
+    input[type=search], select { width: 100%; max-width: 100%; flex: 1 1 100%; }
+    #plot { height: 70vh; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>LVM trace browser</h1>
+  <a href="./">← notebooks</a>
+</header>
+
+<div class="controls">
+  <input id="filter" type="search" placeholder="Filter recordings…" aria-label="Filter recordings">
+  <select id="file" aria-label="Recording"></select>
+  <div class="group">
+    <button id="prev" title="Previous recording (←)">◀ Prev</button>
+    <button id="next" title="Next recording (→)">Next ▶</button>
+  </div>
+  <div class="channels" id="channels"></div>
+  <label class="opt" title="Subtract each phase channel's first valid value"><input type="checkbox" id="zero"> Zero phase at start</label>
+</div>
+
+<div class="info" id="info"></div>
+<div id="status">Loading recordings…</div>
+<div id="plot" hidden></div>
+<p class="hint">Drag to zoom · drag an axis to zoom only that axis · scroll to zoom · double-click to reset ·
+  <kbd>←</kbd>/<kbd>→</kbd> previous/next recording. Long recordings are stored as a min/max envelope
+  (shaded band), so the finest detail visible is one bin. The notebooks analyse the full-resolution data.</p>
+
+<script src="https://cdn.plot.ly/plotly-3.1.0.min.js" charset="utf-8"></script>
+<script>
+"use strict";
+const $ = (id) => document.getElementById(id);
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const SERIES = ["--s1", "--s2", "--s3", "--s4", "--s5", "--s6", "--s7", "--s8"];
+const UNITS = { PD: "V" };
+
+let recordings = [], visible = [], current = null, data = null;
+const hidden = new Set();                    // channels the user switched off (kept across files)
+
+function fmtDuration(s) {
+  if (s < 120) return `${s.toFixed(1)} s`;
+  if (s < 7200) return `${(s / 60).toFixed(1)} min`;
+  return `${(s / 3600).toFixed(2)} h`;
+}
+
+function fmtRes(dt) { return dt < 1 ? `${(dt * 1000).toPrecision(3)} ms` : `${dt.toPrecision(3)} s`; }
+
+function alpha(hex, a) {
+  const n = parseInt(hex.slice(1), 16);
+  return `rgba(${n >> 16}, ${(n >> 8) & 255}, ${n & 255}, ${a})`;
+}
+
+function fillSelect() {
+  const q = $("filter").value.trim().toLowerCase();
+  visible = recordings.filter(r => !q || `${r.folder}/${r.name}`.toLowerCase().includes(q));
+  const sel = $("file");
+  sel.innerHTML = "";
+  let group = null, last = null;
+  for (const r of visible) {
+    if (r.folder !== last) {
+      group = document.createElement("optgroup");
+      group.label = `${r.folder}  (${r.date})`;
+      sel.appendChild(group);
+      last = r.folder;
+    }
+    const o = document.createElement("option");
+    o.value = r.id;
+    o.textContent = `${r.name} · ${r.time} · ${fmtDuration(r.duration)}`;
+    group.appendChild(o);
+  }
+  if (current && visible.includes(current)) sel.value = current.id;
+  updateNav();
+}
+
+function updateNav() {
+  const i = visible.indexOf(current);
+  $("prev").disabled = i <= 0;
+  $("next").disabled = i < 0 || i >= visible.length - 1;
+}
+
+function step(delta) {
+  const i = visible.indexOf(current);
+  const j = i < 0 ? 0 : i + delta;
+  if (j >= 0 && j < visible.length) load(visible[j]);
+}
+
+async function load(rec) {
+  current = rec;
+  $("file").value = rec.id;
+  updateNav();
+  history.replaceState(null, "", `#${encodeURIComponent(rec.id)}`);
+  $("info").innerHTML =
+    `<span><b>${rec.folder}/${rec.name}</b></span>` +
+    `<span>${rec.date} ${rec.time}${rec.operator ? " · " + rec.operator : ""}</span>` +
+    `<span>${fmtDuration(rec.duration)} · ${rec.segments} segments · ${rec.samples.toLocaleString()} samples @ ${rec.fs} Hz</span>` +
+    `<span>plot resolution: ${rec.raw ? "full" : fmtRes(rec.bin_dt) + " per bin"}</span>`;
+  $("status").hidden = false;
+  $("status").textContent = `Loading ${rec.name} (${(rec.bytes / 1e6).toFixed(1)} MB)…`;
+  try {
+    const res = await fetch(rec.file);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const buf = await res.arrayBuffer();
+    if (current !== rec) return;               // user moved on while downloading
+    data = { rec, values: new Float32Array(buf) };
+    $("status").hidden = true;
+    buildChannelToggles();
+    render(true);
+  } catch (e) {
+    $("status").textContent = `Could not load ${rec.file}: ${e.message}`;
+  }
+}
+
+function buildChannelToggles() {
+  const box = $("channels");
+  box.innerHTML = "";
+  data.rec.channels.forEach((c, i) => {
+    const l = document.createElement("label");
+    const cb = document.createElement("input");
+    cb.type = "checkbox";
+    cb.checked = !hidden.has(c.name);
+    cb.onchange = () => { cb.checked ? hidden.delete(c.name) : hidden.add(c.name); render(false); };
+    const sw = document.createElement("span");
+    sw.className = "swatch";
+    sw.style.background = css(SERIES[i % SERIES.length]);
+    l.append(cb, sw, c.name);
+    box.appendChild(l);
+  });
+}
+
+function channelArrays(rec, values, k) {
+  const n = rec.bins, per = rec.raw ? 1 : 2;
+  const off = k * n * per;
+  return rec.raw ? { y: values.subarray(off, off + n) }
+                 : { lo: values.subarray(off, off + n), hi: values.subarray(off + n, off + 2 * n) };
+}
+
+function firstFinite(a) { for (const v of a) if (Number.isFinite(v)) return v; return 0; }
+
+function render(resetZoom) {
+  const { rec, values } = data;
+  const plotEl = $("plot");
+  const keepRange = !resetZoom && plotEl.layout && plotEl.layout.xaxis && !plotEl.layout.xaxis.autorange
+    ? plotEl.layout.xaxis.range.slice() : null;
+
+  // x axis: bin start (+ half bin for envelopes, so the band is centred on its interval)
+  const x = new Float64Array(rec.bins);
+  const half = rec.raw ? 0 : rec.bin_dt / 2;
+  for (let i = 0; i < rec.bins; i++) x[i] = rec.t0 + i * rec.bin_dt + half;
+
+  // panels: all Phase* channels share one panel; every other channel gets its own
+  const shown = rec.channels.map((c, i) => ({ ...c, i })).filter(c => !hidden.has(c.name));
+  const panels = [];
+  for (const c of shown) {
+    const key = /^phase/i.test(c.name) ? "phase" : c.name;
+    let p = panels.find(p => p.key === key);
+    if (!p) panels.push(p = { key, chans: [], weight: key === "phase" ? 2.5 : 1,
+                              unit: key === "phase" ? "phase [°]" : `${c.name}${UNITS[c.name] ? ` [${UNITS[c.name]}]` : ""}` });
+    p.chans.push(c);
+  }
+
+  const traces = [], gap = 0.04;
+  const total = panels.reduce((s, p) => s + p.weight, 0) || 1;
+  const usable = 1 - gap * Math.max(0, panels.length - 1);
+  const layout = {
+    paper_bgcolor: css("--surface"), plot_bgcolor: css("--surface"),
+    font: { family: "system-ui, sans-serif", size: 12, color: css("--text-2") },
+    margin: { l: 72, r: 16, t: 12, b: 44 }, hovermode: "x unified", showlegend: false,
+    hoverlabel: { bgcolor: css("--surface-2"), bordercolor: css("--border"), font: { color: css("--text") } },
+  };
+  let top = 1;
+  panels.forEach((p, pi) => {
+    const h = usable * p.weight / total;
+    const ax = pi === 0 ? "" : String(pi + 1);
+    layout[`yaxis${ax}`] = { domain: [Math.max(0, top - h), top], title: { text: p.unit },
+      gridcolor: css("--grid"), linecolor: css("--axis"), zeroline: false, automargin: true };
+    top -= h + gap;
+    for (const c of p.chans) {
+      const color = css(SERIES[c.i % SERIES.length]);
+      const arr = channelArrays(rec, values, c.i);
+      const zero = p.key === "phase" && $("zero").checked;
+      const shift = zero ? firstFinite(rec.raw ? arr.y : arr.lo) : 0;
+      const adj = (a) => shift ? a.map(v => v - shift) : a;
+      const common = { x, xaxis: "x", yaxis: `y${ax}`, type: "scatter", mode: "lines", legendgroup: c.name };
+      if (rec.raw) {
+        traces.push({ ...common, y: adj(arr.y), name: c.name, line: { color, width: 1.2 } });
+      } else {
+        traces.push({ ...common, y: adj(arr.lo), name: `${c.name} min`, line: { color, width: 0.8 } });
+        traces.push({ ...common, y: adj(arr.hi), name: `${c.name} max`, line: { color, width: 0.8 },
+                      fill: "tonexty", fillcolor: alpha(color, 0.35) });
+      }
+    }
+  });
+  layout.xaxis = { anchor: `y${panels.length > 1 ? panels.length : ""}`, title: { text: "time [s]" },
+    gridcolor: css("--grid"), linecolor: css("--axis"), zeroline: false,
+    showspikes: true, spikemode: "across", spikethickness: 1, spikecolor: css("--axis"), spikesnap: "cursor" };
+  if (keepRange) layout.xaxis.range = keepRange;
+
+  plotEl.hidden = false;
+  Plotly.react(plotEl, traces, layout, { responsive: true, scrollZoom: true, displaylogo: false });
+}
+
+async function init() {
+  try {
+    const res = await fetch("traces/manifest.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    recordings = (await res.json()).recordings;
+  } catch (e) {
+    $("status").textContent = `Could not load traces/manifest.json: ${e.message}`;
+    return;
+  }
+  fillSelect();
+  const wanted = decodeURIComponent(location.hash.slice(1));
+  load(recordings.find(r => r.id === wanted) || recordings[0]);
+
+  $("file").onchange = (e) => load(recordings.find(r => r.id === e.target.value));
+  $("filter").oninput = fillSelect;
+  $("prev").onclick = () => step(-1);
+  $("next").onclick = () => step(1);
+  $("zero").onchange = () => data && render(false);
+  document.addEventListener("keydown", (e) => {
+    if (e.target.matches("input[type=search], select")) return;
+    if (e.key === "ArrowLeft") step(-1);
+    if (e.key === "ArrowRight") step(1);
+  });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
+    if (data) { buildChannelToggles(); render(false); }
+  });
+}
+init();
+</script>
+</body>
+</html>

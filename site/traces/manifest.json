@@ -1,0 +1,4206 @@
+{
+ "generated": "2026-11-10 13:48",
+ "bins": 10000,
+ "recordings": [
+  {
+   "id": "14giugno__IMEC14_Pb",
+   "folder": "14giugno",
+   "name": "IMEC14_Pb",
+   "date": "2021/06/14",
+   "time": "16:31:38",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 620000,
+   "duration": 620.0,
+   "segments": 31,
+   "t0": 0.0,
+   "bin_dt": 0.062,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -66.882971,
+     "max": 14.591142
+    },
+    {
+     "name": "Phase2",
+     "min": -6.560437,
+     "max": 189.399622
+    },
+    {
+     "name": "PD",
+     "min": 0.059052,
+     "max": 0.086519
+    }
+   ],
+   "file": "traces/14giugno__IMEC14_Pb.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "14giugno__IMEC14_Pbindeionizzata",
+   "folder": "14giugno",
+   "name": "IMEC14_Pbindeionizzata",
+   "date": "2021/06/14",
+   "time": "16:47:55",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 240000,
+   "duration": 240.0,
+   "segments": 12,
+   "t0": 0.0,
+   "bin_dt": 0.024,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/14giugno__IMEC14_Pbindeionizzata.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "14giugno__IMEC14_Pbindeionizzata_1",
+   "folder": "14giugno",
+   "name": "IMEC14_Pbindeionizzata_1",
+   "date": "2021/06/14",
+   "time": "16:48:04",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 100000,
+   "duration": 100.0,
+   "segments": 5,
+   "t0": 0.0,
+   "bin_dt": 0.01,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/14giugno__IMEC14_Pbindeionizzata_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "14giugno__MZI-I7-O9-1560-mod12Hzvpp4v_28",
+   "folder": "14giugno",
+   "name": "MZI-I7-O9-1560-mod12Hzvpp4v_28",
+   "date": "2021/06/14",
+   "time": "16:48:23",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 120000,
+   "duration": 120.0,
+   "segments": 6,
+   "t0": 0.0,
+   "bin_dt": 0.012,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/14giugno__MZI-I7-O9-1560-mod12Hzvpp4v_28.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "14giugno__2ch_imec14_Pb_in_DIW",
+   "folder": "14giugno",
+   "name": "2ch_imec14_Pb_in_DIW",
+   "date": "2021/06/14",
+   "time": "16:50:58",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 840000,
+   "duration": 840.0,
+   "segments": 42,
+   "t0": 0.0,
+   "bin_dt": 0.084,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 19.580944,
+     "max": 84.352649
+    },
+    {
+     "name": "Phase2",
+     "min": -77.0975,
+     "max": -3.223673
+    },
+    {
+     "name": "PD",
+     "min": 0.059358,
+     "max": 0.095369
+    }
+   ],
+   "file": "traces/14giugno__2ch_imec14_Pb_in_DIW.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "14giugno__2ch_imec14_Pb_in_DIW_slow",
+   "folder": "14giugno",
+   "name": "2ch_imec14_Pb_in_DIW_slow",
+   "date": "2021/06/14",
+   "time": "17:43:06",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1400000,
+   "duration": 1400.0,
+   "segments": 70,
+   "t0": 0.0,
+   "bin_dt": 0.14,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 73.383119,
+     "max": 123.531284
+    },
+    {
+     "name": "Phase2",
+     "min": -137.590403,
+     "max": -93.196961
+    },
+    {
+     "name": "PD",
+     "min": 0.058747,
+     "max": 0.093233
+    }
+   ],
+   "file": "traces/14giugno__2ch_imec14_Pb_in_DIW_slow.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "15giugno__IMEC14_testSensitivityIPA.lvm",
+   "folder": "15giugno",
+   "name": "IMEC14_testSensitivityIPA.lvm",
+   "date": "2021/06/15",
+   "time": "10:04:22",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 980000,
+   "duration": 980.0,
+   "segments": 49,
+   "t0": 0.0,
+   "bin_dt": 0.098,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -188.121185,
+     "max": 675.974869
+    },
+    {
+     "name": "Phase2",
+     "min": -1007.858695,
+     "max": 75.974355
+    },
+    {
+     "name": "PD",
+     "min": 0.060273,
+     "max": 0.278172
+    }
+   ],
+   "file": "traces/15giugno__IMEC14_testSensitivityIPA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "15giugno__IMEC14_TestIPAcoarse",
+   "folder": "15giugno",
+   "name": "IMEC14_TestIPAcoarse",
+   "date": "2021/06/15",
+   "time": "10:29:01",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 100000,
+   "duration": 100.0,
+   "segments": 5,
+   "t0": 0.0,
+   "bin_dt": 0.01,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 111.577551,
+     "max": 124.743672
+    },
+    {
+     "name": "Phase2",
+     "min": 62.645099,
+     "max": 89.878052
+    },
+    {
+     "name": "PD",
+     "min": 0.061189,
+     "max": 0.275425
+    }
+   ],
+   "file": "traces/15giugno__IMEC14_TestIPAcoarse.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "15giugno__IMEC14_TestIPAcoarse_1",
+   "folder": "15giugno",
+   "name": "IMEC14_TestIPAcoarse_1",
+   "date": "2021/06/15",
+   "time": "10:31:57",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 116.690403,
+     "max": 119.69858
+    },
+    {
+     "name": "Phase2",
+     "min": 62.892711,
+     "max": 67.268467
+    },
+    {
+     "name": "PD",
+     "min": 0.062409,
+     "max": 0.27512
+    }
+   ],
+   "file": "traces/15giugno__IMEC14_TestIPAcoarse_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "15giugno__IMEC14_TestIPAcoarse_2",
+   "folder": "15giugno",
+   "name": "IMEC14_TestIPAcoarse_2",
+   "date": "2021/06/15",
+   "time": "10:32:29",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1800000,
+   "duration": 1800.0,
+   "segments": 90,
+   "t0": 0.0,
+   "bin_dt": 0.18,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 108.015402,
+     "max": 2338.904224
+    },
+    {
+     "name": "Phase2",
+     "min": -2660.459033,
+     "max": 71.893683
+    },
+    {
+     "name": "PD",
+     "min": 0.059968,
+     "max": 0.365454
+    }
+   ],
+   "file": "traces/15giugno__IMEC14_TestIPAcoarse_2.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "15giugno__IMEC14_checkDIW_1",
+   "folder": "15giugno",
+   "name": "IMEC14_checkDIW_1",
+   "date": "2021/06/15",
+   "time": "12:04:38",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 300000,
+   "duration": 300.0,
+   "segments": 15,
+   "t0": 0.0,
+   "bin_dt": 0.03,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 44.979909,
+     "max": 81.298675
+    },
+    {
+     "name": "Phase2",
+     "min": 8.339482,
+     "max": 43.661641
+    },
+    {
+     "name": "PD",
+     "min": 0.062409,
+     "max": 0.382544
+    }
+   ],
+   "file": "traces/15giugno__IMEC14_checkDIW_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "15giugno__IMEC14_PBinDIW.lvm",
+   "folder": "15giugno",
+   "name": "IMEC14_PBinDIW.lvm",
+   "date": "2021/06/15",
+   "time": "12:16:47",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1040000,
+   "duration": 1040.0,
+   "segments": 52,
+   "t0": 0.0,
+   "bin_dt": 0.10400000000000001,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 42.226136,
+     "max": 69.644142
+    },
+    {
+     "name": "Phase2",
+     "min": 26.600267,
+     "max": 56.910952
+    },
+    {
+     "name": "PD",
+     "min": 0.061494,
+     "max": 0.394751
+    }
+   ],
+   "file": "traces/15giugno__IMEC14_PBinDIW.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "15giugno__IMEC14_PbinDIW_newTest",
+   "folder": "15giugno",
+   "name": "IMEC14_PbinDIW_newTest",
+   "date": "2021/06/15",
+   "time": "15:13:47",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 600000,
+   "duration": 600.0,
+   "segments": 30,
+   "t0": 0.0,
+   "bin_dt": 0.06,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -2.843017,
+     "max": 4.670489
+    },
+    {
+     "name": "Phase2",
+     "min": 26.465044,
+     "max": 76.972543
+    },
+    {
+     "name": "PD",
+     "min": 0.060273,
+     "max": 0.399023
+    }
+   ],
+   "file": "traces/15giugno__IMEC14_PbinDIW_newTest.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "16giugno__IMEC14_Pb_in_DIW_1",
+   "folder": "16giugno",
+   "name": "IMEC14_Pb_in_DIW_1",
+   "date": "2021/06/16",
+   "time": "11:00:33",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1100000,
+   "duration": 1100.0,
+   "segments": 55,
+   "t0": 0.0,
+   "bin_dt": 0.11,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 2.452756,
+     "max": 14.536308
+    },
+    {
+     "name": "Phase2",
+     "min": -159.679256,
+     "max": -146.874339
+    },
+    {
+     "name": "PD",
+     "min": 0.059968,
+     "max": 0.14786
+    }
+   ],
+   "file": "traces/16giugno__IMEC14_Pb_in_DIW_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "16giugno__IMEC14_Pb_in_tapW",
+   "folder": "16giugno",
+   "name": "IMEC14_Pb_in_tapW",
+   "date": "2021/06/16",
+   "time": "11:39:28",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1200000,
+   "duration": 1200.0,
+   "segments": 60,
+   "t0": 0.0,
+   "bin_dt": 0.12,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -3.174982,
+     "max": 166.97492
+    },
+    {
+     "name": "Phase2",
+     "min": -293.002475,
+     "max": -145.086585
+    },
+    {
+     "name": "PD",
+     "min": 0.059968,
+     "max": 0.157626
+    }
+   ],
+   "file": "traces/16giugno__IMEC14_Pb_in_tapW.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "16giugno__IMEC14_DIWvsTAPW_1",
+   "folder": "16giugno",
+   "name": "IMEC14_DIWvsTAPW_1",
+   "date": "2021/06/16",
+   "time": "12:07:56",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1220000,
+   "duration": 1220.0,
+   "segments": 61,
+   "t0": 0.0,
+   "bin_dt": 0.122,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -68.973377,
+     "max": 232.93795
+    },
+    {
+     "name": "Phase2",
+     "min": -171.826709,
+     "max": 37.125167
+    },
+    {
+     "name": "PD",
+     "min": 0.059968,
+     "max": 0.142367
+    }
+   ],
+   "file": "traces/16giugno__IMEC14_DIWvsTAPW_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "16giugno__IMEC14_tapWwithReference",
+   "folder": "16giugno",
+   "name": "IMEC14_tapWwithReference",
+   "date": "2021/06/16",
+   "time": "12:35:30",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 800000,
+   "duration": 800.0,
+   "segments": 40,
+   "t0": 0.0,
+   "bin_dt": 0.08,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 53.729752,
+     "max": 81.006201
+    },
+    {
+     "name": "Phase2",
+     "min": -145.296048,
+     "max": -89.112865
+    },
+    {
+     "name": "PD",
+     "min": 0.059968,
+     "max": 0.124971
+    }
+   ],
+   "file": "traces/16giugno__IMEC14_tapWwithReference.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "16giugno__IMEC14_IPAclean",
+   "folder": "16giugno",
+   "name": "IMEC14_IPAclean",
+   "date": "2021/06/16",
+   "time": "12:49:29",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 440000,
+   "duration": 440.0,
+   "segments": 22,
+   "t0": 0.0,
+   "bin_dt": 0.044,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -344.821342,
+     "max": 6505.619349
+    },
+    {
+     "name": "Phase2",
+     "min": -7386.565693,
+     "max": 9136.208513
+    },
+    {
+     "name": "PD",
+     "min": 0.059968,
+     "max": 0.136873
+    }
+   ],
+   "file": "traces/16giugno__IMEC14_IPAclean.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "16giugno__IMEC14_Pb_DIWwithReference",
+   "folder": "16giugno",
+   "name": "IMEC14_Pb_DIWwithReference",
+   "date": "2021/06/16",
+   "time": "14:35:56",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 280000,
+   "duration": 280.0,
+   "segments": 14,
+   "t0": 0.0,
+   "bin_dt": 0.028,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -36.033418,
+     "max": -9.823391
+    },
+    {
+     "name": "Phase2",
+     "min": 23.163762,
+     "max": 59.811196
+    },
+    {
+     "name": "PD",
+     "min": 0.059052,
+     "max": 0.0972
+    }
+   ],
+   "file": "traces/16giugno__IMEC14_Pb_DIWwithReference.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "16giugno__IMEC14_PbDIW_withReference",
+   "folder": "16giugno",
+   "name": "IMEC14_PbDIW_withReference",
+   "date": "2021/06/16",
+   "time": "15:21:45",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1900000,
+   "duration": 1900.0,
+   "segments": 95,
+   "t0": 0.0,
+   "bin_dt": 0.19,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -51.137721,
+     "max": -18.78393
+    },
+    {
+     "name": "Phase2",
+     "min": 19.632898,
+     "max": 46.302156
+    },
+    {
+     "name": "PD",
+     "min": 0.059052,
+     "max": 0.105745
+    }
+   ],
+   "file": "traces/16giugno__IMEC14_PbDIW_withReference.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "16giugno__IMEC14_PbTapW_ref",
+   "folder": "16giugno",
+   "name": "IMEC14_PbTapW_ref",
+   "date": "2021/06/16",
+   "time": "15:58:08",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1340000,
+   "duration": 1340.0,
+   "segments": 67,
+   "t0": 0.0,
+   "bin_dt": 0.134,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 66.33444,
+     "max": 163.899978
+    },
+    {
+     "name": "Phase2",
+     "min": -149.4808,
+     "max": -34.773303
+    },
+    {
+     "name": "PD",
+     "min": 0.059968,
+     "max": 0.113985
+    }
+   ],
+   "file": "traces/16giugno__IMEC14_PbTapW_ref.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "21giugno__IMEC14_pb_in_DIW_bis.lvm",
+   "folder": "21giugno",
+   "name": "IMEC14_pb_in_DIW_bis.lvm",
+   "date": "2021/06/21",
+   "time": "14:48:34",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 760000,
+   "duration": 760.0,
+   "segments": 38,
+   "t0": 0.0,
+   "bin_dt": 0.076,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 142.97559,
+     "max": 185.947766
+    },
+    {
+     "name": "Phase2",
+     "min": -275.366673,
+     "max": -147.16359
+    },
+    {
+     "name": "PD",
+     "min": 0.058747,
+     "max": 0.08896
+    }
+   ],
+   "file": "traces/21giugno__IMEC14_pb_in_DIW_bis.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "21giugno__IMEC14_Pb_in_TAPwater.lvm",
+   "folder": "21giugno",
+   "name": "IMEC14_Pb_in_TAPwater.lvm",
+   "date": "2021/06/21",
+   "time": "15:12:47",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 920000,
+   "duration": 920.0,
+   "segments": 46,
+   "t0": 0.0,
+   "bin_dt": 0.092,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -272.551884,
+     "max": -167.946425
+    },
+    {
+     "name": "Phase2",
+     "min": -35.741014,
+     "max": 31.408238
+    },
+    {
+     "name": "PD",
+     "min": 0.058747,
+     "max": 0.100252
+    }
+   ],
+   "file": "traces/21giugno__IMEC14_Pb_in_TAPwater.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "21giugno__IMEC14_HCl.lvm",
+   "folder": "21giugno",
+   "name": "IMEC14_HCl.lvm",
+   "date": "2021/06/21",
+   "time": "16:14:17",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 860000,
+   "duration": 860.0,
+   "segments": 43,
+   "t0": 0.0,
+   "bin_dt": 0.08600000000000001,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1305.391779,
+     "max": 224.760051
+    },
+    {
+     "name": "Phase2",
+     "min": -135.525855,
+     "max": 1247.53717
+    },
+    {
+     "name": "PD",
+     "min": 0.059052,
+     "max": 0.111238
+    }
+   ],
+   "file": "traces/21giugno__IMEC14_HCl.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22giugno__IMEC14PbDIW.lvm",
+   "folder": "22giugno",
+   "name": "IMEC14PbDIW.lvm",
+   "date": "2021/06/22",
+   "time": "10:54:25",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 820000,
+   "duration": 820.0,
+   "segments": 41,
+   "t0": 0.0,
+   "bin_dt": 0.082,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 45.523285,
+     "max": 120.049096
+    },
+    {
+     "name": "Phase2",
+     "min": -123.139418,
+     "max": -60.707063
+    },
+    {
+     "name": "PD",
+     "min": 0.026093,
+     "max": 0.440833
+    }
+   ],
+   "file": "traces/22giugno__IMEC14PbDIW.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22giugno__IMEC14PbDIWloop.lvm",
+   "folder": "22giugno",
+   "name": "IMEC14PbDIWloop.lvm",
+   "date": "2021/06/22",
+   "time": "11:33:18",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 840000,
+   "duration": 840.0,
+   "segments": 42,
+   "t0": 0.0,
+   "bin_dt": 0.084,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 70.863164,
+     "max": 225.698502
+    },
+    {
+     "name": "Phase2",
+     "min": -116.003217,
+     "max": -77.355983
+    },
+    {
+     "name": "PD",
+     "min": 0.062409,
+     "max": 0.43473
+    }
+   ],
+   "file": "traces/22giugno__IMEC14PbDIWloop.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22giugno__IMEC14PbDIWloop_postHCl.lvm",
+   "folder": "22giugno",
+   "name": "IMEC14PbDIWloop_postHCl.lvm",
+   "date": "2021/06/22",
+   "time": "14:16:21",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 440000,
+   "duration": 440.0,
+   "segments": 22,
+   "t0": 0.0,
+   "bin_dt": 0.044,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -112.458721,
+     "max": 20.593255
+    },
+    {
+     "name": "Phase2",
+     "min": -43.218666,
+     "max": -22.413907
+    },
+    {
+     "name": "PD",
+     "min": 0.065461,
+     "max": 0.381018
+    }
+   ],
+   "file": "traces/22giugno__IMEC14PbDIWloop_postHCl.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22giugno__IMEC14PbDIWloop_postHCl_1.lvm",
+   "folder": "22giugno",
+   "name": "IMEC14PbDIWloop_postHCl_1.lvm",
+   "date": "2021/06/22",
+   "time": "14:24:24",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1600000,
+   "duration": 1600.0,
+   "segments": 80,
+   "t0": 0.0,
+   "bin_dt": 0.16,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -28.574898,
+     "max": 35.921024
+    },
+    {
+     "name": "Phase2",
+     "min": -36.918583,
+     "max": -18.140752
+    },
+    {
+     "name": "PD",
+     "min": 0.066072,
+     "max": 0.441749
+    }
+   ],
+   "file": "traces/22giugno__IMEC14PbDIWloop_postHCl_1.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22giugno__IMEC14DIW_TapW.lvm",
+   "folder": "22giugno",
+   "name": "IMEC14DIW_TapW.lvm",
+   "date": "2021/06/22",
+   "time": "15:05:59",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 600000,
+   "duration": 600.0,
+   "segments": 30,
+   "t0": 0.0,
+   "bin_dt": 0.06,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 24.1729,
+     "max": 133.747228
+    },
+    {
+     "name": "Phase2",
+     "min": -188.74005,
+     "max": -29.606472
+    },
+    {
+     "name": "PD",
+     "min": 0.064851,
+     "max": 0.4448
+    }
+   ],
+   "file": "traces/22giugno__IMEC14DIW_TapW.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22giugno__IMEC14PbTapWater.lvm",
+   "folder": "22giugno",
+   "name": "IMEC14PbTapWater.lvm",
+   "date": "2021/06/22",
+   "time": "15:19:10",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1340000,
+   "duration": 1340.0,
+   "segments": 67,
+   "t0": 0.0,
+   "bin_dt": 0.134,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 48.508649,
+     "max": 104.292396
+    },
+    {
+     "name": "Phase2",
+     "min": 146.567925,
+     "max": 183.190829
+    },
+    {
+     "name": "PD",
+     "min": 0.066987,
+     "max": 0.46128
+    }
+   ],
+   "file": "traces/22giugno__IMEC14PbTapWater.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__testDIW1.lvm",
+   "folder": "28_29giugno",
+   "name": "testDIW1.lvm",
+   "date": "2021/06/28",
+   "time": "18:29:49",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1400580.259535,
+     "max": -22.291582
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": 0.012665,
+     "max": 0.040131
+    }
+   ],
+   "file": "traces/28_29giugno__testDIW1.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__testDIW2.lvm",
+   "folder": "28_29giugno",
+   "name": "testDIW2.lvm",
+   "date": "2021/06/28",
+   "time": "18:31:58",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 60000,
+   "duration": 59.99999999999999,
+   "segments": 3,
+   "t0": 0.0,
+   "bin_dt": 0.006,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -3747727.202165,
+     "max": 12.753457
+    },
+    {
+     "name": "Phase2",
+     "min": -958.614752,
+     "max": 21.712406
+    },
+    {
+     "name": "PD",
+     "min": 0.012055,
+     "max": 0.25742
+    }
+   ],
+   "file": "traces/28_29giugno__testDIW2.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__testDIW3.lvm",
+   "folder": "28_29giugno",
+   "name": "testDIW3.lvm",
+   "date": "2021/06/28",
+   "time": "18:33:07",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 40000,
+   "duration": 39.99999999999999,
+   "segments": 2,
+   "t0": 0.0,
+   "bin_dt": 0.004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -4757571.385566,
+     "max": 16.203893
+    },
+    {
+     "name": "Phase2",
+     "min": -178.224226,
+     "max": 143.939286
+    },
+    {
+     "name": "PD",
+     "min": 0.065461,
+     "max": 0.320897
+    }
+   ],
+   "file": "traces/28_29giugno__testDIW3.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__testDIW4.lvm",
+   "folder": "28_29giugno",
+   "name": "testDIW4.lvm",
+   "date": "2021/06/28",
+   "time": "18:34:07",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 140000,
+   "duration": 140.0,
+   "segments": 7,
+   "t0": 0.0,
+   "bin_dt": 0.014,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -14775510.0,
+     "max": -19.584579
+    },
+    {
+     "name": "Phase2",
+     "min": -362.362436,
+     "max": -181.763089
+    },
+    {
+     "name": "PD",
+     "min": 0.064851,
+     "max": 0.261082
+    }
+   ],
+   "file": "traces/28_29giugno__testDIW4.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__testDIW5.lvm",
+   "folder": "28_29giugno",
+   "name": "testDIW5.lvm",
+   "date": "2021/06/28",
+   "time": "18:36:40",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 40000,
+   "duration": 39.99999999999999,
+   "segments": 2,
+   "t0": 0.0,
+   "bin_dt": 0.004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -480418.67096,
+     "max": 15.377668
+    },
+    {
+     "name": "Phase2",
+     "min": -10.401721,
+     "max": 5.536881
+    },
+    {
+     "name": "PD",
+     "min": 0.065461,
+     "max": 0.228122
+    }
+   ],
+   "file": "traces/28_29giugno__testDIW5.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__testDIW6.lvm",
+   "folder": "28_29giugno",
+   "name": "testDIW6.lvm",
+   "date": "2021/06/28",
+   "time": "18:38:48",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 40000,
+   "duration": 39.99999999999999,
+   "segments": 2,
+   "t0": 0.0,
+   "bin_dt": 0.004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 185.251983,
+     "max": 5226.770701
+    },
+    {
+     "name": "Phase2",
+     "min": 12.853378,
+     "max": 21.98467
+    },
+    {
+     "name": "PD",
+     "min": 0.064851,
+     "max": 0.28397
+    }
+   ],
+   "file": "traces/28_29giugno__testDIW6.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test_9.lvm",
+   "folder": "28_29giugno",
+   "name": "test_9.lvm",
+   "date": "2021/06/28",
+   "time": "18:41:46",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -437707.885425,
+     "max": 64.66653
+    },
+    {
+     "name": "Phase2",
+     "min": 25.663779,
+     "max": 36.390465
+    },
+    {
+     "name": "PD",
+     "min": 0.066682,
+     "max": 0.216831
+    }
+   ],
+   "file": "traces/28_29giugno__test_9.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test_10.lvm",
+   "folder": "28_29giugno",
+   "name": "test_10.lvm",
+   "date": "2021/06/28",
+   "time": "18:42:40",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 660000,
+   "duration": 660.0,
+   "segments": 33,
+   "t0": 0.0,
+   "bin_dt": 0.066,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -232.446715,
+     "max": 330414.678275
+    },
+    {
+     "name": "Phase2",
+     "min": 33.014114,
+     "max": 263.574391
+    },
+    {
+     "name": "PD",
+     "min": 0.064851,
+     "max": 0.35172
+    }
+   ],
+   "file": "traces/28_29giugno__test_10.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__PEG.lvm",
+   "folder": "28_29giugno",
+   "name": "PEG.lvm",
+   "date": "2021/06/28",
+   "time": "19:11:49",
+   "operator": "FOS-RGD",
+   "fs": 500.0,
+   "samples": 60000,
+   "duration": 119.99999999999999,
+   "segments": 3,
+   "t0": 0.0,
+   "bin_dt": 0.012,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 162.263231,
+     "max": 17875680.0
+    },
+    {
+     "name": "Phase2",
+     "min": -1190154.16434,
+     "max": 122411.246271
+    },
+    {
+     "name": "PD",
+     "min": 0.07248,
+     "max": 0.155795
+    }
+   ],
+   "file": "traces/28_29giugno__PEG.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621",
+   "folder": "28_29giugno",
+   "name": "test290621",
+   "date": "2021/06/29",
+   "time": "10:11:25",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 114.426313,
+     "max": 131.263872
+    },
+    {
+     "name": "Phase2",
+     "min": 114.429767,
+     "max": 131.252568
+    },
+    {
+     "name": "PD",
+     "min": 0.167391,
+     "max": 1.063096
+    }
+   ],
+   "file": "traces/28_29giugno__test290621.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621-diw.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621-diw.lvm",
+   "date": "2021/06/29",
+   "time": "10:13:38",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 740000,
+   "duration": 740.0,
+   "segments": 37,
+   "t0": 0.0,
+   "bin_dt": 0.074,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -7886.312448,
+     "max": 21457.457802
+    },
+    {
+     "name": "Phase2",
+     "min": -7886.307253,
+     "max": 21457.427074
+    },
+    {
+     "name": "PD",
+     "min": 0.160677,
+     "max": 1.007858
+    }
+   ],
+   "file": "traces/28_29giugno__test290621-diw.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__MZI-I7-O9-1560-mod12Hzvpp4v_30.lvm",
+   "folder": "28_29giugno",
+   "name": "MZI-I7-O9-1560-mod12Hzvpp4v_30.lvm",
+   "date": "2021/06/29",
+   "time": "10:43:55",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -3627.465453,
+     "max": 10.357604
+    },
+    {
+     "name": "Phase2",
+     "min": -3627.466118,
+     "max": 10.375916
+    },
+    {
+     "name": "PD",
+     "min": 0.201877,
+     "max": 1.205615
+    }
+   ],
+   "file": "traces/28_29giugno__MZI-I7-O9-1560-mod12Hzvpp4v_30.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_PBS.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_PBS.lvm",
+   "date": "2021/06/29",
+   "time": "10:48:45",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 920000,
+   "duration": 920.0,
+   "segments": 46,
+   "t0": 0.0,
+   "bin_dt": 0.092,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -881.227737,
+     "max": 30.198737
+    },
+    {
+     "name": "Phase2",
+     "min": -881.226848,
+     "max": 30.162343
+    },
+    {
+     "name": "PD",
+     "min": 0.145418,
+     "max": 0.762798
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_PBS.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_anticorpo100nm.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_anticorpo100nm.lvm",
+   "date": "2021/06/29",
+   "time": "11:07:03",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1240000,
+   "duration": 1240.0,
+   "segments": 62,
+   "t0": 0.0,
+   "bin_dt": 0.124,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -707.384628,
+     "max": 217.067106
+    },
+    {
+     "name": "Phase2",
+     "min": -707.393493,
+     "max": 217.077616
+    },
+    {
+     "name": "PD",
+     "min": 0.150607,
+     "max": 0.747539
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_anticorpo100nm.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_anticorpo100nm_2hfermi.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_anticorpo100nm_2hfermi.lvm",
+   "date": "2021/06/29",
+   "time": "11:28:09",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 6240000,
+   "duration": 6240.0,
+   "segments": 312,
+   "t0": 0.0,
+   "bin_dt": 0.624,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 85.64922,
+     "max": 463.599204
+    },
+    {
+     "name": "Phase2",
+     "min": 85.646358,
+     "max": 463.580391
+    },
+    {
+     "name": "PD",
+     "min": 0.152132,
+     "max": 0.741436
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_anticorpo100nm_2hfermi.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_anticorpo100nm_sciaquaPBS.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_anticorpo100nm_sciaquaPBS.lvm",
+   "date": "2021/06/29",
+   "time": "13:12:37",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1640000,
+   "duration": 1640.0,
+   "segments": 82,
+   "t0": 0.0,
+   "bin_dt": 0.164,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -821.232882,
+     "max": -46.756251
+    },
+    {
+     "name": "Phase2",
+     "min": -821.2254,
+     "max": -46.759973
+    },
+    {
+     "name": "PD",
+     "min": 0.156405,
+     "max": 0.745403
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_anticorpo100nm_sciaquaPBS.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_baselinePBSfermo.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_baselinePBSfermo.lvm",
+   "date": "2021/06/29",
+   "time": "13:40:46",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 660000,
+   "duration": 660.0,
+   "segments": 33,
+   "t0": 0.0,
+   "bin_dt": 0.066,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -72.845646,
+     "max": 235.379164
+    },
+    {
+     "name": "Phase2",
+     "min": -72.851718,
+     "max": 235.398553
+    },
+    {
+     "name": "PD",
+     "min": 0.159152,
+     "max": 0.72221
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_baselinePBSfermo.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_spikecov2_1nM.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_spikecov2_1nM.lvm",
+   "date": "2021/06/29",
+   "time": "13:58:28",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 4460000,
+   "duration": 4460.0,
+   "segments": 223,
+   "t0": 0.0,
+   "bin_dt": 0.446,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -123.603292,
+     "max": 8964.4415
+    },
+    {
+     "name": "Phase2",
+     "min": -123.592679,
+     "max": 8964.442352
+    },
+    {
+     "name": "PD",
+     "min": 0.142672,
+     "max": 0.809796
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_spikecov2_1nM.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_spikecov2_10nM.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_spikecov2_10nM.lvm",
+   "date": "2021/06/29",
+   "time": "15:13:34",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 2900000,
+   "duration": 2900.0,
+   "segments": 145,
+   "t0": 0.0,
+   "bin_dt": 0.29,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -3021.278751,
+     "max": -116.038557
+    },
+    {
+     "name": "Phase2",
+     "min": -3021.281167,
+     "max": -116.023094
+    },
+    {
+     "name": "PD",
+     "min": 0.131075,
+     "max": 0.794232
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_spikecov2_10nM.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621-spikecov2_10nM_rinse.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621-spikecov2_10nM_rinse.lvm",
+   "date": "2021/06/29",
+   "time": "16:12:36",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 180000,
+   "duration": 180.0,
+   "segments": 9,
+   "t0": 0.0,
+   "bin_dt": 0.018000000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/28_29giugno__test290621-spikecov2_10nM_rinse.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_spikecov2_10nM_rinse.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_spikecov2_10nM_rinse.lvm",
+   "date": "2021/06/29",
+   "time": "16:15:11",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1220000,
+   "duration": 1220.0,
+   "segments": 61,
+   "t0": 0.0,
+   "bin_dt": 0.122,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1334.841341,
+     "max": -4.133423
+    },
+    {
+     "name": "Phase2",
+     "min": -1334.838889,
+     "max": -4.13198
+    },
+    {
+     "name": "PD",
+     "min": 0.143282,
+     "max": 0.874495
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_spikecov2_10nM_rinse.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_spikecov2_100nM.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_spikecov2_100nM.lvm",
+   "date": "2021/06/29",
+   "time": "16:36:18",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 3580000,
+   "duration": 3580.0,
+   "segments": 179,
+   "t0": 0.0,
+   "bin_dt": 0.358,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -224.211898,
+     "max": 237.424115
+    },
+    {
+     "name": "Phase2",
+     "min": -224.207626,
+     "max": 237.431037
+    },
+    {
+     "name": "PD",
+     "min": 0.129244,
+     "max": 0.797894
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_spikecov2_100nM.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "28_29giugno__test290621_spikecov2_100nM_rinse.lvm",
+   "folder": "28_29giugno",
+   "name": "test290621_spikecov2_100nM_rinse.lvm",
+   "date": "2021/06/29",
+   "time": "17:36:13",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 960000,
+   "duration": 960.0,
+   "segments": 48,
+   "t0": 0.0,
+   "bin_dt": 0.096,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -160.010361,
+     "max": 198.085975
+    },
+    {
+     "name": "Phase2",
+     "min": -160.020277,
+     "max": 198.084875
+    },
+    {
+     "name": "PD",
+     "min": 0.162814,
+     "max": 0.778363
+    }
+   ],
+   "file": "traces/28_29giugno__test290621_spikecov2_100nM_rinse.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "01luglio__IMEC5_IPAtestPostFunc",
+   "folder": "01luglio",
+   "name": "IMEC5_IPAtestPostFunc",
+   "date": "2021/07/01",
+   "time": "10:34:35",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 700000,
+   "duration": 700.0,
+   "segments": 35,
+   "t0": 0.0,
+   "bin_dt": 0.07,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -412.321216,
+     "max": 9568.272176
+    },
+    {
+     "name": "Phase2",
+     "min": -412.326042,
+     "max": 9568.269418
+    },
+    {
+     "name": "PD",
+     "min": 0.103304,
+     "max": 1.092088
+    }
+   ],
+   "file": "traces/01luglio__IMEC5_IPAtestPostFunc.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "01luglio__IMEC5_IPAtestPostFunc_conc",
+   "folder": "01luglio",
+   "name": "IMEC5_IPAtestPostFunc_conc",
+   "date": "2021/07/01",
+   "time": "10:46:48",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1360000,
+   "duration": 1360.0,
+   "segments": 68,
+   "t0": 0.0,
+   "bin_dt": 0.136,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -55914.731483,
+     "max": 8103.017092
+    },
+    {
+     "name": "Phase2",
+     "min": -55914.730893,
+     "max": 8103.012737
+    },
+    {
+     "name": "PD",
+     "min": 0.062104,
+     "max": 1.496147
+    }
+   ],
+   "file": "traces/01luglio__IMEC5_IPAtestPostFunc_conc.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "01luglio__IMEC5_DIW_HCl",
+   "folder": "01luglio",
+   "name": "IMEC5_DIW_HCl",
+   "date": "2021/07/01",
+   "time": "11:12:30",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1680000,
+   "duration": 1680.0,
+   "segments": 84,
+   "t0": 0.0,
+   "bin_dt": 0.168,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -333.479764,
+     "max": 12127.114395
+    },
+    {
+     "name": "Phase2",
+     "min": -333.489542,
+     "max": 12127.141848
+    },
+    {
+     "name": "PD",
+     "min": 0.132906,
+     "max": 0.901961
+    }
+   ],
+   "file": "traces/01luglio__IMEC5_DIW_HCl.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "01luglio__IMEC5_IPAc_postHCl",
+   "folder": "01luglio",
+   "name": "IMEC5_IPAc_postHCl",
+   "date": "2021/07/01",
+   "time": "11:44:23",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 880000,
+   "duration": 880.0,
+   "segments": 44,
+   "t0": 0.0,
+   "bin_dt": 0.088,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1147.839644,
+     "max": 12443.778188
+    },
+    {
+     "name": "Phase2",
+     "min": -1147.848907,
+     "max": 12443.774923
+    },
+    {
+     "name": "PD",
+     "min": 0.065156,
+     "max": 1.338369
+    }
+   ],
+   "file": "traces/01luglio__IMEC5_IPAc_postHCl.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "02luglio__testLinearita_k63bottom.lvm",
+   "folder": "02luglio",
+   "name": "testLinearita_k63bottom.lvm",
+   "date": "2021/07/02",
+   "time": "10:37:24",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 40000,
+   "duration": 39.99999999999999,
+   "segments": 2,
+   "t0": 0.0,
+   "bin_dt": 0.004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -88.626106,
+     "max": 5635325.542373
+    },
+    {
+     "name": "Phase2",
+     "min": -17726.601555,
+     "max": 198294.980537
+    },
+    {
+     "name": "PD",
+     "min": 0.059358,
+     "max": 0.065461
+    }
+   ],
+   "file": "traces/02luglio__testLinearita_k63bottom.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "02luglio__testLinearita_k63bottom_1.lvm",
+   "folder": "02luglio",
+   "name": "testLinearita_k63bottom_1.lvm",
+   "date": "2021/07/02",
+   "time": "10:38:27",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -239.805169,
+     "max": 3746795.392187
+    },
+    {
+     "name": "Phase2",
+     "min": -11405.489824,
+     "max": 88928.688186
+    },
+    {
+     "name": "PD",
+     "min": 0.059052,
+     "max": 0.065156
+    }
+   ],
+   "file": "traces/02luglio__testLinearita_k63bottom_1.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "02luglio__testLinearita_k63bottom_2.lvm",
+   "folder": "02luglio",
+   "name": "testLinearita_k63bottom_2.lvm",
+   "date": "2021/07/02",
+   "time": "10:40:30",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 180000,
+   "duration": 180.0,
+   "segments": 9,
+   "t0": 0.0,
+   "bin_dt": 0.018000000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -3593.334846,
+     "max": 162.465232
+    },
+    {
+     "name": "Phase2",
+     "min": -294.965887,
+     "max": 109.604094
+    },
+    {
+     "name": "PD",
+     "min": 0.154879,
+     "max": 2.596017
+    }
+   ],
+   "file": "traces/02luglio__testLinearita_k63bottom_2.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "02luglio__testLinearita_k63bottom_b.lvm",
+   "folder": "02luglio",
+   "name": "testLinearita_k63bottom_b.lvm",
+   "date": "2021/07/02",
+   "time": "10:43:57",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 80000,
+   "duration": 80.0,
+   "segments": 4,
+   "t0": 0.0,
+   "bin_dt": 0.008,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 4.851801,
+     "max": 11986.426467
+    },
+    {
+     "name": "Phase2",
+     "min": 58.054388,
+     "max": 1258.984018
+    },
+    {
+     "name": "PD",
+     "min": 0.076448,
+     "max": 2.697948
+    }
+   ],
+   "file": "traces/02luglio__testLinearita_k63bottom_b.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "02luglio__testLinearita_k63bottom_81vpp.lvm",
+   "folder": "02luglio",
+   "name": "testLinearita_k63bottom_81vpp.lvm",
+   "date": "2021/07/02",
+   "time": "10:49:08",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 100000,
+   "duration": 100.0,
+   "segments": 5,
+   "t0": 0.0,
+   "bin_dt": 0.01,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 37.439468,
+     "max": 10773.872815
+    },
+    {
+     "name": "Phase2",
+     "min": 94.115683,
+     "max": 1166.68034
+    },
+    {
+     "name": "PD",
+     "min": 0.19028,
+     "max": 2.704967
+    }
+   ],
+   "file": "traces/02luglio__testLinearita_k63bottom_81vpp.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__baselineDIW_1",
+   "folder": "05luglio",
+   "name": "baselineDIW_1",
+   "date": "2021/07/05",
+   "time": "12:32:04",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 200000,
+   "duration": 200.0,
+   "segments": 10,
+   "t0": 0.0,
+   "bin_dt": 0.02,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -43654.870455,
+     "max": 305.418261
+    },
+    {
+     "name": "Phase2",
+     "min": -15763.617704,
+     "max": 200.467906
+    },
+    {
+     "name": "PD",
+     "min": 0.518044,
+     "max": 0.829633
+    }
+   ],
+   "file": "traces/05luglio__baselineDIW_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__baselineDIW_ferma",
+   "folder": "05luglio",
+   "name": "baselineDIW_ferma",
+   "date": "2021/07/05",
+   "time": "12:35:49",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 160000,
+   "duration": 160.0,
+   "segments": 8,
+   "t0": 0.0,
+   "bin_dt": 0.016,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -41.529801,
+     "max": -17.111554
+    },
+    {
+     "name": "Phase2",
+     "min": 105.333125,
+     "max": 115.80223
+    },
+    {
+     "name": "PD",
+     "min": 0.559548,
+     "max": 0.768902
+    }
+   ],
+   "file": "traces/05luglio__baselineDIW_ferma.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__PEG_1",
+   "folder": "05luglio",
+   "name": "PEG_1",
+   "date": "2021/07/05",
+   "time": "12:41:24",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 4640000,
+   "duration": 4640.0,
+   "segments": 232,
+   "t0": 0.0,
+   "bin_dt": 0.464,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -28.264604,
+     "max": 5430.282455
+    },
+    {
+     "name": "Phase2",
+     "min": 98.421477,
+     "max": 706.15618
+    },
+    {
+     "name": "PD",
+     "min": 0.52781,
+     "max": 0.806439
+    }
+   ],
+   "file": "traces/05luglio__PEG_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__baselinePBS_1",
+   "folder": "05luglio",
+   "name": "baselinePBS_1",
+   "date": "2021/07/05",
+   "time": "14:05:37",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 180000,
+   "duration": 180.0,
+   "segments": 9,
+   "t0": 0.0,
+   "bin_dt": 0.018000000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -913.319238,
+     "max": -28.450261
+    },
+    {
+     "name": "Phase2",
+     "min": 22.978822,
+     "max": 114.333118
+    },
+    {
+     "name": "PD",
+     "min": 0.541543,
+     "max": 0.742962
+    }
+   ],
+   "file": "traces/05luglio__baselinePBS_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__AB.lvm",
+   "folder": "05luglio",
+   "name": "AB.lvm",
+   "date": "2021/07/05",
+   "time": "14:22:30",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 120000,
+   "duration": 120.0,
+   "segments": 6,
+   "t0": 0.0,
+   "bin_dt": 0.012,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -117855.192867,
+     "max": 45.862994
+    },
+    {
+     "name": "Phase2",
+     "min": -12337.457367,
+     "max": 57.430839
+    },
+    {
+     "name": "PD",
+     "min": 0.460975,
+     "max": 0.76585
+    }
+   ],
+   "file": "traces/05luglio__AB.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__AB_1.lvm",
+   "folder": "05luglio",
+   "name": "AB_1.lvm",
+   "date": "2021/07/05",
+   "time": "14:24:48",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 4460000,
+   "duration": 4460.0,
+   "segments": 223,
+   "t0": 0.0,
+   "bin_dt": 0.446,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 32.184907,
+     "max": 46713.4195
+    },
+    {
+     "name": "Phase2",
+     "min": 19.097957,
+     "max": 7108.48297
+    },
+    {
+     "name": "PD",
+     "min": 0.446632,
+     "max": 0.819257
+    }
+   ],
+   "file": "traces/05luglio__AB_1.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__AB_bis.lvm",
+   "folder": "05luglio",
+   "name": "AB_bis.lvm",
+   "date": "2021/07/05",
+   "time": "15:58:10",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 320000,
+   "duration": 320.0,
+   "segments": 16,
+   "t0": 0.0,
+   "bin_dt": 0.032,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/05luglio__AB_bis.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__AB_bis_1",
+   "folder": "05luglio",
+   "name": "AB_bis_1",
+   "date": "2021/07/05",
+   "time": "16:00:34",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1580000,
+   "duration": 1580.0,
+   "segments": 79,
+   "t0": 0.0,
+   "bin_dt": 0.158,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -45.090026,
+     "max": 158.118566
+    },
+    {
+     "name": "Phase2",
+     "min": -90.288093,
+     "max": -54.323294
+    },
+    {
+     "name": "PD",
+     "min": 0.509804,
+     "max": 0.684672
+    }
+   ],
+   "file": "traces/05luglio__AB_bis_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__spike01",
+   "folder": "05luglio",
+   "name": "spike01",
+   "date": "2021/07/05",
+   "time": "16:29:28",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 3400000,
+   "duration": 3400.0,
+   "segments": 170,
+   "t0": 0.0,
+   "bin_dt": 0.34,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 59.66943,
+     "max": 232.929601
+    },
+    {
+     "name": "Phase2",
+     "min": -70.698854,
+     "max": -44.501788
+    },
+    {
+     "name": "PD",
+     "min": 0.449989,
+     "max": 0.664836
+    }
+   ],
+   "file": "traces/05luglio__spike01.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__spike1",
+   "folder": "05luglio",
+   "name": "spike1",
+   "date": "2021/07/05",
+   "time": "17:27:30",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 3700000,
+   "duration": 3700.0,
+   "segments": 185,
+   "t0": 0.0,
+   "bin_dt": 0.37,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -127386.986548,
+     "max": 1820.151223
+    },
+    {
+     "name": "Phase2",
+     "min": -12128.951291,
+     "max": -54.277595
+    },
+    {
+     "name": "PD",
+     "min": 0.33341,
+     "max": 0.73228
+    }
+   ],
+   "file": "traces/05luglio__spike1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "05luglio__spike10",
+   "folder": "05luglio",
+   "name": "spike10",
+   "date": "2021/07/05",
+   "time": "18:30:18",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 3540000,
+   "duration": 3540.0,
+   "segments": 177,
+   "t0": 0.0,
+   "bin_dt": 0.354,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -16387.803116,
+     "max": 1825.559597
+    },
+    {
+     "name": "Phase2",
+     "min": -677.589459,
+     "max": -57.48292
+    },
+    {
+     "name": "PD",
+     "min": 0.272679,
+     "max": 0.738384
+    }
+   ],
+   "file": "traces/05luglio__spike10.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "06luglio__IMEC14_IPAcheckAfterHCl_1",
+   "folder": "06luglio",
+   "name": "IMEC14_IPAcheckAfterHCl_1",
+   "date": "2021/07/06",
+   "time": "15:37:05",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 980000,
+   "duration": 980.0,
+   "segments": 49,
+   "t0": 0.0,
+   "bin_dt": 0.098,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -4439.491612,
+     "max": 194.634717
+    },
+    {
+     "name": "Phase2",
+     "min": 7.183549,
+     "max": 4380.498344
+    },
+    {
+     "name": "PD",
+     "min": 0.026093,
+     "max": 2.036927
+    }
+   ],
+   "file": "traces/06luglio__IMEC14_IPAcheckAfterHCl_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "06luglio__IMEC14_IPAcheckAfterHCl_rep",
+   "folder": "06luglio",
+   "name": "IMEC14_IPAcheckAfterHCl_rep",
+   "date": "2021/07/06",
+   "time": "15:55:15",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1100000,
+   "duration": 1100.0,
+   "segments": 55,
+   "t0": 0.0,
+   "bin_dt": 0.11,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -4503.805206,
+     "max": 93.231676
+    },
+    {
+     "name": "Phase2",
+     "min": -1221.560088,
+     "max": 3991.379914
+    },
+    {
+     "name": "PD",
+     "min": 0.251316,
+     "max": 0.556191
+    }
+   ],
+   "file": "traces/06luglio__IMEC14_IPAcheckAfterHCl_rep.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__provaIMEC36",
+   "folder": "13_14luglio",
+   "name": "provaIMEC36",
+   "date": "2021/07/12",
+   "time": "15:18:30",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 200000,
+   "duration": 200.0,
+   "segments": 10,
+   "t0": 0.0,
+   "bin_dt": 0.02,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 123.291256,
+     "max": 521.441561
+    },
+    {
+     "name": "Phase2",
+     "min": 123.267882,
+     "max": 522.690774
+    },
+    {
+     "name": "PD",
+     "min": 0.007477,
+     "max": 0.308995
+    }
+   ],
+   "file": "traces/13_14luglio__provaIMEC36.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__provaIMEC36_ipa",
+   "folder": "13_14luglio",
+   "name": "provaIMEC36_ipa",
+   "date": "2021/07/12",
+   "time": "15:22:10",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -111.771818,
+     "max": 2882.235499
+    },
+    {
+     "name": "Phase2",
+     "min": -111.762663,
+     "max": 2882.24325
+    },
+    {
+     "name": "PD",
+     "min": 0.067597,
+     "max": 0.314488
+    }
+   ],
+   "file": "traces/13_14luglio__provaIMEC36_ipa.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__provaIMEC36_ipa_1",
+   "folder": "13_14luglio",
+   "name": "provaIMEC36_ipa_1",
+   "date": "2021/07/12",
+   "time": "15:23:39",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 620000,
+   "duration": 620.0,
+   "segments": 31,
+   "t0": 0.0,
+   "bin_dt": 0.062,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -7410.567034,
+     "max": 10005.025118
+    },
+    {
+     "name": "Phase2",
+     "min": -7410.577228,
+     "max": 10005.015087
+    },
+    {
+     "name": "PD",
+     "min": 0.066987,
+     "max": 0.305943
+    }
+   ],
+   "file": "traces/13_14luglio__provaIMEC36_ipa_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__provaIMEC36_ipa_2",
+   "folder": "13_14luglio",
+   "name": "provaIMEC36_ipa_2",
+   "date": "2021/07/12",
+   "time": "15:34:47",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 79.370296,
+     "max": 10313.518648
+    },
+    {
+     "name": "Phase2",
+     "min": 79.368412,
+     "max": 10313.519639
+    },
+    {
+     "name": "PD",
+     "min": 0.025788,
+     "max": 0.308995
+    }
+   ],
+   "file": "traces/13_14luglio__provaIMEC36_ipa_2.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__IMEC36o5DIW",
+   "folder": "13_14luglio",
+   "name": "IMEC36o5DIW",
+   "date": "2021/07/13",
+   "time": "10:46:43",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 380000,
+   "duration": 380.0,
+   "segments": 19,
+   "t0": 0.0,
+   "bin_dt": 0.038,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -497.102176,
+     "max": 38.186443
+    },
+    {
+     "name": "Phase2",
+     "min": -497.114074,
+     "max": 38.161244
+    },
+    {
+     "name": "PD",
+     "min": 0.014191,
+     "max": 0.453346
+    }
+   ],
+   "file": "traces/13_14luglio__IMEC36o5DIW.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__testDIW.lvm",
+   "folder": "13_14luglio",
+   "name": "testDIW.lvm",
+   "date": "2021/07/14",
+   "time": "10:10:34",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 900000,
+   "duration": 900.0,
+   "segments": 45,
+   "t0": 0.0,
+   "bin_dt": 0.09,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -28083.02232,
+     "max": 758.732046
+    },
+    {
+     "name": "Phase2",
+     "min": -28083.006809,
+     "max": 758.732894
+    },
+    {
+     "name": "PD",
+     "min": 0.011749,
+     "max": 0.387121
+    }
+   ],
+   "file": "traces/13_14luglio__testDIW.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__testDIW_IPA_1.lvm",
+   "folder": "13_14luglio",
+   "name": "testDIW_IPA_1.lvm",
+   "date": "2021/07/14",
+   "time": "10:26:02",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 920000,
+   "duration": 920.0,
+   "segments": 46,
+   "t0": 0.0,
+   "bin_dt": 0.092,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -2887.924838,
+     "max": 5783.813006
+    },
+    {
+     "name": "Phase2",
+     "min": -2887.922301,
+     "max": 5783.824145
+    },
+    {
+     "name": "PD",
+     "min": 0.011749,
+     "max": 0.614786
+    }
+   ],
+   "file": "traces/13_14luglio__testDIW_IPA_1.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__DIWbaseline_2.lvm",
+   "folder": "13_14luglio",
+   "name": "DIWbaseline_2.lvm",
+   "date": "2021/07/14",
+   "time": "10:50:27",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 440000,
+   "duration": 440.0,
+   "segments": 22,
+   "t0": 0.0,
+   "bin_dt": 0.044,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1097.928907,
+     "max": 387.8054
+    },
+    {
+     "name": "Phase2",
+     "min": -1097.896019,
+     "max": 387.812373
+    },
+    {
+     "name": "PD",
+     "min": 0.034943,
+     "max": 0.227512
+    }
+   ],
+   "file": "traces/13_14luglio__DIWbaseline_2.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__AcqueA.lvm",
+   "folder": "13_14luglio",
+   "name": "AcqueA.lvm",
+   "date": "2021/07/14",
+   "time": "11:02:05",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1220000,
+   "duration": 1220.0,
+   "segments": 61,
+   "t0": 0.0,
+   "bin_dt": 0.122,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -2881.672706,
+     "max": 162.955825
+    },
+    {
+     "name": "Phase2",
+     "min": -2881.656082,
+     "max": 162.960074
+    },
+    {
+     "name": "PD",
+     "min": 0.030976,
+     "max": 0.260166
+    }
+   ],
+   "file": "traces/13_14luglio__AcqueA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__diwAA.lvm",
+   "folder": "13_14luglio",
+   "name": "diwAA.lvm",
+   "date": "2021/07/14",
+   "time": "11:23:06",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 60000,
+   "duration": 59.99999999999999,
+   "segments": 3,
+   "t0": 0.0,
+   "bin_dt": 0.006,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/13_14luglio__diwAA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__DIWpostAA",
+   "folder": "13_14luglio",
+   "name": "DIWpostAA",
+   "date": "2021/07/14",
+   "time": "11:37:10",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 220000,
+   "duration": 220.0,
+   "segments": 11,
+   "t0": 0.0,
+   "bin_dt": 0.022,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1793.403996,
+     "max": -70.461347
+    },
+    {
+     "name": "Phase2",
+     "min": -1793.397459,
+     "max": -70.443112
+    },
+    {
+     "name": "PD",
+     "min": 0.019684,
+     "max": 1.221485
+    }
+   ],
+   "file": "traces/13_14luglio__DIWpostAA.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__DIWpostAA_1",
+   "folder": "13_14luglio",
+   "name": "DIWpostAA_1",
+   "date": "2021/07/14",
+   "time": "11:40:55",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 160000,
+   "duration": 160.0,
+   "segments": 8,
+   "t0": 0.0,
+   "bin_dt": 0.016,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -2713.79181,
+     "max": -6.389597
+    },
+    {
+     "name": "Phase2",
+     "min": -2713.799095,
+     "max": -6.399916
+    },
+    {
+     "name": "PD",
+     "min": 0.026398,
+     "max": 1.531853
+    }
+   ],
+   "file": "traces/13_14luglio__DIWpostAA_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__DIWpostAA_2",
+   "folder": "13_14luglio",
+   "name": "DIWpostAA_2",
+   "date": "2021/07/14",
+   "time": "11:52:51",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -247.510707,
+     "max": -153.831912
+    },
+    {
+     "name": "Phase2",
+     "min": -247.496484,
+     "max": -153.841187
+    },
+    {
+     "name": "PD",
+     "min": 0.079499,
+     "max": 0.861982
+    }
+   ],
+   "file": "traces/13_14luglio__DIWpostAA_2.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__DIWpostAA_3",
+   "folder": "13_14luglio",
+   "name": "DIWpostAA_3",
+   "date": "2021/07/14",
+   "time": "11:56:47",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 100000,
+   "duration": 100.0,
+   "segments": 5,
+   "t0": 0.0,
+   "bin_dt": 0.01,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/13_14luglio__DIWpostAA_3.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__MZI-I7-O9-1560-mod12Hzvpp4v_32",
+   "folder": "13_14luglio",
+   "name": "MZI-I7-O9-1560-mod12Hzvpp4v_32",
+   "date": "2021/07/14",
+   "time": "11:56:58",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase2",
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/13_14luglio__MZI-I7-O9-1560-mod12Hzvpp4v_32.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__DIWbaselineT25.8",
+   "folder": "13_14luglio",
+   "name": "DIWbaselineT25.8",
+   "date": "2021/07/14",
+   "time": "11:59:25",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 120000,
+   "duration": 120.0,
+   "segments": 6,
+   "t0": 0.0,
+   "bin_dt": 0.012,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -20.757616,
+     "max": 181.595382
+    },
+    {
+     "name": "Phase2",
+     "min": -20.755444,
+     "max": 181.585343
+    },
+    {
+     "name": "PD",
+     "min": 0.05417,
+     "max": 0.836652
+    }
+   ],
+   "file": "traces/13_14luglio__DIWbaselineT25.8.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__AcqueAbis",
+   "folder": "13_14luglio",
+   "name": "AcqueAbis",
+   "date": "2021/07/14",
+   "time": "12:02:12",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 260000,
+   "duration": 260.0,
+   "segments": 13,
+   "t0": 0.0,
+   "bin_dt": 0.026000000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -3876.009486,
+     "max": -125.717951
+    },
+    {
+     "name": "Phase2",
+     "min": -3876.026616,
+     "max": -125.738684
+    },
+    {
+     "name": "PD",
+     "min": 0.045014,
+     "max": 1.11223
+    }
+   ],
+   "file": "traces/13_14luglio__AcqueAbis.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__AcqueAbis_1",
+   "folder": "13_14luglio",
+   "name": "AcqueAbis_1",
+   "date": "2021/07/14",
+   "time": "12:08:08",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -2182.625061,
+     "max": 4.352936
+    },
+    {
+     "name": "Phase2",
+     "min": -2182.626465,
+     "max": 4.352824
+    },
+    {
+     "name": "PD",
+     "min": 0.034638,
+     "max": 1.320668
+    }
+   ],
+   "file": "traces/13_14luglio__AcqueAbis_1.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__AcqueAbis_2",
+   "folder": "13_14luglio",
+   "name": "AcqueAbis_2",
+   "date": "2021/07/14",
+   "time": "12:26:17",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 480000,
+   "duration": 480.0,
+   "segments": 24,
+   "t0": 0.0,
+   "bin_dt": 0.048,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1069.598406,
+     "max": 14938.218882
+    },
+    {
+     "name": "Phase2",
+     "min": -1069.599225,
+     "max": 14938.217106
+    },
+    {
+     "name": "PD",
+     "min": 0.032502,
+     "max": 1.117723
+    }
+   ],
+   "file": "traces/13_14luglio__AcqueAbis_2.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__baselineDIW_pendenza",
+   "folder": "13_14luglio",
+   "name": "baselineDIW_pendenza",
+   "date": "2021/07/14",
+   "time": "12:43:57",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 240000,
+   "duration": 240.0,
+   "segments": 12,
+   "t0": 0.0,
+   "bin_dt": 0.024,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -54.640184,
+     "max": 709.293294
+    },
+    {
+     "name": "Phase2",
+     "min": -54.658232,
+     "max": 709.290372
+    },
+    {
+     "name": "PD",
+     "min": 0.033722,
+     "max": 1.257496
+    }
+   ],
+   "file": "traces/13_14luglio__baselineDIW_pendenza.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__AcqueAter",
+   "folder": "13_14luglio",
+   "name": "AcqueAter",
+   "date": "2021/07/14",
+   "time": "12:49:06",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 880000,
+   "duration": 880.0,
+   "segments": 44,
+   "t0": 0.0,
+   "bin_dt": 0.088,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": 168.764664,
+     "max": 1362.181235
+    },
+    {
+     "name": "Phase2",
+     "min": 168.761452,
+     "max": 1362.194524
+    },
+    {
+     "name": "PD",
+     "min": 0.029145,
+     "max": 1.292287
+    }
+   ],
+   "file": "traces/13_14luglio__AcqueAter.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__ipadiw",
+   "folder": "13_14luglio",
+   "name": "ipadiw",
+   "date": "2021/07/14",
+   "time": "13:04:38",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 300000,
+   "duration": 300.0,
+   "segments": 15,
+   "t0": 0.0,
+   "bin_dt": 0.03,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -23.494467,
+     "max": 11503.774553
+    },
+    {
+     "name": "Phase2",
+     "min": -23.494205,
+     "max": 11503.773159
+    },
+    {
+     "name": "PD",
+     "min": 0.024262,
+     "max": 1.550164
+    }
+   ],
+   "file": "traces/13_14luglio__ipadiw.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__AcqueAquater.lvm",
+   "folder": "13_14luglio",
+   "name": "AcqueAquater.lvm",
+   "date": "2021/07/14",
+   "time": "13:10:01",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 700000,
+   "duration": 700.0,
+   "segments": 35,
+   "t0": 0.0,
+   "bin_dt": 0.07,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -41920.390275,
+     "max": 129.96502
+    },
+    {
+     "name": "Phase2",
+     "min": -41920.382648,
+     "max": 129.983625
+    },
+    {
+     "name": "PD",
+     "min": 0.026093,
+     "max": 1.631952
+    }
+   ],
+   "file": "traces/13_14luglio__AcqueAquater.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__Acque1testIPA.lvm",
+   "folder": "13_14luglio",
+   "name": "Acque1testIPA.lvm",
+   "date": "2021/07/14",
+   "time": "13:23:06",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 600000,
+   "duration": 600.0,
+   "segments": 30,
+   "t0": 0.0,
+   "bin_dt": 0.06,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -6833.912665,
+     "max": 3423.775115
+    },
+    {
+     "name": "Phase2",
+     "min": -6833.916957,
+     "max": 3423.78452
+    },
+    {
+     "name": "PD",
+     "min": 0.026093,
+     "max": 1.279164
+    }
+   ],
+   "file": "traces/13_14luglio__Acque1testIPA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__Acque2testIPA.lvm",
+   "folder": "13_14luglio",
+   "name": "Acque2testIPA.lvm",
+   "date": "2021/07/14",
+   "time": "13:33:37",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 560000,
+   "duration": 560.0,
+   "segments": 28,
+   "t0": 0.0,
+   "bin_dt": 0.056,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -11837.090743,
+     "max": 88.874816
+    },
+    {
+     "name": "Phase2",
+     "min": -11477.095269,
+     "max": 88.883542
+    },
+    {
+     "name": "PD",
+     "min": 0.024872,
+     "max": 1.8822
+    }
+   ],
+   "file": "traces/13_14luglio__Acque2testIPA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__Acque3testIPA.lvm",
+   "folder": "13_14luglio",
+   "name": "Acque3testIPA.lvm",
+   "date": "2021/07/14",
+   "time": "13:43:59",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 620000,
+   "duration": 620.0,
+   "segments": 31,
+   "t0": 0.0,
+   "bin_dt": 0.062,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -10800.375421,
+     "max": 3.32078
+    },
+    {
+     "name": "Phase2",
+     "min": -10800.370075,
+     "max": 3.324337
+    },
+    {
+     "name": "PD",
+     "min": 0.037079,
+     "max": 1.920348
+    }
+   ],
+   "file": "traces/13_14luglio__Acque3testIPA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__Acque4testIPA.lvm",
+   "folder": "13_14luglio",
+   "name": "Acque4testIPA.lvm",
+   "date": "2021/07/14",
+   "time": "13:54:42",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 720000,
+   "duration": 720.0,
+   "segments": 36,
+   "t0": 0.0,
+   "bin_dt": 0.07200000000000001,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -10598.056395,
+     "max": -8.87194
+    },
+    {
+     "name": "Phase2",
+     "min": -10598.040242,
+     "max": -8.877694
+    },
+    {
+     "name": "PD",
+     "min": 0.050813,
+     "max": 1.910277
+    }
+   ],
+   "file": "traces/13_14luglio__Acque4testIPA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__Acque5testIPA.lvm",
+   "folder": "13_14luglio",
+   "name": "Acque5testIPA.lvm",
+   "date": "2021/07/14",
+   "time": "14:07:00",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 680000,
+   "duration": 680.0,
+   "segments": 34,
+   "t0": 0.0,
+   "bin_dt": 0.068,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -10635.602164,
+     "max": -29.224262
+    },
+    {
+     "name": "Phase2",
+     "min": -10635.592438,
+     "max": -29.219061
+    },
+    {
+     "name": "PD",
+     "min": 0.024567,
+     "max": 1.90753
+    }
+   ],
+   "file": "traces/13_14luglio__Acque5testIPA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__Acque6testIPA.lvm",
+   "folder": "13_14luglio",
+   "name": "Acque6testIPA.lvm",
+   "date": "2021/07/14",
+   "time": "14:18:41",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 640000,
+   "duration": 640.0,
+   "segments": 32,
+   "t0": 0.0,
+   "bin_dt": 0.064,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -10618.31612,
+     "max": -20.887333
+    },
+    {
+     "name": "Phase2",
+     "min": -10618.322211,
+     "max": -20.89118
+    },
+    {
+     "name": "PD",
+     "min": 0.040742,
+     "max": 1.945373
+    }
+   ],
+   "file": "traces/13_14luglio__Acque6testIPA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__Acque7testIPA.lvm",
+   "folder": "13_14luglio",
+   "name": "Acque7testIPA.lvm",
+   "date": "2021/07/14",
+   "time": "14:29:36",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 660000,
+   "duration": 660.0,
+   "segments": 33,
+   "t0": 0.0,
+   "bin_dt": 0.066,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -10767.806126,
+     "max": -23.303665
+    },
+    {
+     "name": "Phase2",
+     "min": -10767.818922,
+     "max": -23.310813
+    },
+    {
+     "name": "PD",
+     "min": 0.02884,
+     "max": 2.098878
+    }
+   ],
+   "file": "traces/13_14luglio__Acque7testIPA.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "13_14luglio__Acque3-4-6.lvm",
+   "folder": "13_14luglio",
+   "name": "Acque3-4-6.lvm",
+   "date": "2021/07/14",
+   "time": "14:41:21",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1300000,
+   "duration": 1300.0,
+   "segments": 65,
+   "t0": 0.0,
+   "bin_dt": 0.13,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -90586.411115,
+     "max": -66.771866
+    },
+    {
+     "name": "Phase2",
+     "min": -90586.417,
+     "max": -66.757669
+    },
+    {
+     "name": "PD",
+     "min": 0.024872,
+     "max": 2.02594
+    }
+   ],
+   "file": "traces/13_14luglio__Acque3-4-6.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__MZI-I10-O5",
+   "folder": "22luglio",
+   "name": "MZI-I10-O5",
+   "date": "2021/07/22",
+   "time": "12:00:07",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 80000,
+   "duration": 80.0,
+   "segments": 4,
+   "t0": 0.0,
+   "bin_dt": 0.008,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -180.773497,
+     "max": -166.295432
+    },
+    {
+     "name": "Phase2",
+     "min": -180.769994,
+     "max": -166.292911
+    },
+    {
+     "name": "PD",
+     "min": 0.119783,
+     "max": 1.452811
+    }
+   ],
+   "file": "traces/22luglio__MZI-I10-O5.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__DIW_Hgcl-4ng.lvm",
+   "folder": "22luglio",
+   "name": "DIW_Hgcl-4ng.lvm",
+   "date": "2021/07/22",
+   "time": "12:31:11",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 860000,
+   "duration": 860.0,
+   "segments": 43,
+   "t0": 0.0,
+   "bin_dt": 0.08600000000000001,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1640.098349,
+     "max": -25.915561
+    },
+    {
+     "name": "Phase2",
+     "min": -1640.099478,
+     "max": -25.948736
+    },
+    {
+     "name": "PD",
+     "min": 0.07126,
+     "max": 0.439612
+    }
+   ],
+   "file": "traces/22luglio__DIW_Hgcl-4ng.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__DIW_Hgcl-4ng_b.lvm",
+   "folder": "22luglio",
+   "name": "DIW_Hgcl-4ng_b.lvm",
+   "date": "2021/07/22",
+   "time": "12:46:17",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 880000,
+   "duration": 880.0,
+   "segments": 44,
+   "t0": 0.0,
+   "bin_dt": 0.088,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -8089.819919,
+     "max": 8467.486418
+    },
+    {
+     "name": "Phase2",
+     "min": -8089.839853,
+     "max": 8467.481245
+    },
+    {
+     "name": "PD",
+     "min": 0.039521,
+     "max": 0.861982
+    }
+   ],
+   "file": "traces/22luglio__DIW_Hgcl-4ng_b.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__DIW_Hgcl_4ng_b_DIW_WASH.lvm",
+   "folder": "22luglio",
+   "name": "DIW_Hgcl_4ng_b_DIW_WASH.lvm",
+   "date": "2021/07/22",
+   "time": "13:03:21",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1300000,
+   "duration": 1300.0,
+   "segments": 65,
+   "t0": 0.0,
+   "bin_dt": 0.13,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -5981.714303,
+     "max": 11887.780195
+    },
+    {
+     "name": "Phase2",
+     "min": -5981.692641,
+     "max": 11887.78857
+    },
+    {
+     "name": "PD",
+     "min": 0.027314,
+     "max": 1.06981
+    }
+   ],
+   "file": "traces/22luglio__DIW_Hgcl_4ng_b_DIW_WASH.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__DIW_CDnO3_10ng.lvm",
+   "folder": "22luglio",
+   "name": "DIW_CDnO3_10ng.lvm",
+   "date": "2021/07/22",
+   "time": "13:27:10",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1320000,
+   "duration": 1320.0,
+   "segments": 66,
+   "t0": 0.0,
+   "bin_dt": 0.132,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -13683.062877,
+     "max": -114.251668
+    },
+    {
+     "name": "Phase2",
+     "min": -13683.036991,
+     "max": -114.270293
+    },
+    {
+     "name": "PD",
+     "min": 0.026093,
+     "max": 0.92668
+    }
+   ],
+   "file": "traces/22luglio__DIW_CDnO3_10ng.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__RUB_CDnO3_10ng.lvm",
+   "folder": "22luglio",
+   "name": "RUB_CDnO3_10ng.lvm",
+   "date": "2021/07/22",
+   "time": "13:52:23",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 2300000,
+   "duration": 2300.0,
+   "segments": 115,
+   "t0": 0.0,
+   "bin_dt": 0.23,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -377749.474276,
+     "max": 12802.138523
+    },
+    {
+     "name": "Phase2",
+     "min": -440755.571452,
+     "max": 12930.561161
+    },
+    {
+     "name": "PD",
+     "min": 0.023346,
+     "max": 0.949569
+    }
+   ],
+   "file": "traces/22luglio__RUB_CDnO3_10ng.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__RUB_CDnO3_10ng_b.lvm",
+   "folder": "22luglio",
+   "name": "RUB_CDnO3_10ng_b.lvm",
+   "date": "2021/07/22",
+   "time": "14:38:00",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -44048.079443,
+     "max": 12515.10814
+    },
+    {
+     "name": "Phase2",
+     "min": -42654.161502,
+     "max": 29508.492419
+    },
+    {
+     "name": "PD",
+     "min": 0.023346,
+     "max": 0.026398
+    }
+   ],
+   "file": "traces/22luglio__RUB_CDnO3_10ng_b.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__RUB_CDnO3_10ng_b_1.lvm",
+   "folder": "22luglio",
+   "name": "RUB_CDnO3_10ng_b_1.lvm",
+   "date": "2021/07/22",
+   "time": "14:40:26",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 2240000,
+   "duration": 2240.0,
+   "segments": 112,
+   "t0": 0.0,
+   "bin_dt": 0.224,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -40213.525016,
+     "max": -173.306327
+    },
+    {
+     "name": "Phase2",
+     "min": -40213.52216,
+     "max": -173.308066
+    },
+    {
+     "name": "PD",
+     "min": 0.024262,
+     "max": 1.317617
+    }
+   ],
+   "file": "traces/22luglio__RUB_CDnO3_10ng_b_1.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__RUB_CDnO3_10ng_c.lvm",
+   "folder": "22luglio",
+   "name": "RUB_CDnO3_10ng_c.lvm",
+   "date": "2021/07/22",
+   "time": "15:25:12",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1460000,
+   "duration": 1460.0,
+   "segments": 73,
+   "t0": 0.0,
+   "bin_dt": 0.146,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -13319.771566,
+     "max": 9326.280477
+    },
+    {
+     "name": "Phase2",
+     "min": -13319.759469,
+     "max": 9326.287321
+    },
+    {
+     "name": "PD",
+     "min": 0.026398,
+     "max": 1.862364
+    }
+   ],
+   "file": "traces/22luglio__RUB_CDnO3_10ng_c.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "22luglio__RUB_HgCL2_4ng.lvm",
+   "folder": "22luglio",
+   "name": "RUB_HgCL2_4ng.lvm",
+   "date": "2021/07/22",
+   "time": "15:53:04",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1360000,
+   "duration": 1360.0,
+   "segments": 68,
+   "t0": 0.0,
+   "bin_dt": 0.136,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -16947.299461,
+     "max": -34.694942
+    },
+    {
+     "name": "Phase2",
+     "min": -16947.290829,
+     "max": -34.686795
+    },
+    {
+     "name": "PD",
+     "min": 0.025483,
+     "max": 1.819944
+    }
+   ],
+   "file": "traces/22luglio__RUB_HgCL2_4ng.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "23Luglio__testipa",
+   "folder": "23Luglio",
+   "name": "testipa",
+   "date": "2021/07/23",
+   "time": "10:46:31",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 60000,
+   "duration": 59.99999999999999,
+   "segments": 3,
+   "t0": 0.0,
+   "bin_dt": 0.006,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -1143.241249,
+     "max": 121.073422
+    },
+    {
+     "name": "Phase2",
+     "min": -1143.238538,
+     "max": 121.087736
+    },
+    {
+     "name": "PD",
+     "min": 0.02945,
+     "max": 1.195544
+    }
+   ],
+   "file": "traces/23Luglio__testipa.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "23Luglio__IPA_RUB.lvm",
+   "folder": "23Luglio",
+   "name": "IPA_RUB.lvm",
+   "date": "2021/07/23",
+   "time": "10:48:38",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 420000,
+   "duration": 420.0,
+   "segments": 21,
+   "t0": 0.0,
+   "bin_dt": 0.042,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -9892.447893,
+     "max": -15.332355
+    },
+    {
+     "name": "Phase2",
+     "min": -9892.465455,
+     "max": -15.332728
+    },
+    {
+     "name": "PD",
+     "min": 0.060883,
+     "max": 1.183032
+    }
+   ],
+   "file": "traces/23Luglio__IPA_RUB.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "23Luglio__RUB_Hg_conc.lvm",
+   "folder": "23Luglio",
+   "name": "RUB_Hg_conc.lvm",
+   "date": "2021/07/23",
+   "time": "10:57:10",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1000000,
+   "duration": 1000.0,
+   "segments": 50,
+   "t0": 0.0,
+   "bin_dt": 0.1,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -85410.160449,
+     "max": 9637.149656
+    },
+    {
+     "name": "Phase2",
+     "min": -85410.174521,
+     "max": 9637.156335
+    },
+    {
+     "name": "PD",
+     "min": 0.027008,
+     "max": 1.199206
+    }
+   ],
+   "file": "traces/23Luglio__RUB_Hg_conc.lvm.bin",
+   "bytes": 240000
+  },
+  {
+   "id": "23Luglio__RUB_Hg_conc_B.lvm",
+   "folder": "23Luglio",
+   "name": "RUB_Hg_conc_B.lvm",
+   "date": "2021/07/23",
+   "time": "11:14:11",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1140000,
+   "duration": 1140.0,
+   "segments": 57,
+   "t0": 0.0,
+   "bin_dt": 0.114,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "min": -104227.242991,
+     "max": -10.091641
+    },
+    {
+     "name": "Phase2",
+     "min": -104227.25158,
+     "max": -10.08939
+    },
+    {
+     "name": "PD",
+     "min": 0.031891,
+     "max": 1.215381
+    }
+   ],
+   "file": "traces/23Luglio__RUB_Hg_conc_B.lvm.bin",
+   "bytes": 240000
+  }
+ ]
+}

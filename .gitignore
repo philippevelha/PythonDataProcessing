@@ -4,6 +4,8 @@
 !/README.md
 !/requirements.txt
 !/lvm_reader.py
+!/build_traces.py
+!/site/
 !/LVM_reader.m
 !/notebooks/
 !/.github/
