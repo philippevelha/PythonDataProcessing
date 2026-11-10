@@ -254,8 +254,15 @@ function render(resetZoom) {
 }
 
 async function init() {
+  if (location.protocol === "file:") {
+    $("status").innerHTML = "This page was opened directly from disk, and browsers block loading data that way. " +
+      "Open it through a web server instead: run <code>python -m http.server -d site</code> in the repository folder " +
+      "and go to <a href=\"http://localhost:8000/browser.html\">http://localhost:8000/browser.html</a>, " +
+      "or use the published GitHub Pages site.";
+    return;
+  }
   try {
-    const res = await fetch("traces/manifest.json");
+    const res = await fetch("./traces/manifest.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     recordings = (await res.json()).recordings;
   } catch (e) {
