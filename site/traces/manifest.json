@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10 14:04",
+ "generated": "2026-11-10 22:46",
  "bins": 10000,
  "recordings": [
   {
@@ -20,22 +20,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -66.882971,
      "max": 14.591142
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -6.560437,
      "max": 189.399622
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059052,
      "max": 0.086519
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -253.056733,
+     "max": 12.475116
     }
    ],
    "file": "traces/14giugno__IMEC14_Pb.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "14giugno__IMEC14_Pbindeionizzata",
@@ -55,22 +64,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
      "min": null,
      "max": null
     }
    ],
    "file": "traces/14giugno__IMEC14_Pbindeionizzata.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "14giugno__IMEC14_Pbindeionizzata_1",
@@ -90,22 +108,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
      "min": null,
      "max": null
     }
    ],
    "file": "traces/14giugno__IMEC14_Pbindeionizzata_1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "14giugno__MZI-I7-O9-1560-mod12Hzvpp4v_28",
@@ -125,22 +152,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
      "min": null,
      "max": null
     }
    ],
    "file": "traces/14giugno__MZI-I7-O9-1560-mod12Hzvpp4v_28.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "14giugno__2ch_imec14_Pb_in_DIW",
@@ -160,22 +196,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 19.580944,
      "max": 84.352649
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -77.0975,
      "max": -3.223673
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059358,
      "max": 0.095369
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 25.376088,
+     "max": 159.16567600000002
     }
    ],
    "file": "traces/14giugno__2ch_imec14_Pb_in_DIW.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "14giugno__2ch_imec14_Pb_in_DIW_slow",
@@ -195,22 +240,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 73.383119,
      "max": 123.531284
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -137.590403,
      "max": -93.196961
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.058747,
      "max": 0.093233
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 167.10043,
+     "max": 249.40193699999998
     }
    ],
    "file": "traces/14giugno__2ch_imec14_Pb_in_DIW_slow.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "15giugno__IMEC14_testSensitivityIPA.lvm",
@@ -230,22 +284,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -188.121185,
      "max": 675.974869
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1007.858695,
      "max": 75.974355
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.060273,
      "max": 0.278172
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -257.402556,
+     "max": 1679.597029
     }
    ],
    "file": "traces/15giugno__IMEC14_testSensitivityIPA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "15giugno__IMEC14_TestIPAcoarse",
@@ -265,22 +328,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 111.577551,
      "max": 124.743672
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 62.645099,
      "max": 89.878052
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.061189,
      "max": 0.275425
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 21.902268000000007,
+     "max": 61.793496000000005
     }
    ],
    "file": "traces/15giugno__IMEC14_TestIPAcoarse.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "15giugno__IMEC14_TestIPAcoarse_1",
@@ -300,22 +372,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 116.690403,
      "max": 119.69858
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 62.892711,
      "max": 67.268467
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.062409,
      "max": 0.27512
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 49.646378999999996,
+     "max": 56.63057800000001
     }
    ],
    "file": "traces/15giugno__IMEC14_TestIPAcoarse_1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "15giugno__IMEC14_TestIPAcoarse_2",
@@ -335,22 +416,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 108.015402,
      "max": 2338.904224
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -2660.459033,
      "max": 71.893683
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059968,
      "max": 0.365454
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 41.78022299999999,
+     "max": 4998.940854
     }
    ],
    "file": "traces/15giugno__IMEC14_TestIPAcoarse_2.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "15giugno__IMEC14_checkDIW_1",
@@ -370,22 +460,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 44.979909,
      "max": 81.298675
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 8.339482,
      "max": 43.661641
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.062409,
      "max": 0.382544
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 1.3182679999999962,
+     "max": 72.327119
     }
    ],
    "file": "traces/15giugno__IMEC14_checkDIW_1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "15giugno__IMEC14_PBinDIW.lvm",
@@ -405,22 +504,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 42.226136,
      "max": 69.644142
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 26.600267,
      "max": 56.910952
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.061494,
      "max": 0.394751
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -14.475105,
+     "max": 41.506454000000005
     }
    ],
    "file": "traces/15giugno__IMEC14_PBinDIW.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "15giugno__IMEC14_PbinDIW_newTest",
@@ -440,22 +548,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -2.843017,
      "max": 4.670489
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 26.465044,
      "max": 76.972543
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.060273,
      "max": 0.399023
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -77.774207,
+     "max": -26.439529999999998
     }
    ],
    "file": "traces/15giugno__IMEC14_PbinDIW_newTest.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "16giugno__IMEC14_Pb_in_DIW_1",
@@ -475,22 +592,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 2.452756,
      "max": 14.536308
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -159.679256,
      "max": -146.874339
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059968,
      "max": 0.14786
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 149.679835,
+     "max": 173.901779
     }
    ],
    "file": "traces/16giugno__IMEC14_Pb_in_DIW_1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "16giugno__IMEC14_Pb_in_tapW",
@@ -510,22 +636,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -3.174982,
      "max": 166.97492
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -293.002475,
      "max": -145.086585
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059968,
      "max": 0.157626
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 143.69031900000002,
+     "max": 459.687453
     }
    ],
    "file": "traces/16giugno__IMEC14_Pb_in_tapW.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "16giugno__IMEC14_DIWvsTAPW_1",
@@ -545,22 +680,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -68.973377,
      "max": 232.93795
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -171.826709,
      "max": 37.125167
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059968,
      "max": 0.142367
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -105.210967,
+     "max": 404.56833600000004
     }
    ],
    "file": "traces/16giugno__IMEC14_DIWvsTAPW_1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "16giugno__IMEC14_tapWwithReference",
@@ -580,22 +724,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 53.729752,
      "max": 81.006201
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -145.296048,
      "max": -89.112865
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059968,
      "max": 0.124971
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 165.518036,
+     "max": 218.99107200000003
     }
    ],
    "file": "traces/16giugno__IMEC14_tapWwithReference.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "16giugno__IMEC14_IPAclean",
@@ -615,22 +768,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -344.821342,
      "max": 6505.619349
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -7386.565693,
      "max": 9136.208513
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059968,
      "max": 0.136873
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -9266.77331,
+     "max": 13668.042055
     }
    ],
    "file": "traces/16giugno__IMEC14_IPAclean.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "16giugno__IMEC14_Pb_DIWwithReference",
@@ -650,22 +812,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -36.033418,
      "max": -9.823391
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 23.163762,
      "max": 59.811196
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059052,
      "max": 0.0972
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -91.613343,
+     "max": -36.98464
     }
    ],
    "file": "traces/16giugno__IMEC14_Pb_DIWwithReference.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "16giugno__IMEC14_PbDIW_withReference",
@@ -685,22 +856,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -51.137721,
      "max": -18.78393
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 19.632898,
      "max": 46.302156
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059052,
      "max": 0.105745
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -96.411844,
+     "max": -41.782658
     }
    ],
    "file": "traces/16giugno__IMEC14_PbDIW_withReference.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "16giugno__IMEC14_PbTapW_ref",
@@ -720,22 +900,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 66.33444,
      "max": 163.899978
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -149.4808,
      "max": -34.773303
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059968,
      "max": 0.113985
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 122.451863,
+     "max": 248.901533
     }
    ],
    "file": "traces/16giugno__IMEC14_PbTapW_ref.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "21giugno__IMEC14_pb_in_DIW_bis.lvm",
@@ -755,22 +944,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 142.97559,
      "max": 185.947766
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -275.366673,
      "max": -147.16359
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.058747,
      "max": 0.08896
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 305.008609,
+     "max": 426.65380300000004
     }
    ],
    "file": "traces/21giugno__IMEC14_pb_in_DIW_bis.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "21giugno__IMEC14_Pb_in_TAPwater.lvm",
@@ -790,22 +988,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -272.551884,
      "max": -167.946425
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -35.741014,
      "max": 31.408238
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.058747,
      "max": 0.100252
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -269.484896,
+     "max": -133.099948
     }
    ],
    "file": "traces/21giugno__IMEC14_Pb_in_TAPwater.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "21giugno__IMEC14_HCl.lvm",
@@ -825,22 +1032,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1305.391779,
      "max": 224.760051
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -135.525855,
      "max": 1247.53717
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059052,
      "max": 0.111238
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -2543.815986,
+     "max": 339.608899
     }
    ],
    "file": "traces/21giugno__IMEC14_HCl.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22giugno__IMEC14PbDIW.lvm",
@@ -860,22 +1076,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 45.523285,
      "max": 120.049096
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -123.139418,
      "max": -60.707063
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.026093,
      "max": 0.440833
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 107.026003,
+     "max": 231.72117400000002
     }
    ],
    "file": "traces/22giugno__IMEC14PbDIW.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22giugno__IMEC14PbDIWloop.lvm",
@@ -895,22 +1120,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 70.863164,
      "max": 225.698502
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -116.003217,
      "max": -77.355983
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.062409,
      "max": 0.43473
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 148.524484,
+     "max": 339.174607
     }
    ],
    "file": "traces/22giugno__IMEC14PbDIWloop.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22giugno__IMEC14PbDIWloop_postHCl.lvm",
@@ -930,22 +1164,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -112.458721,
      "max": 20.593255
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -43.218666,
      "max": -22.413907
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.065461,
      "max": 0.381018
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -77.993412,
+     "max": 54.622865000000004
     }
    ],
    "file": "traces/22giugno__IMEC14PbDIWloop_postHCl.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22giugno__IMEC14PbDIWloop_postHCl_1.lvm",
@@ -965,22 +1208,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -28.574898,
      "max": 35.921024
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -36.918583,
      "max": -18.140752
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.066072,
      "max": 0.441749
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.27878300000000067,
+     "max": 72.38598400000001
     }
    ],
    "file": "traces/22giugno__IMEC14PbDIWloop_postHCl_1.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22giugno__IMEC14DIW_TapW.lvm",
@@ -1000,22 +1252,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 24.1729,
      "max": 133.747228
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -188.74005,
      "max": -29.606472
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.064851,
      "max": 0.4448
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 63.779773999999996,
+     "max": 313.890716
     }
    ],
    "file": "traces/22giugno__IMEC14DIW_TapW.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22giugno__IMEC14PbTapWater.lvm",
@@ -1035,22 +1296,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 48.508649,
      "max": 104.292396
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 146.567925,
      "max": 183.190829
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.066987,
      "max": 0.46128
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -134.68218000000002,
+     "max": -46.10413100000001
     }
    ],
    "file": "traces/22giugno__IMEC14PbTapWater.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__testDIW1.lvm",
@@ -1070,22 +1340,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1400580.259535,
      "max": -22.291582
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.012665,
      "max": 0.040131
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": null,
+     "max": null
     }
    ],
    "file": "traces/28_29giugno__testDIW1.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__testDIW2.lvm",
@@ -1105,22 +1384,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -3747727.202165,
      "max": 12.753457
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -958.614752,
      "max": 21.712406
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.012055,
      "max": 0.25742
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -3746825.677522,
+     "max": 175.579635
     }
    ],
    "file": "traces/28_29giugno__testDIW2.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__testDIW3.lvm",
@@ -1140,22 +1428,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -4757571.385566,
      "max": 16.203893
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -178.224226,
      "max": 143.939286
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.065461,
      "max": 0.320897
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -4757715.165115,
+     "max": 193.071117
     }
    ],
    "file": "traces/28_29giugno__testDIW3.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__testDIW4.lvm",
@@ -1175,22 +1472,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -14775510.0,
      "max": -19.584579
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -362.362436,
      "max": -181.763089
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.064851,
      "max": 0.261082
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -14775150.755765,
+     "max": 168.755754
     }
    ],
    "file": "traces/28_29giugno__testDIW4.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__testDIW5.lvm",
@@ -1210,22 +1516,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -480418.67096,
      "max": 15.377668
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -10.401721,
      "max": 5.536881
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.065461,
      "max": 0.228122
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -480416.22141500004,
+     "max": 9.840786999999999
     }
    ],
    "file": "traces/28_29giugno__testDIW5.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__testDIW6.lvm",
@@ -1245,22 +1560,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 185.251983,
      "max": 5226.770701
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 12.853378,
      "max": 21.98467
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.064851,
      "max": 0.28397
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 170.817946,
+     "max": 5209.7815040000005
     }
    ],
    "file": "traces/28_29giugno__testDIW6.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test_9.lvm",
@@ -1280,22 +1604,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -437707.885425,
      "max": 64.66653
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 25.663779,
      "max": 36.390465
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.066682,
      "max": 0.216831
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -437740.806909,
+     "max": 38.419135
     }
    ],
    "file": "traces/28_29giugno__test_9.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test_10.lvm",
@@ -1315,22 +1648,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -232.446715,
      "max": 330414.678275
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 33.014114,
      "max": 263.574391
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.064851,
      "max": 0.35172
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -395.695014,
+     "max": 330168.772583
     }
    ],
    "file": "traces/28_29giugno__test_10.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__PEG.lvm",
@@ -1350,22 +1692,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 162.263231,
      "max": 17875680.0
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1190154.16434,
      "max": 122411.246271
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.07248,
      "max": 0.155795
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 85.49807399999999,
+     "max": 19061867.117875
     }
    ],
    "file": "traces/28_29giugno__PEG.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621",
@@ -1385,22 +1736,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 114.426313,
      "max": 131.263872
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 114.429767,
      "max": 131.252568
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.167391,
      "max": 1.063096
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.019475999999997384,
+     "max": 0.025134000000008427
     }
    ],
    "file": "traces/28_29giugno__test290621.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621-diw.lvm",
@@ -1420,22 +1780,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -7886.312448,
      "max": 21457.457802
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -7886.307253,
      "max": 21457.427074
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.160677,
      "max": 1.007858
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.041137000000162516,
+     "max": 0.053813000000445754
     }
    ],
    "file": "traces/28_29giugno__test290621-diw.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__MZI-I7-O9-1560-mod12Hzvpp4v_30.lvm",
@@ -1455,22 +1824,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -3627.465453,
      "max": 10.357604
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -3627.466118,
      "max": 10.375916
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.201877,
      "max": 1.205615
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.020931999999902473,
+     "max": 0.020772000000306434
     }
    ],
    "file": "traces/28_29giugno__MZI-I7-O9-1560-mod12Hzvpp4v_30.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_PBS.lvm",
@@ -1490,22 +1868,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -881.227737,
      "max": 30.198737
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -881.226848,
      "max": 30.162343
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.145418,
      "max": 0.762798
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.049801000000002205,
+     "max": 0.05192900000008649
     }
    ],
    "file": "traces/28_29giugno__test290621_PBS.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_anticorpo100nm.lvm",
@@ -1525,22 +1912,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -707.384628,
      "max": 217.067106
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -707.393493,
      "max": 217.077616
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.150607,
      "max": 0.747539
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.050432999999998174,
+     "max": 0.05130900000000338
     }
    ],
    "file": "traces/28_29giugno__test290621_anticorpo100nm.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_anticorpo100nm_2hfermi.lvm",
@@ -1560,22 +1956,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 85.64922,
      "max": 463.599204
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 85.646358,
      "max": 463.580391
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.152132,
      "max": 0.741436
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.0538230000000226,
+     "max": 0.052416999999991276
     }
    ],
    "file": "traces/28_29giugno__test290621_anticorpo100nm_2hfermi.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_anticorpo100nm_sciaquaPBS.lvm",
@@ -1595,22 +2000,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -821.232882,
      "max": -46.756251
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -821.2254,
      "max": -46.759973
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.156405,
      "max": 0.745403
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05390599999998358,
+     "max": 0.049349999999996896
     }
    ],
    "file": "traces/28_29giugno__test290621_anticorpo100nm_sciaquaPBS.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_baselinePBSfermo.lvm",
@@ -1630,22 +2044,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -72.845646,
      "max": 235.379164
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -72.851718,
      "max": 235.398553
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.159152,
      "max": 0.72221
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.0573840000000132,
+     "max": 0.04761500000000751
     }
    ],
    "file": "traces/28_29giugno__test290621_baselinePBSfermo.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_spikecov2_1nM.lvm",
@@ -1665,22 +2088,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -123.603292,
      "max": 8964.4415
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -123.592679,
      "max": 8964.442352
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.142672,
      "max": 0.809796
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05615499999930762,
+     "max": 0.06008699999983946
     }
    ],
    "file": "traces/28_29giugno__test290621_spikecov2_1nM.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_spikecov2_10nM.lvm",
@@ -1700,22 +2132,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -3021.278751,
      "max": -116.038557
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -3021.281167,
      "max": -116.023094
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.131075,
      "max": 0.794232
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.043998999999985244,
+     "max": 0.04639900000029229
     }
    ],
    "file": "traces/28_29giugno__test290621_spikecov2_10nM.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621-spikecov2_10nM_rinse.lvm",
@@ -1735,22 +2176,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
      "min": null,
      "max": null
     }
    ],
    "file": "traces/28_29giugno__test290621-spikecov2_10nM_rinse.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_spikecov2_10nM_rinse.lvm",
@@ -1770,22 +2220,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1334.841341,
      "max": -4.133423
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1334.838889,
      "max": -4.13198
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.143282,
      "max": 0.874495
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04252899999999915,
+     "max": 0.0484079999999949
     }
    ],
    "file": "traces/28_29giugno__test290621_spikecov2_10nM_rinse.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_spikecov2_100nM.lvm",
@@ -1805,22 +2264,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -224.211898,
      "max": 237.424115
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -224.207626,
      "max": 237.431037
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.129244,
      "max": 0.797894
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04847700000001964,
+     "max": 0.04949200000001497
     }
    ],
    "file": "traces/28_29giugno__test290621_spikecov2_100nM.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "28_29giugno__test290621_spikecov2_100nM_rinse.lvm",
@@ -1840,27 +2308,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -160.010361,
      "max": 198.085975
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -160.020277,
      "max": 198.084875
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.162814,
      "max": 0.778363
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.042350000000000776,
+     "max": 0.047850999999994315
     }
    ],
    "file": "traces/28_29giugno__test290621_spikecov2_100nM_rinse.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
-   "id": "01luglio__IMEC5_IPAtestPostFunc",
+   "id": "01luglio__IMEC5_IPAtestPostFunc.lvm",
    "folder": "01luglio",
-   "name": "IMEC5_IPAtestPostFunc",
+   "name": "IMEC5_IPAtestPostFunc.lvm",
    "date": "2021/07/01",
    "time": "10:34:35",
    "operator": "FOS-RGD",
@@ -1875,27 +2352,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -412.321216,
      "max": 9568.272176
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -412.326042,
      "max": 9568.269418
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.103304,
      "max": 1.092088
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05046899999990728,
+     "max": 0.05616499999996449
     }
    ],
-   "file": "traces/01luglio__IMEC5_IPAtestPostFunc.bin",
-   "bytes": 240000
+   "file": "traces/01luglio__IMEC5_IPAtestPostFunc.lvm.bin",
+   "bytes": 320000
   },
   {
-   "id": "01luglio__IMEC5_IPAtestPostFunc_conc",
+   "id": "01luglio__IMEC5_IPAtestPostFunc_conc.lvm",
    "folder": "01luglio",
-   "name": "IMEC5_IPAtestPostFunc_conc",
+   "name": "IMEC5_IPAtestPostFunc_conc.lvm",
    "date": "2021/07/01",
    "time": "10:46:48",
    "operator": "FOS-RGD",
@@ -1910,27 +2396,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -55914.731483,
      "max": 8103.017092
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -55914.730893,
      "max": 8103.012737
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.062104,
      "max": 1.496147
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.044441999998525716,
+     "max": 0.04675300000235438
     }
    ],
-   "file": "traces/01luglio__IMEC5_IPAtestPostFunc_conc.bin",
-   "bytes": 240000
+   "file": "traces/01luglio__IMEC5_IPAtestPostFunc_conc.lvm.bin",
+   "bytes": 320000
   },
   {
-   "id": "01luglio__IMEC5_DIW_HCl",
+   "id": "01luglio__IMEC5_DIW_HCl.lvm",
    "folder": "01luglio",
-   "name": "IMEC5_DIW_HCl",
+   "name": "IMEC5_DIW_HCl.lvm",
    "date": "2021/07/01",
    "time": "11:12:30",
    "operator": "FOS-RGD",
@@ -1945,27 +2440,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -333.479764,
      "max": 12127.114395
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -333.489542,
      "max": 12127.141848
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.132906,
      "max": 0.901961
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.097845000000234,
+     "max": 0.13032200000088778
     }
    ],
-   "file": "traces/01luglio__IMEC5_DIW_HCl.bin",
-   "bytes": 240000
+   "file": "traces/01luglio__IMEC5_DIW_HCl.lvm.bin",
+   "bytes": 320000
   },
   {
-   "id": "01luglio__IMEC5_IPAc_postHCl",
+   "id": "01luglio__IMEC5_IPAc_postHCl.lvm",
    "folder": "01luglio",
-   "name": "IMEC5_IPAc_postHCl",
+   "name": "IMEC5_IPAc_postHCl.lvm",
    "date": "2021/07/01",
    "time": "11:44:23",
    "operator": "FOS-RGD",
@@ -1980,22 +2484,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1147.839644,
      "max": 12443.778188
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1147.848907,
      "max": 12443.774923
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.065156,
      "max": 1.338369
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.1760469999999259,
+     "max": 0.16377999999997428
     }
    ],
-   "file": "traces/01luglio__IMEC5_IPAc_postHCl.bin",
-   "bytes": 240000
+   "file": "traces/01luglio__IMEC5_IPAc_postHCl.lvm.bin",
+   "bytes": 320000
   },
   {
    "id": "02luglio__testLinearita_k63bottom.lvm",
@@ -2015,22 +2528,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -88.626106,
      "max": 5635325.542373
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -17726.601555,
      "max": 198294.980537
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059358,
      "max": 0.065461
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 252.131152,
+     "max": 5438270.243214
     }
    ],
    "file": "traces/02luglio__testLinearita_k63bottom.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "02luglio__testLinearita_k63bottom_1.lvm",
@@ -2050,22 +2572,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -239.805169,
      "max": 3746795.392187
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -11405.489824,
      "max": 88928.688186
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.059052,
      "max": 0.065156
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -205.543541,
+     "max": 3660471.89281
     }
    ],
    "file": "traces/02luglio__testLinearita_k63bottom_1.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "02luglio__testLinearita_k63bottom_2.lvm",
@@ -2085,22 +2616,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -3593.334846,
      "max": 162.465232
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -294.965887,
      "max": 109.604094
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.154879,
      "max": 2.596017
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -3312.512324,
+     "max": 73.83453199999998
     }
    ],
    "file": "traces/02luglio__testLinearita_k63bottom_2.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "02luglio__testLinearita_k63bottom_b.lvm",
@@ -2120,22 +2660,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 4.851801,
      "max": 11986.426467
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 58.054388,
      "max": 1258.984018
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.076448,
      "max": 2.697948
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -62.945806000000005,
+     "max": 10731.204032
     }
    ],
    "file": "traces/02luglio__testLinearita_k63bottom_b.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "02luglio__testLinearita_k63bottom_81vpp.lvm",
@@ -2155,27 +2704,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 37.439468,
      "max": 10773.872815
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 94.115683,
      "max": 1166.68034
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.19028,
      "max": 2.704967
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -64.334656,
+     "max": 9614.694173
     }
    ],
    "file": "traces/02luglio__testLinearita_k63bottom_81vpp.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
-   "id": "05luglio__baselineDIW_1",
+   "id": "05luglio__baselineDIW_1.lvm",
    "folder": "05luglio",
-   "name": "baselineDIW_1",
+   "name": "baselineDIW_1.lvm",
    "date": "2021/07/05",
    "time": "12:32:04",
    "operator": "FOS-RGD",
@@ -2190,27 +2748,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -43654.870455,
      "max": 305.418261
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -15763.617704,
      "max": 200.467906
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.518044,
      "max": 0.829633
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -27920.689469999998,
+     "max": 13963.253983
     }
    ],
-   "file": "traces/05luglio__baselineDIW_1.bin",
-   "bytes": 240000
+   "file": "traces/05luglio__baselineDIW_1.lvm.bin",
+   "bytes": 320000
   },
   {
-   "id": "05luglio__baselineDIW_ferma",
+   "id": "05luglio__baselineDIW_ferma.lvm",
    "folder": "05luglio",
-   "name": "baselineDIW_ferma",
+   "name": "baselineDIW_ferma.lvm",
    "date": "2021/07/05",
    "time": "12:35:49",
    "operator": "FOS-RGD",
@@ -2225,27 +2792,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -41.529801,
      "max": -17.111554
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 105.333125,
      "max": 115.80223
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.559548,
      "max": 0.768902
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -150.62924700000002,
+     "max": -129.95961400000002
     }
    ],
-   "file": "traces/05luglio__baselineDIW_ferma.bin",
-   "bytes": 240000
+   "file": "traces/05luglio__baselineDIW_ferma.lvm.bin",
+   "bytes": 320000
   },
   {
-   "id": "05luglio__PEG_1",
+   "id": "05luglio__PEG_1.lvm",
    "folder": "05luglio",
-   "name": "PEG_1",
+   "name": "PEG_1.lvm",
    "date": "2021/07/05",
    "time": "12:41:24",
    "operator": "FOS-RGD",
@@ -2260,27 +2836,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -28.264604,
      "max": 5430.282455
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 98.421477,
      "max": 706.15618
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.52781,
      "max": 0.806439
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -140.256475,
+     "max": 4726.915591
     }
    ],
-   "file": "traces/05luglio__PEG_1.bin",
-   "bytes": 240000
+   "file": "traces/05luglio__PEG_1.lvm.bin",
+   "bytes": 320000
   },
   {
-   "id": "05luglio__baselinePBS_1",
+   "id": "05luglio__baselinePBS_1.lvm",
    "folder": "05luglio",
-   "name": "baselinePBS_1",
+   "name": "baselinePBS_1.lvm",
    "date": "2021/07/05",
    "time": "14:05:37",
    "operator": "FOS-RGD",
@@ -2295,22 +2880,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -913.319238,
      "max": -28.450261
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 22.978822,
      "max": 114.333118
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.541543,
      "max": 0.742962
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -936.97879,
+     "max": -141.753357
     }
    ],
-   "file": "traces/05luglio__baselinePBS_1.bin",
-   "bytes": 240000
+   "file": "traces/05luglio__baselinePBS_1.lvm.bin",
+   "bytes": 320000
   },
   {
    "id": "05luglio__AB.lvm",
@@ -2330,22 +2924,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -117855.192867,
      "max": 45.862994
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -12337.457367,
      "max": 57.430839
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.460975,
      "max": 0.76585
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -105600.29377399999,
+     "max": 425.229879
     }
    ],
    "file": "traces/05luglio__AB.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "05luglio__AB_1.lvm",
@@ -2365,22 +2968,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 32.184907,
      "max": 46713.4195
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 19.097957,
      "max": 7108.48297
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.446632,
      "max": 0.819257
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 12.166340000000002,
+     "max": 39606.662075
     }
    ],
    "file": "traces/05luglio__AB_1.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "05luglio__AB_bis.lvm",
@@ -2400,27 +3012,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
      "min": null,
      "max": null
     }
    ],
    "file": "traces/05luglio__AB_bis.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
-   "id": "05luglio__AB_bis_1",
+   "id": "05luglio__AB_bis_1.lvm",
    "folder": "05luglio",
-   "name": "AB_bis_1",
+   "name": "AB_bis_1.lvm",
    "date": "2021/07/05",
    "time": "16:00:34",
    "operator": "FOS-RGD",
@@ -2435,22 +3056,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -45.090026,
      "max": 158.118566
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -90.288093,
      "max": -54.323294
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.509804,
      "max": 0.684672
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 43.201164000000006,
+     "max": 214.222486
     }
    ],
-   "file": "traces/05luglio__AB_bis_1.bin",
-   "bytes": 240000
+   "file": "traces/05luglio__AB_bis_1.lvm.bin",
+   "bytes": 320000
   },
   {
    "id": "05luglio__spike01",
@@ -2470,22 +3100,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 59.66943,
      "max": 232.929601
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -70.698854,
      "max": -44.501788
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.449989,
      "max": 0.664836
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 127.842808,
+     "max": 280.038236
     }
    ],
    "file": "traces/05luglio__spike01.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "05luglio__spike1",
@@ -2505,27 +3144,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -127386.986548,
      "max": 1820.151223
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -12128.951291,
      "max": -54.277595
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.33341,
      "max": 0.73228
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -115269.43250200001,
+     "max": 2228.3307480000003
     }
    ],
    "file": "traces/05luglio__spike1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
-   "id": "05luglio__spike10",
+   "id": "05luglio__spike10.lvm",
    "folder": "05luglio",
-   "name": "spike10",
+   "name": "spike10.lvm",
    "date": "2021/07/05",
    "time": "18:30:18",
    "operator": "FOS-RGD",
@@ -2540,27 +3188,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -16387.803116,
      "max": 1825.559597
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -677.589459,
      "max": -57.48292
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.272679,
      "max": 0.738384
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -15808.661992,
+     "max": 1985.304781
     }
    ],
-   "file": "traces/05luglio__spike10.bin",
-   "bytes": 240000
+   "file": "traces/05luglio__spike10.lvm.bin",
+   "bytes": 320000
   },
   {
-   "id": "06luglio__IMEC14_IPAcheckAfterHCl_1",
+   "id": "06luglio__IMEC14_IPAcheckAfterHCl_1.lvm",
    "folder": "06luglio",
-   "name": "IMEC14_IPAcheckAfterHCl_1",
+   "name": "IMEC14_IPAcheckAfterHCl_1.lvm",
    "date": "2021/07/06",
    "time": "15:37:05",
    "operator": "FOS-RGD",
@@ -2575,27 +3232,36 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -4439.491612,
      "max": 194.634717
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 7.183549,
      "max": 4380.498344
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.026093,
      "max": 2.036927
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -8817.42886,
+     "max": 141.911315
     }
    ],
-   "file": "traces/06luglio__IMEC14_IPAcheckAfterHCl_1.bin",
-   "bytes": 240000
+   "file": "traces/06luglio__IMEC14_IPAcheckAfterHCl_1.lvm.bin",
+   "bytes": 320000
   },
   {
-   "id": "06luglio__IMEC14_IPAcheckAfterHCl_rep",
+   "id": "06luglio__IMEC14_IPAcheckAfterHCl_rep.lvm",
    "folder": "06luglio",
-   "name": "IMEC14_IPAcheckAfterHCl_rep",
+   "name": "IMEC14_IPAcheckAfterHCl_rep.lvm",
    "date": "2021/07/06",
    "time": "15:55:15",
    "operator": "FOS-RGD",
@@ -2610,22 +3276,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -4503.805206,
      "max": 93.231676
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1221.560088,
      "max": 3991.379914
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.251316,
      "max": 0.556191
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -8481.557882000001,
+     "max": 1286.4715580000002
     }
    ],
-   "file": "traces/06luglio__IMEC14_IPAcheckAfterHCl_rep.bin",
-   "bytes": 240000
+   "file": "traces/06luglio__IMEC14_IPAcheckAfterHCl_rep.lvm.bin",
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__provaIMEC36",
@@ -2645,22 +3320,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 123.291256,
      "max": 521.441561
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 123.267882,
      "max": 522.690774
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.007477,
      "max": 0.308995
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -3.1472539999999753,
+     "max": 1.0450949999999466
     }
    ],
    "file": "traces/13_14luglio__provaIMEC36.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__provaIMEC36_ipa",
@@ -2680,22 +3364,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -111.771818,
      "max": 2882.235499
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -111.762663,
      "max": 2882.24325
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.067597,
      "max": 0.314488
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.11538899999982277,
+     "max": 0.11156400000027134
     }
    ],
    "file": "traces/13_14luglio__provaIMEC36_ipa.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__provaIMEC36_ipa_1",
@@ -2715,22 +3408,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -7410.567034,
      "max": 10005.025118
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -7410.577228,
      "max": 10005.015087
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.066987,
      "max": 0.305943
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.1371980000003532,
+     "max": 0.14173099999970873
     }
    ],
    "file": "traces/13_14luglio__provaIMEC36_ipa_1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__provaIMEC36_ipa_2",
@@ -2750,22 +3452,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 79.370296,
      "max": 10313.518648
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 79.368412,
      "max": 10313.519639
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.025788,
      "max": 0.308995
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.06584300000031362,
+     "max": 0.06986300000062329
     }
    ],
    "file": "traces/13_14luglio__provaIMEC36_ipa_2.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__IMEC36o5DIW",
@@ -2785,22 +3496,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -497.102176,
      "max": 38.186443
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -497.114074,
      "max": 38.161244
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.014191,
      "max": 0.453346
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.09935400000000527,
+     "max": 0.09734500000001844
     }
    ],
    "file": "traces/13_14luglio__IMEC36o5DIW.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__testDIW.lvm",
@@ -2820,22 +3540,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -28083.02232,
      "max": 758.732046
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -28083.006809,
      "max": 758.732894
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.011749,
      "max": 0.387121
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.8144489999999962,
+     "max": 0.9050560000000019
     }
    ],
    "file": "traces/13_14luglio__testDIW.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__testDIW_IPA_1.lvm",
@@ -2855,22 +3584,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -2887.924838,
      "max": 5783.813006
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -2887.922301,
      "max": 5783.824145
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.011749,
      "max": 0.614786
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.2273930000000064,
+     "max": 0.19426700000002484
     }
    ],
    "file": "traces/13_14luglio__testDIW_IPA_1.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__DIWbaseline_2.lvm",
@@ -2890,22 +3628,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1097.928907,
      "max": 387.8054
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1097.896019,
      "max": 387.812373
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.034943,
      "max": 0.227512
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.349852999999996,
+     "max": 0.42080900000001975
     }
    ],
    "file": "traces/13_14luglio__DIWbaseline_2.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__AcqueA.lvm",
@@ -2925,22 +3672,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -2881.672706,
      "max": 162.955825
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -2881.656082,
      "max": 162.960074
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.030976,
      "max": 0.260166
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.26231500000000096,
+     "max": 0.24080500000013672
     }
    ],
    "file": "traces/13_14luglio__AcqueA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__diwAA.lvm",
@@ -2960,22 +3716,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
      "min": null,
      "max": null
     }
    ],
    "file": "traces/13_14luglio__diwAA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__DIWpostAA",
@@ -2995,22 +3760,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1793.403996,
      "max": -70.461347
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1793.397459,
      "max": -70.443112
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.019684,
      "max": 1.221485
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.2241030000000137,
+     "max": 0.3392310000000407
     }
    ],
    "file": "traces/13_14luglio__DIWpostAA.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__DIWpostAA_1",
@@ -3030,22 +3804,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -2713.79181,
      "max": -6.389597
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -2713.799095,
      "max": -6.399916
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.026398,
      "max": 1.531853
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.0408649999999966,
+     "max": 0.04361999999997579
     }
    ],
    "file": "traces/13_14luglio__DIWpostAA_1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__DIWpostAA_2",
@@ -3065,22 +3848,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -247.510707,
      "max": -153.831912
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -247.496484,
      "max": -153.841187
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.079499,
      "max": 0.861982
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05338299999999663,
+     "max": 0.03707800000000816
     }
    ],
    "file": "traces/13_14luglio__DIWpostAA_2.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__DIWpostAA_3",
@@ -3100,22 +3892,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
      "min": null,
      "max": null
     }
    ],
    "file": "traces/13_14luglio__DIWpostAA_3.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__MZI-I7-O9-1560-mod12Hzvpp4v_32",
@@ -3135,22 +3936,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": null,
      "max": null
     },
     {
      "name": "PD",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
      "min": null,
      "max": null
     }
    ],
    "file": "traces/13_14luglio__MZI-I7-O9-1560-mod12Hzvpp4v_32.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__DIWbaselineT25.8",
@@ -3170,22 +3980,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -20.757616,
      "max": 181.595382
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -20.755444,
      "max": 181.585343
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.05417,
      "max": 0.836652
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.052098000000000866,
+     "max": 0.05152600000000973
     }
    ],
    "file": "traces/13_14luglio__DIWbaselineT25.8.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__AcqueAbis",
@@ -3205,22 +4024,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -3876.009486,
      "max": -125.717951
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -3876.026616,
      "max": -125.738684
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.045014,
      "max": 1.11223
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04658400000016627,
+     "max": 0.05173700000000281
     }
    ],
    "file": "traces/13_14luglio__AcqueAbis.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__AcqueAbis_1",
@@ -3240,22 +4068,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -2182.625061,
      "max": 4.352936
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -2182.626465,
      "max": 4.352824
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.034638,
      "max": 1.320668
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04025899999999183,
+     "max": 0.04186200000003737
     }
    ],
    "file": "traces/13_14luglio__AcqueAbis_1.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__AcqueAbis_2",
@@ -3275,22 +4112,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1069.598406,
      "max": 14938.218882
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1069.599225,
      "max": 14938.217106
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.032502,
      "max": 1.117723
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.07718799999929615,
+     "max": 0.09293400000024121
     }
    ],
    "file": "traces/13_14luglio__AcqueAbis_2.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__baselineDIW_pendenza",
@@ -3310,22 +4156,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -54.640184,
      "max": 709.293294
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -54.658232,
      "max": 709.290372
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.033722,
      "max": 1.257496
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04300599999999122,
+     "max": 0.03987000000000762
     }
    ],
    "file": "traces/13_14luglio__baselineDIW_pendenza.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__AcqueAter",
@@ -3345,22 +4200,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": 168.764664,
      "max": 1362.181235
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": 168.761452,
      "max": 1362.194524
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.029145,
      "max": 1.292287
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04391200000009121,
+     "max": 0.04128000000002885
     }
    ],
    "file": "traces/13_14luglio__AcqueAter.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__ipadiw",
@@ -3380,22 +4244,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -23.494467,
      "max": 11503.774553
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -23.494205,
      "max": 11503.773159
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.024262,
      "max": 1.550164
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04815000000007785,
+     "max": 0.0458770000000186
     }
    ],
    "file": "traces/13_14luglio__ipadiw.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__AcqueAquater.lvm",
@@ -3415,22 +4288,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -41920.390275,
      "max": 129.96502
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -41920.382648,
      "max": 129.983625
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.026093,
      "max": 1.631952
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.049434000000005085,
+     "max": 0.05050599999958649
     }
    ],
    "file": "traces/13_14luglio__AcqueAquater.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__Acque1testIPA.lvm",
@@ -3450,22 +4332,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -6833.912665,
      "max": 3423.775115
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -6833.916957,
      "max": 3423.78452
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.026093,
      "max": 1.279164
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04961800000000949,
+     "max": 0.05395399999997608
     }
    ],
    "file": "traces/13_14luglio__Acque1testIPA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__Acque2testIPA.lvm",
@@ -3485,22 +4376,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -11837.090743,
      "max": 88.874816
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -11477.095269,
      "max": 88.883542
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.024872,
      "max": 1.8822
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -360.15888000000086,
+     "max": 0.051432000000204425
     }
    ],
    "file": "traces/13_14luglio__Acque2testIPA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__Acque3testIPA.lvm",
@@ -3520,22 +4420,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -10800.375421,
      "max": 3.32078
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -10800.370075,
      "max": 3.324337
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.037079,
      "max": 1.920348
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.0381969999998546,
+     "max": 0.03779399999984889
     }
    ],
    "file": "traces/13_14luglio__Acque3testIPA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__Acque4testIPA.lvm",
@@ -3555,22 +4464,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -10598.056395,
      "max": -8.87194
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -10598.040242,
      "max": -8.877694
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.050813,
      "max": 1.910277
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.03365200000007462,
+     "max": 0.03828099999918777
     }
    ],
    "file": "traces/13_14luglio__Acque4testIPA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__Acque5testIPA.lvm",
@@ -3590,22 +4508,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -10635.602164,
      "max": -29.224262
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -10635.592438,
      "max": -29.219061
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.024567,
      "max": 1.90753
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.03543400000125985,
+     "max": 0.035987000000204716
     }
    ],
    "file": "traces/13_14luglio__Acque5testIPA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__Acque6testIPA.lvm",
@@ -3625,22 +4552,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -10618.31612,
      "max": -20.887333
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -10618.322211,
      "max": -20.89118
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.040742,
      "max": 1.945373
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.03597699999954784,
+     "max": 0.03231299999970361
     }
    ],
    "file": "traces/13_14luglio__Acque6testIPA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__Acque7testIPA.lvm",
@@ -3660,22 +4596,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -10767.806126,
      "max": -23.303665
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -10767.818922,
      "max": -23.310813
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.02884,
      "max": 2.098878
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.037514999999984866,
+     "max": 0.035546000000977074
     }
    ],
    "file": "traces/13_14luglio__Acque7testIPA.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "13_14luglio__Acque3-4-6.lvm",
@@ -3695,22 +4640,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -90586.411115,
      "max": -66.771866
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -90586.417,
      "max": -66.757669
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.024872,
      "max": 2.02594
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.043394999993324745,
+     "max": 0.04369799999767565
     }
    ],
    "file": "traces/13_14luglio__Acque3-4-6.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__MZI-I10-O5",
@@ -3730,22 +4684,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -180.773497,
      "max": -166.295432
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -180.769994,
      "max": -166.292911
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.119783,
      "max": 1.452811
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.01136500000001206,
+     "max": 0.015156999999987875
     }
    ],
    "file": "traces/22luglio__MZI-I10-O5.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__DIW_Hgcl-4ng.lvm",
@@ -3765,22 +4728,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1640.098349,
      "max": -25.915561
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1640.099478,
      "max": -25.948736
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.07126,
      "max": 0.439612
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.10907799999995405,
+     "max": 0.11046299999999576
     }
    ],
    "file": "traces/22luglio__DIW_Hgcl-4ng.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__DIW_Hgcl-4ng_b.lvm",
@@ -3800,22 +4772,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -8089.819919,
      "max": 8467.486418
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -8089.839853,
      "max": 8467.481245
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.039521,
      "max": 0.861982
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.08676500000001397,
+     "max": 0.08156900000000178
     }
    ],
    "file": "traces/22luglio__DIW_Hgcl-4ng_b.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__DIW_Hgcl_4ng_b_DIW_WASH.lvm",
@@ -3835,22 +4816,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -5981.714303,
      "max": 11887.780195
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -5981.692641,
      "max": 11887.78857
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.027314,
      "max": 1.06981
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.11293299999988449,
+     "max": 0.09980399999994916
     }
    ],
    "file": "traces/22luglio__DIW_Hgcl_4ng_b_DIW_WASH.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__DIW_CDnO3_10ng.lvm",
@@ -3870,22 +4860,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -13683.062877,
      "max": -114.251668
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -13683.036991,
      "max": -114.270293
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.026093,
      "max": 0.92668
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.0836829999989277,
+     "max": 0.09389399999963643
     }
    ],
    "file": "traces/22luglio__DIW_CDnO3_10ng.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__RUB_CDnO3_10ng.lvm",
@@ -3905,22 +4904,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -377749.474276,
      "max": 12802.138523
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -440755.571452,
      "max": 12930.561161
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.023346,
      "max": 0.949569
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -78857.131713,
+     "max": 107258.63364000001
     }
    ],
    "file": "traces/22luglio__RUB_CDnO3_10ng.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__RUB_CDnO3_10ng_b.lvm",
@@ -3940,22 +4948,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -44048.079443,
      "max": 12515.10814
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -42654.161502,
      "max": 29508.492419
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.023346,
      "max": 0.026398
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -42202.564190000005,
+     "max": 29135.138338000004
     }
    ],
    "file": "traces/22luglio__RUB_CDnO3_10ng_b.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__RUB_CDnO3_10ng_b_1.lvm",
@@ -3975,22 +4992,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -40213.525016,
      "max": -173.306327
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -40213.52216,
      "max": -173.308066
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.024262,
      "max": 1.317617
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.062160000001313165,
+     "max": 0.06711800000084622
     }
    ],
    "file": "traces/22luglio__RUB_CDnO3_10ng_b_1.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__RUB_CDnO3_10ng_c.lvm",
@@ -4010,22 +5036,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -13319.771566,
      "max": 9326.280477
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -13319.759469,
      "max": 9326.287321
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.026398,
      "max": 1.862364
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04910999999999888,
+     "max": 0.04468500000001541
     }
    ],
    "file": "traces/22luglio__RUB_CDnO3_10ng_c.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "22luglio__RUB_HgCL2_4ng.lvm",
@@ -4045,22 +5080,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -16947.299461,
      "max": -34.694942
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -16947.290829,
      "max": -34.686795
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.025483,
      "max": 1.819944
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04068199999892386,
+     "max": 0.041955000000598375
     }
    ],
    "file": "traces/22luglio__RUB_HgCL2_4ng.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "23Luglio__testipa",
@@ -4080,22 +5124,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -1143.241249,
      "max": 121.073422
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -1143.238538,
      "max": 121.087736
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.02945,
      "max": 1.195544
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.031531000000001086,
+     "max": 0.0332220000000234
     }
    ],
    "file": "traces/23Luglio__testipa.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "23Luglio__IPA_RUB.lvm",
@@ -4115,22 +5168,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -9892.447893,
      "max": -15.332355
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -9892.465455,
      "max": -15.332728
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.060883,
      "max": 1.183032
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.056244000001242966,
+     "max": 0.05718399999932444
     }
    ],
    "file": "traces/23Luglio__IPA_RUB.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "23Luglio__RUB_Hg_conc.lvm",
@@ -4150,22 +5212,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -85410.160449,
      "max": 9637.149656
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -85410.174521,
      "max": 9637.156335
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.027008,
      "max": 1.199206
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05955300000000818,
+     "max": 0.060979000000003225
     }
    ],
    "file": "traces/23Luglio__RUB_Hg_conc.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   },
   {
    "id": "23Luglio__RUB_Hg_conc_B.lvm",
@@ -4185,22 +5256,31 @@
    "channels": [
     {
      "name": "Phase1",
+     "derived": false,
      "min": -104227.242991,
      "max": -10.091641
     },
     {
      "name": "Phase2",
+     "derived": false,
      "min": -104227.25158,
      "max": -10.08939
     },
     {
      "name": "PD",
+     "derived": false,
      "min": 0.031891,
      "max": 1.215381
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.08944999999948777,
+     "max": 0.06366399999933492
     }
    ],
    "file": "traces/23Luglio__RUB_Hg_conc_B.lvm.bin",
-   "bytes": 240000
+   "bytes": 320000
   }
  ]
 }

@@ -27,7 +27,14 @@ python build_traces.py            # or: --root <data folder>  --bins 20000
 ```
 
 The script writes a min/max envelope of every LVM time-series recording (10,000 bins per channel by default, `ModulatingSignal` left out) to `site/traces/`. It skips duplicates and files in other formats, such as wavelength scans. Commit `site/traces/` and push.
+Recordings with both `Phase1` and `Phase2` also get a `Phase1-Phase2` channel (push-pull differential phase), computed sample by sample before the envelope is taken. It has its own panel and can be switched off like any other channel.
 To preview locally, run `python -m http.server -d site` and open http://localhost:8000/browser.html.
+
+### Event markers
+
+In the browser, press **M** (or "Add markers") and click on the plot to place a vertical marker. Drag a marker to move it, and type its label in the list below the controls. **Save markers** writes the markers of every recording to `markers.json`. In Chrome or Edge, pick `site/markers.json` the first time; later saves in the same session overwrite it directly. Other browsers download the file, which you then move to `site/`. Commit `site/markers.json` so the published page shows the markers. Edits that are not saved yet are kept in this browser and restored on the next visit.
+
+`markers.json` format: `{"markers": {"<recording id>": {"file": "<folder>/<name>", "markers": [{"t": <seconds>, "label": "..."}]}}}`.
 
 ## Publishing
 

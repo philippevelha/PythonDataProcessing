@@ -8,7 +8,7 @@
   :root {
     --surface: #fcfcfb; --surface-2: #f1f0ec; --border: #d8d7d0;
     --text: #0b0b0b; --text-2: #52514e; --muted: #8a8983; --grid: #e4e3de; --axis: #b5b4ad;
-    --accent: #2a78d6;
+    --accent: #2a78d6; --marker: #3d3c39;
     --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300; --s7: #6250d6; --s8: #e34948;
     color-scheme: light;
   }
@@ -16,7 +16,7 @@
     :root:not([data-theme="light"]) {
       --surface: #1a1a19; --surface-2: #252524; --border: #3a3a38;
       --text: #f0efec; --text-2: #c3c2b7; --muted: #8f8e86; --grid: #2e2e2c; --axis: #55544f;
-      --accent: #3987e5;
+      --accent: #3987e5; --marker: #d6d5cf;
       --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767;
       color-scheme: dark;
     }
@@ -44,7 +44,19 @@
   .swatch { width: 12px; height: 3px; border-radius: 2px; display: inline-block; }
   .info { padding: 8px 16px; color: var(--text-2); display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 13px; }
   .info b { color: var(--text); font-weight: 600; }
-  #plot { width: 100%; height: calc(100vh - 190px); min-height: 420px; }
+  #plot { width: 100%; height: calc(100vh - 230px); min-height: 420px; }
+  #plot.adding .nsewdrag { cursor: crosshair !important; }
+  .markers { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; padding: 0 16px 8px; }
+  button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #saveMarkers.dirty { border-color: var(--accent); font-weight: 600; }
+  #saveState { color: var(--muted); font-size: 12px; }
+  #markerList { list-style: none; margin: 0; padding: 0 16px 8px; display: flex; flex-direction: column; gap: 4px; }
+  #markerList:empty { display: none; }
+  #markerList li { display: flex; gap: 6px; align-items: center; }
+  #markerList .t { font: 12px ui-monospace, monospace; min-width: 96px; padding: 3px 8px; }
+  #markerList input { font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border);
+                      border-radius: 6px; padding: 3px 8px; flex: 1 1 auto; min-width: 0; max-width: 480px; }
+  #markerList .del { padding: 3px 9px; }
   .hint { color: var(--muted); font-size: 12px; padding: 0 16px 16px; }
   kbd { font: 11px ui-monospace, monospace; border: 1px solid var(--border); border-radius: 4px; padding: 0 4px; }
   #status { padding: 24px 16px; color: var(--text-2); }
@@ -74,10 +86,19 @@
 </div>
 
 <div class="info" id="info"></div>
+<div class="markers">
+  <button id="addMode" aria-pressed="false" title="Then click on the plot to place a marker (M)">＋ Add markers</button>
+  <button id="saveMarkers" title="Write the markers of all recordings to markers.json">Save markers</button>
+  <span id="saveState"></span>
+</div>
+<ul id="markerList"></ul>
 <div id="status">Loading recordings…</div>
 <div id="plot" hidden></div>
 <p class="hint">Drag to zoom · drag an axis to zoom only that axis · scroll to zoom · double-click to reset ·
-  <kbd>←</kbd>/<kbd>→</kbd> previous/next recording. Long recordings are stored as a min/max envelope
+  <kbd>←</kbd>/<kbd>→</kbd> previous/next recording.
+  Markers: <kbd>M</kbd> or “Add markers”, then click on the plot; drag a marker line to move it; name it in the list.
+  “Save markers” writes <code>markers.json</code> for all recordings: pick <code>site/markers.json</code> in the repository
+  (in browsers without file access it downloads, then move it there) and commit it. Long recordings are stored as a min/max envelope
   (shaded band), so the finest detail visible is one bin. The notebooks analyse the full-resolution data.</p>
 
 <script src="https://cdn.plot.ly/plotly-3.1.0.min.js" charset="utf-8"></script>
@@ -90,6 +111,10 @@ const UNITS = { PD: "V" };
 
 let recordings = [], visible = [], current = null, data = null;
 const hidden = new Set();                    // channels the user switched off (kept across files)
+
+// markers: { recordingId: [{ t, label }] }, saved explicitly to markers.json; unsaved edits are kept as a draft
+const DRAFT_KEY = "lvm-trace-markers-draft-v1";
+let markers = {}, dirty = false, addMode = false, fileHandle = null, plotEventsBound = false;
 
 function fmtDuration(s) {
   if (s < 120) return `${s.toFixed(1)} s`;
@@ -205,12 +230,17 @@ function render(resetZoom) {
   const shown = rec.channels.map((c, i) => ({ ...c, i })).filter(c => !hidden.has(c.name));
   const panels = [];
   for (const c of shown) {
-    const key = /^phase/i.test(c.name) ? "phase" : c.name;
+    const key = c.derived ? c.name : /^phase/i.test(c.name) ? "phase" : c.name;
     let p = panels.find(p => p.key === key);
-    if (!p) panels.push(p = { key, chans: [], weight: key === "phase" ? 2.5 : 1,
-                              unit: key === "phase" ? "phase [°]" : `${c.name}${UNITS[c.name] ? ` [${UNITS[c.name]}]` : ""}` });
+    if (!p) panels.push(p = { key, chans: [], isPhase: /^phase/i.test(c.name),
+                              weight: key === "phase" ? 2.5 : c.derived ? 1.5 : 1,
+                              unit: key === "phase" ? "phase [°]"
+                                  : /^phase/i.test(c.name) ? `${c.name.replace("-", " − ")} [°]`
+                                  : `${c.name}${UNITS[c.name] ? ` [${UNITS[c.name]}]` : ""}` });
     p.chans.push(c);
   }
+  const rank = (p) => p.key === "phase" ? 0 : p.isPhase ? 1 : 2;   // phase, then Phase1-Phase2, then the rest
+  panels.sort((a, b) => rank(a) - rank(b));
 
   const traces = [], gap = 0.04;
   const total = panels.reduce((s, p) => s + p.weight, 0) || 1;
@@ -231,7 +261,7 @@ function render(resetZoom) {
     for (const c of p.chans) {
       const color = css(SERIES[c.i % SERIES.length]);
       const arr = channelArrays(rec, values, c.i);
-      const zero = p.key === "phase" && $("zero").checked;
+      const zero = p.isPhase && $("zero").checked;
       const shift = zero ? firstFinite(rec.raw ? arr.y : arr.lo) : 0;
       const adj = (a) => shift ? a.map(v => v - shift) : a;
       const common = { x, xaxis: "x", yaxis: `y${ax}`, type: "scatter", mode: "lines", legendgroup: c.name };
@@ -248,9 +278,182 @@ function render(resetZoom) {
     gridcolor: css("--grid"), linecolor: css("--axis"), zeroline: false,
     showspikes: true, spikemode: "across", spikethickness: 1, spikecolor: css("--axis"), spikesnap: "cursor" };
   if (keepRange) layout.xaxis.range = keepRange;
+  Object.assign(layout, markerLayout());
 
   plotEl.hidden = false;
-  Plotly.react(plotEl, traces, layout, { responsive: true, scrollZoom: true, displaylogo: false });
+  Plotly.react(plotEl, traces, layout,
+               { responsive: true, scrollZoom: true, displaylogo: false, edits: { shapePosition: true } });
+  if (!plotEventsBound) {
+    plotEl.on("plotly_click", onPlotClick);
+    plotEl.on("plotly_relayout", onPlotRelayout);
+    plotEventsBound = true;
+  }
+  renderMarkerList();
+}
+
+// ---------- markers ----------
+const recMarkers = () => (current && markers[current.id]) || [];
+
+function markerLayout() {
+  const list = recMarkers(), color = css("--marker");
+  return {
+    shapes: list.map(m => ({ type: "line", xref: "x", yref: "paper", x0: m.t, x1: m.t, y0: 0, y1: 1,
+                             line: { color, width: 1.5, dash: "dash" } })),
+    annotations: list.map((m, i) => ({ x: m.t, xref: "x", y: 1, yref: "paper", yanchor: "bottom",
+                                       text: escapeHtml(m.label || `#${i + 1}`), showarrow: false,
+                                       font: { size: 11, color }, bgcolor: css("--surface") })),
+    margin: { l: 72, r: 16, t: list.length ? 30 : 12, b: 44 },
+  };
+}
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"]/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[ch]);
+}
+
+function updateMarkers() {                    // markers changed: redraw lines and list without touching zoom
+  const l = markerLayout();
+  Plotly.relayout($("plot"), { shapes: l.shapes, annotations: l.annotations, "margin.t": l.margin.t });
+  renderMarkerList();
+}
+
+function setMarkers(list) {
+  list.sort((a, b) => a.t - b.t);
+  if (list.length) markers[current.id] = list; else delete markers[current.id];
+  setDirty(true);
+}
+
+function setDirty(d) {
+  dirty = d;
+  try { d ? localStorage.setItem(DRAFT_KEY, JSON.stringify(markers)) : localStorage.removeItem(DRAFT_KEY); } catch {}
+  $("saveMarkers").classList.toggle("dirty", d);
+  const n = Object.values(markers).reduce((s, l) => s + l.length, 0);
+  $("saveState").textContent = `${n} marker${n === 1 ? "" : "s"} in ${Object.keys(markers).length} recording(s)` +
+                               (d ? " · unsaved changes" : "");
+}
+
+function plotX(ev) {                          // exact x of the click, not the x of the nearest bin
+  try {
+    const xa = $("plot")._fullLayout.xaxis;
+    const x = xa.p2l(ev.event.clientX - $("plot").getBoundingClientRect().left - xa._offset);
+    if (Number.isFinite(x)) return x;
+  } catch {}
+  return ev.points && ev.points.length ? ev.points[0].x : NaN;
+}
+
+function onPlotClick(ev) {
+  if (!addMode || !data) return;
+  const t = plotX(ev);
+  if (!Number.isFinite(t)) return;
+  const m = { t: +t.toFixed(4), label: "" };
+  setMarkers([...recMarkers(), m]);
+  updateMarkers();
+  const inp = $("markerList").querySelectorAll("input")[recMarkers().indexOf(m)];
+  if (inp) inp.focus();
+}
+
+function onPlotRelayout(ev) {                 // a marker line was dragged
+  const moved = {};
+  for (const [k, v] of Object.entries(ev)) {
+    const m = /^shapes\[(\d+)\]\.(x0|x1)$/.exec(k);
+    if (m) (moved[m[1]] ||= {})[m[2]] = v;
+  }
+  if (!Object.keys(moved).length) return;
+  const list = recMarkers().map(m => ({ ...m }));
+  for (const [i, v] of Object.entries(moved)) {
+    if (!list[i]) continue;
+    const t = v.x0 !== undefined && v.x1 !== undefined ? (v.x0 + v.x1) / 2 : (v.x0 ?? v.x1);
+    list[i].t = +t.toFixed(4);
+  }
+  setMarkers(list);
+  setTimeout(updateMarkers);                  // straighten the line; not from inside Plotly's own event
+}
+
+function renderMarkerList() {
+  const ul = $("markerList");
+  ul.innerHTML = "";
+  recMarkers().forEach((m, i) => {
+    const li = document.createElement("li");
+    const tb = document.createElement("button");
+    tb.className = "t";
+    tb.textContent = `${m.t.toFixed(3)} s`;
+    tb.title = "Centre the view on this marker";
+    tb.onclick = () => {
+      const xa = $("plot")._fullLayout.xaxis, w = xa.range[1] - xa.range[0];
+      Plotly.relayout($("plot"), { "xaxis.range": [m.t - w / 2, m.t + w / 2] });
+    };
+    const inp = document.createElement("input");
+    inp.type = "text";
+    inp.value = m.label;
+    inp.placeholder = `marker #${i + 1}: describe the event`;
+    inp.oninput = () => { m.label = inp.value; setDirty(true); };
+    inp.onchange = updateMarkers;
+    inp.onkeydown = (e) => { if (e.key === "Enter") inp.blur(); };
+    const del = document.createElement("button");
+    del.className = "del";
+    del.textContent = "×";
+    del.title = "Delete marker";
+    del.setAttribute("aria-label", `Delete marker at ${m.t.toFixed(3)} s`);
+    del.onclick = () => { setMarkers(recMarkers().filter(x => x !== m)); updateMarkers(); };
+    li.append(tb, inp, del);
+    ul.appendChild(li);
+  });
+}
+
+function setAddMode(on) {
+  addMode = on;
+  $("addMode").setAttribute("aria-pressed", String(on));
+  $("plot").classList.toggle("adding", on);
+}
+
+function markersFile() {
+  const out = {};
+  for (const id of Object.keys(markers).sort()) {
+    const r = recordings.find(r => r.id === id);
+    out[id] = { file: r ? `${r.folder}/${r.name}` : id, markers: markers[id] };
+  }
+  return JSON.stringify({ version: 1, saved: new Date().toISOString(), markers: out }, null, 1) + "\n";
+}
+
+async function saveMarkers() {
+  const text = markersFile();
+  try {
+    if (window.showSaveFilePicker) {
+      fileHandle ||= await showSaveFilePicker({ suggestedName: "markers.json",
+        types: [{ description: "JSON", accept: { "application/json": [".json"] } }] });
+      const w = await fileHandle.createWritable();
+      await w.write(text);
+      await w.close();
+    } else {
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([text], { type: "application/json" }));
+      a.download = "markers.json";
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    }
+    setDirty(false);
+    $("saveState").textContent += ` · saved ${new Date().toLocaleTimeString()}`;
+  } catch (e) {
+    if (e.name !== "AbortError") $("saveState").textContent = `Could not save: ${e.message}`;
+  }
+}
+
+async function loadMarkers() {
+  try {
+    const res = await fetch("./markers.json", { cache: "no-store" });
+    if (res.ok) {
+      const m = (await res.json()).markers || {};
+      for (const [id, v] of Object.entries(m)) markers[id] = v.markers || [];
+    }
+  } catch {}
+  let draft = null;
+  try { draft = JSON.parse(localStorage.getItem(DRAFT_KEY)); } catch {}
+  if (draft && JSON.stringify(draft) !== JSON.stringify(markers)) {
+    markers = draft;
+    setDirty(true);
+    $("saveState").textContent += " (restored from this browser)";
+  } else {
+    setDirty(false);
+  }
 }
 
 async function init() {
@@ -269,6 +472,7 @@ async function init() {
     $("status").textContent = `Could not load traces/manifest.json: ${e.message}`;
     return;
   }
+  await loadMarkers();
   fillSelect();
   const wanted = decodeURIComponent(location.hash.slice(1));
   load(recordings.find(r => r.id === wanted) || recordings[0]);
@@ -278,11 +482,16 @@ async function init() {
   $("prev").onclick = () => step(-1);
   $("next").onclick = () => step(1);
   $("zero").onchange = () => data && render(false);
+  $("addMode").onclick = () => setAddMode(!addMode);
+  $("saveMarkers").onclick = saveMarkers;
   document.addEventListener("keydown", (e) => {
-    if (e.target.matches("input[type=search], select")) return;
+    if (e.target.matches("input, select, textarea")) return;
     if (e.key === "ArrowLeft") step(-1);
     if (e.key === "ArrowRight") step(1);
+    if (e.key === "m" || e.key === "M") setAddMode(!addMode);
+    if (e.key === "Escape") setAddMode(false);
   });
+  window.addEventListener("beforeunload", (e) => { if (dirty) { e.preventDefault(); e.returnValue = ""; } });
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => {
     if (data) { buildChannelToggles(); render(false); }
   });

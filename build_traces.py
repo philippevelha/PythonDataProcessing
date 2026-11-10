@@ -12,6 +12,7 @@ Binary layout of <id>.bin (little-endian float32), for each channel in manifest 
     raw files (samples <= bins): values[n]
     otherwise:                   min[n], max[n]
 Bin k starts at t0 + k * bin_dt (seconds).
+Recordings with both Phase1 and Phase2 also get the derived channel Phase1-Phase2 (push-pull).
 """
 
 from __future__ import annotations
@@ -31,6 +32,10 @@ import lvm_reader as lvm
 SKIP_DIRS = {".git", ".github", "notebooks", "site", "__pycache__", "_site"}
 SKIP_SUFFIXES = {".mat", ".fig", ".jpg", ".png", ".pdf", ".m", ".py", ".ipynb", ".md", ".txt"}
 DEFAULT_EXCLUDE_CHANNELS = ["ModulatingSignal"]   # PGC carrier: its envelope is just a constant band
+# Derived channels, computed sample by sample at full resolution before the envelope is taken
+# (the envelope of a difference is not the difference of the envelopes).
+# Push-pull measurements read the differential phase Phase1 - Phase2.
+DERIVED = {"Phase1-Phase2": ("Phase1", "Phase2")}
 
 
 def file_fingerprint(p: Path) -> tuple[int, str]:
@@ -87,17 +92,23 @@ def build(root: Path, out_dir: Path, bins: int, exclude: list[str]) -> None:
         step = 1 if raw else int(np.ceil(n / bins))
         nb = int(np.ceil(n / step))
         channels = [c for c in d.channels if c not in exclude]
+        derived = {name: (a, b) for name, (a, b) in DERIVED.items()
+                   if a in d.channels and b in d.channels and name not in exclude}
 
         parts, ch_meta = [], []
-        for c in channels:
-            y = d.data[c].to_numpy(dtype=float)
+        for c in channels + list(derived):
+            if c in derived:
+                a, b = derived[c]
+                y = d.data[a].to_numpy(dtype=float) - d.data[b].to_numpy(dtype=float)
+            else:
+                y = d.data[c].to_numpy(dtype=float)
             valid = y[~np.isnan(y)]
             if raw:
                 parts.append(y.astype("<f4"))
             else:
                 lo, hi = envelope(y, step, nb)
                 parts += [lo.astype("<f4"), hi.astype("<f4")]
-            ch_meta.append(dict(name=c,
+            ch_meta.append(dict(name=c, derived=c in derived,
                                 min=float(valid.min()) if len(valid) else None,
                                 max=float(valid.max()) if len(valid) else None))
 
