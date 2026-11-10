@@ -36,6 +36,8 @@ In the browser, press **M** (or "Add markers") and click on the plot to place a 
 
 `markers.json` format: `{"markers": {"<recording id>": {"file": "<folder>/<name>", "markers": [{"t": <seconds>, "label": "..."}]}}}`.
 
+The notebook reads this file (`MARKERS_FILE`) and draws the markers as dashed lines on the single-file time traces and on the chronogram. In Python: `lvm.load_markers("site/markers.json")` returns a table (`id`, `file`, `t`, `label`) and `lvm.markers_for(markers, path)` selects one recording's markers.
+
 ## Publishing
 
 The raw data is **not** in the repository (see `.gitignore`). Run the notebook locally, save it with its outputs and push to `main`.

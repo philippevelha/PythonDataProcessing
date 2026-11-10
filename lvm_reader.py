@@ -16,6 +16,7 @@ Segments are concatenated and the time axis is made continuous, as in the MATLAB
 from __future__ import annotations
 
 import io
+import json
 import re
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -210,3 +211,36 @@ def log_bin(freq: np.ndarray, psd: np.ndarray, bins_per_decade: int = 50):
     fsum = np.bincount(idx, weights=f, minlength=len(edges) + 1)
     ok = counts > 0
     return fsum[ok] / counts[ok], sums[ok] / counts[ok]
+
+
+# ---------- event markers (written by the web trace browser, site/markers.json) ----------
+
+def load_markers(path: str | Path) -> pd.DataFrame:
+    """Read the markers saved by the trace browser ("Save markers").
+
+    Returns one row per marker with columns ``id`` (recording id), ``file`` (``<folder>/<name>``
+    relative to the data root), ``t`` (s, same time axis as ``read_lvm(...).data.time``) and
+    ``label``, sorted by file and time. A missing file gives an empty table.
+    """
+    cols = ["id", "file", "t", "label"]
+    path = Path(path)
+    if not path.exists():
+        return pd.DataFrame(columns=cols)
+    raw = json.loads(path.read_text(encoding="utf-8")).get("markers", {})
+    rows = [dict(id=rid, file=v.get("file", rid), t=float(m["t"]), label=m.get("label", ""))
+            for rid, v in raw.items() for m in v.get("markers", [])]
+    return pd.DataFrame(rows, columns=cols).sort_values(["file", "t"], ignore_index=True)
+
+
+def _rec_key(parts) -> tuple[str, ...]:
+    # "spike01" and "spike01.lvm" are the same recording (the browser keeps only one of them)
+    return tuple(parts[:-1]) + (re.sub(r"\.lvm$", "", parts[-1], flags=re.I),)
+
+
+def markers_for(markers: pd.DataFrame, path: str | Path) -> pd.DataFrame:
+    """Markers of one recording, matched on the trailing ``<folder>/<name>`` of ``path``."""
+    parts = Path(path).resolve().parts
+    def match(f: str) -> bool:
+        fp = f.split("/")
+        return len(fp) <= len(parts) and _rec_key(fp) == _rec_key(parts[-len(fp):])
+    return markers[markers.file.map(match)].reset_index(drop=True) if len(markers) else markers
