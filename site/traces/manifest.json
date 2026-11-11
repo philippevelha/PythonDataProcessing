@@ -1,7 +1,931 @@
 {
- "generated": "2026-11-10 22:46",
+ "generated": "2026-11-11 08:28",
  "bins": 10000,
  "recordings": [
+  {
+   "id": "funzionalizzazione__Kist_5_2_Vpp6_6_test_Water_PEG.lvm",
+   "folder": "funzionalizzazione",
+   "name": "Kist_5_2_Vpp6_6_test_Water_PEG.lvm",
+   "date": "2020/12/16",
+   "time": "14:59:48",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 240000,
+   "duration": 240.0,
+   "segments": 12,
+   "t0": 0.0,
+   "bin_dt": 0.024,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -23740.14427,
+     "max": 74.341379
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -23740.123841,
+     "max": 74.305853
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.014801,
+     "max": 0.230259
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.10954000000128872,
+     "max": 0.14190599999999876
+    }
+   ],
+   "file": "traces/funzionalizzazione__Kist_5_2_Vpp6_6_test_Water_PEG.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__Fluss_oligo_afterWashing.lvm",
+   "folder": "funzionalizzazione",
+   "name": "Fluss_oligo_afterWashing.lvm",
+   "date": "2020/12/16",
+   "time": "16:44:40",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 280000,
+   "duration": 280.0,
+   "segments": 14,
+   "t0": 0.0,
+   "bin_dt": 0.028,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -19911.640393,
+     "max": 12.185938
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -19911.598569,
+     "max": 12.19858
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.014801,
+     "max": 0.186618
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.2053940000005241,
+     "max": 0.16205799999988812
+    }
+   ],
+   "file": "traces/funzionalizzazione__Fluss_oligo_afterWashing.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__Rinse_oligo.lvm",
+   "folder": "funzionalizzazione",
+   "name": "Rinse_oligo.lvm",
+   "date": "2020/12/16",
+   "time": "18:27:24",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 500000,
+   "duration": 500.0,
+   "segments": 25,
+   "t0": 0.0,
+   "bin_dt": 0.05,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -20667.216237,
+     "max": 142.797468
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -20667.167225,
+     "max": 142.79814
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.017853,
+     "max": 0.171969
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.16000099999837403,
+     "max": 0.1379030000007333
+    }
+   ],
+   "file": "traces/funzionalizzazione__Rinse_oligo.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__test_diluzione046nguL.lvm",
+   "folder": "funzionalizzazione",
+   "name": "test_diluzione046nguL.lvm",
+   "date": "2020/12/17",
+   "time": "17:03:21",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 220000,
+   "duration": 220.0,
+   "segments": 11,
+   "t0": 0.0,
+   "bin_dt": 0.022,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -38224.53661,
+     "max": -115.580061
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -38224.579849,
+     "max": -115.556729
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.142977
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.24391899999864108,
+     "max": 0.3518229999972391
+    }
+   ],
+   "file": "traces/funzionalizzazione__test_diluzione046nguL.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__test_diluzione046nguL_kinetics30min.lvm",
+   "folder": "funzionalizzazione",
+   "name": "test_diluzione046nguL_kinetics30min.lvm",
+   "date": "2020/12/17",
+   "time": "17:07:27",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1800000,
+   "duration": 1800.0,
+   "segments": 90,
+   "t0": 0.0,
+   "bin_dt": 0.18,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -2698.794296,
+     "max": -134.744802
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -2698.837595,
+     "max": -134.727784
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012055,
+     "max": 0.138094
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.2561310000000958,
+     "max": 0.2699200000001838
+    }
+   ],
+   "file": "traces/funzionalizzazione__test_diluzione046nguL_kinetics30min.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__test_diluzione046nguL_kinetics_rinse.lvm",
+   "folder": "funzionalizzazione",
+   "name": "test_diluzione046nguL_kinetics_rinse.lvm",
+   "date": "2020/12/17",
+   "time": "17:38:21",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 400000,
+   "duration": 400.0,
+   "segments": 20,
+   "t0": 0.0,
+   "bin_dt": 0.04,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -59058.81654,
+     "max": 1266.66781
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -59058.797763,
+     "max": 1266.646422
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012055,
+     "max": 0.156405
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.2329989999998361,
+     "max": 0.25057599999854574
+    }
+   ],
+   "file": "traces/funzionalizzazione__test_diluzione046nguL_kinetics_rinse.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__diluizione4ng_T50deg_1_l1530nm.lvm",
+   "folder": "funzionalizzazione",
+   "name": "diluizione4ng_T50deg_1_l1530nm.lvm",
+   "date": "2020/12/18",
+   "time": "15:28:36",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 220000,
+   "duration": 220.0,
+   "segments": 11,
+   "t0": 0.0,
+   "bin_dt": 0.022,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -47065.406698,
+     "max": -13.732316
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -47065.397164,
+     "max": -13.717474
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012665,
+     "max": 0.316625
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.0974560000031488,
+     "max": 0.09034399999995912
+    }
+   ],
+   "file": "traces/funzionalizzazione__diluizione4ng_T50deg_1_l1530nm.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__diluizione4ng_T50deg_1_l1530nm_kinetics.lvm",
+   "folder": "funzionalizzazione",
+   "name": "diluizione4ng_T50deg_1_l1530nm_kinetics.lvm",
+   "date": "2020/12/18",
+   "time": "15:32:45",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1520000,
+   "duration": 1520.0,
+   "segments": 76,
+   "t0": 0.0,
+   "bin_dt": 0.152,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -29000.414625,
+     "max": -18.000368
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -29000.41705,
+     "max": -17.971386
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.341039
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.1195309999999381,
+     "max": 0.1226130000000012
+    }
+   ],
+   "file": "traces/funzionalizzazione__diluizione4ng_T50deg_1_l1530nm_kinetics.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__diluizione4ng_T50deg_1_l1530nm_rinse.lvm",
+   "folder": "funzionalizzazione",
+   "name": "diluizione4ng_T50deg_1_l1530nm_rinse.lvm",
+   "date": "2020/12/18",
+   "time": "15:58:41",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 300000,
+   "duration": 300.0,
+   "segments": 15,
+   "t0": 0.0,
+   "bin_dt": 0.03,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 177.516232,
+     "max": 5250.357823
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 177.508301,
+     "max": 5250.325496
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.373388
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.12263200000006691,
+     "max": 0.12710599999991246
+    }
+   ],
+   "file": "traces/funzionalizzazione__diluizione4ng_T50deg_1_l1530nm_rinse.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__Diluzione23nguL_T24deg_1_l1530nm.lvm",
+   "folder": "funzionalizzazione",
+   "name": "Diluzione23nguL_T24deg_1_l1530nm.lvm",
+   "date": "2020/12/18",
+   "time": "16:30:23",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 200000,
+   "duration": 200.0,
+   "segments": 10,
+   "t0": 0.0,
+   "bin_dt": 0.02,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -24400.761318,
+     "max": -2.063959
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -24400.769046,
+     "max": -2.046882
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.015106,
+     "max": 0.159762
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.31988599999931466,
+     "max": 0.3022950000013225
+    }
+   ],
+   "file": "traces/funzionalizzazione__Diluzione23nguL_T24deg_1_l1530nm.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__Diluzione23nguL_T24deg_1_l1530nm_kinetics.lvm",
+   "folder": "funzionalizzazione",
+   "name": "Diluzione23nguL_T24deg_1_l1530nm_kinetics.lvm",
+   "date": "2020/12/18",
+   "time": "16:34:22",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 3740000,
+   "duration": 3740.0,
+   "segments": 187,
+   "t0": 0.0,
+   "bin_dt": 0.374,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -38360.972289,
+     "max": 88.118023
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -38360.959451,
+     "max": 88.068534
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012055,
+     "max": 0.200046
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.1994989999984682,
+     "max": 0.14407700000001
+    }
+   ],
+   "file": "traces/funzionalizzazione__Diluzione23nguL_T24deg_1_l1530nm_kinetics.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__Diluzione23nguL_T24deg_1_l1530nm_rinse.lvm",
+   "folder": "funzionalizzazione",
+   "name": "Diluzione23nguL_T24deg_1_l1530nm_rinse.lvm",
+   "date": "2020/12/18",
+   "time": "17:37:19",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 380000,
+   "duration": 380.0,
+   "segments": 19,
+   "t0": 0.0,
+   "bin_dt": 0.038,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -109.104407,
+     "max": 5251.752855
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -109.110482,
+     "max": 5251.794552
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.01236,
+     "max": 0.193332
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.13811299999997573,
+     "max": 0.1436040000007779
+    }
+   ],
+   "file": "traces/funzionalizzazione__Diluzione23nguL_T24deg_1_l1530nm_rinse.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_test1.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_test1.lvm",
+   "date": "2021/03/29",
+   "time": "13:38:13",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 120000,
+   "duration": 120.0,
+   "segments": 6,
+   "t0": 0.0,
+   "bin_dt": 0.012,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 18.297607,
+     "max": 56.244057
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 18.297505,
+     "max": 56.221906
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.007782,
+     "max": 0.625772
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.020338999999999885,
+     "max": 0.0439050000000023
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_test1.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_test2.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_test2.lvm",
+   "date": "2021/03/29",
+   "time": "13:46:43",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 360000,
+   "duration": 360.0,
+   "segments": 18,
+   "t0": 0.0,
+   "bin_dt": 0.036000000000000004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -6012.806592,
+     "max": -143.911027
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -6012.813768,
+     "max": -143.901871
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.019684,
+     "max": 0.472877
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04942699999992328,
+     "max": 0.04553699999996752
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_test2.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_test3.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_test3.lvm",
+   "date": "2021/03/29",
+   "time": "13:52:55",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 340000,
+   "duration": 340.0,
+   "segments": 17,
+   "t0": 0.0,
+   "bin_dt": 0.034,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -6708.506473,
+     "max": -149.920383
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -6708.514548,
+     "max": -149.912113
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.019989,
+     "max": 0.481422
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04284600000028149,
+     "max": 0.047278000000005704
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_test3.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_baseline.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_baseline.lvm",
+   "date": "2021/03/29",
+   "time": "13:59:13",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 880000,
+   "duration": 880.0,
+   "segments": 44,
+   "t0": 0.0,
+   "bin_dt": 0.088,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 31.758285,
+     "max": 160.933242
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 31.739187,
+     "max": 160.94956
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.019989,
+     "max": 0.467689
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.0630390000000034,
+     "max": 0.06681199999999876
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_baseline.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_SiPEG.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_SiPEG.lvm",
+   "date": "2021/03/29",
+   "time": "14:50:31",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 2360000,
+   "duration": 2360.0,
+   "segments": 118,
+   "t0": 0.0,
+   "bin_dt": 0.23600000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -3506.510506,
+     "max": -31.373796
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -3506.495608,
+     "max": -31.374233
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.019684,
+     "max": 0.445716
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.06272599999988415,
+     "max": 0.058575999999902706
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_SiPEG.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_SiPEGwashPBD.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_SiPEGwashPBD.lvm",
+   "date": "2021/03/29",
+   "time": "15:32:11",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1080000,
+   "duration": 1080.0,
+   "segments": 54,
+   "t0": 0.0,
+   "bin_dt": 0.108,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -1104.020639,
+     "max": -7.351098
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -1104.016803,
+     "max": -7.345738
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.019074,
+     "max": 0.442969
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05817900000005238,
+     "max": 0.06476400000002513
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_SiPEGwashPBD.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_AG.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_AG.lvm",
+   "date": "2021/03/29",
+   "time": "16:08:37",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 3500000,
+   "duration": 3500.0,
+   "segments": 175,
+   "t0": 0.0,
+   "bin_dt": 0.35000000000000003,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -1265.279853,
+     "max": -116.744523
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -1265.287254,
+     "max": -116.732451
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.019379,
+     "max": 0.429236
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.06170299999996587,
+     "max": 0.06356799999991836
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_AG.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_AGwashPBS.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_AGwashPBS.lvm",
+   "date": "2021/03/29",
+   "time": "17:11:01",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1240000,
+   "duration": 1240.0,
+   "segments": 62,
+   "t0": 0.0,
+   "bin_dt": 0.124,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -1089.803207,
+     "max": -41.201329
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -1089.789389,
+     "max": -41.173259
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.020905,
+     "max": 0.415808
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05724499999999466,
+     "max": 0.06909100000000024
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_AGwashPBS.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "funzionalizzazione__29mar_AGwashPBS2.lvm",
+   "folder": "funzionalizzazione",
+   "name": "29mar_AGwashPBS2.lvm",
+   "date": "2021/03/29",
+   "time": "17:34:11",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 60000,
+   "duration": 59.99999999999999,
+   "segments": 3,
+   "t0": 0.0,
+   "bin_dt": 0.006,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -17.297911,
+     "max": 1049.310042
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -17.298475,
+     "max": 1049.309409
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.019074,
+     "max": 0.396582
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.053434000000000204,
+     "max": 0.06199800000001687
+    }
+   ],
+   "file": "traces/funzionalizzazione__29mar_AGwashPBS2.lvm.bin",
+   "bytes": 320000
+  },
   {
    "id": "14giugno__IMEC14_Pb",
    "folder": "14giugno",
