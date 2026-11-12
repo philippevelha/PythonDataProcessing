@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11 08:28",
+ "generated": "2026-11-12 17:57",
  "bins": 10000,
  "recordings": [
   {
@@ -924,6 +924,3042 @@
     }
    ],
    "file": "traces/funzionalizzazione__29mar_AGwashPBS2.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__IMEC14_IPAcal.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "IMEC14_IPAcal.lvm",
+   "date": "2021/05/20",
+   "time": "15:50:41",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 2260000,
+   "duration": 2260.0,
+   "segments": 113,
+   "t0": 0.0,
+   "bin_dt": 0.226,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -5747.47609,
+     "max": 662.023569
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -5747.517205,
+     "max": 661.857015
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.007477,
+     "max": 0.145113
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.4901839999999993,
+     "max": 0.5200889999999845
+    }
+   ],
+   "file": "traces/IMEC14pigtail__IMEC14_IPAcal.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__baselineDIW.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "baselineDIW.lvm",
+   "date": "2021/05/20",
+   "time": "16:41:10",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 460000,
+   "duration": 460.0,
+   "segments": 23,
+   "t0": 0.0,
+   "bin_dt": 0.046,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -168.577764,
+     "max": 39.154759
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -168.569502,
+     "max": 39.062641
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.01297,
+     "max": 0.147555
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -3.462368999999999,
+     "max": 7.192395000000005
+    }
+   ],
+   "file": "traces/IMEC14pigtail__baselineDIW.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__IPAcal2.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "IPAcal2.lvm",
+   "date": "2021/05/20",
+   "time": "16:49:42",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1740000,
+   "duration": 1740.0,
+   "segments": 87,
+   "t0": 0.0,
+   "bin_dt": 0.17400000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -2230.358687,
+     "max": 5039.251297
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -2230.351618,
+     "max": 5039.268592
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.007477,
+     "max": 0.166171
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.3920389999999543,
+     "max": 0.4975259999999935
+    }
+   ],
+   "file": "traces/IMEC14pigtail__IPAcal2.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__test_21maggio_2",
+   "folder": "IMEC14pigtail",
+   "name": "test_21maggio_2",
+   "date": "2021/05/21",
+   "time": "10:24:41",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 140000,
+   "duration": 140.0,
+   "segments": 7,
+   "t0": 0.0,
+   "bin_dt": 0.014,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -185.367905,
+     "max": -171.621716
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -185.347664,
+     "max": -171.616784
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.01236,
+     "max": 0.138705
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.14422799999999825,
+     "max": 0.15583699999999112
+    }
+   ],
+   "file": "traces/IMEC14pigtail__test_21maggio_2.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__IPAcal_025.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "IPAcal_025.lvm",
+   "date": "2021/05/21",
+   "time": "10:30:31",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 260000,
+   "duration": 260.0,
+   "segments": 13,
+   "t0": 0.0,
+   "bin_dt": 0.026000000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -154.426017,
+     "max": -78.548694
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -154.431011,
+     "max": -78.581914
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.093538,
+     "max": 0.405737
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.1066640000000092,
+     "max": 0.09678899999998691
+    }
+   ],
+   "file": "traces/IMEC14pigtail__IPAcal_025.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__IPAcal_025_3.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "IPAcal_025_3.lvm",
+   "date": "2021/05/21",
+   "time": "10:42:34",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 220000,
+   "duration": 220.0,
+   "segments": 11,
+   "t0": 0.0,
+   "bin_dt": 0.022,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -183.207119,
+     "max": -160.891836
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -183.223669,
+     "max": -160.887796
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012665,
+     "max": 0.417639
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.035420000000016216,
+     "max": 0.05980500000001143
+    }
+   ],
+   "file": "traces/IMEC14pigtail__IPAcal_025_3.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__IPAcal05.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "IPAcal05.lvm",
+   "date": "2021/05/21",
+   "time": "11:00:42",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 480000,
+   "duration": 480.0,
+   "segments": 24,
+   "t0": 0.0,
+   "bin_dt": 0.048,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -177.889145,
+     "max": -142.056546
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -177.896818,
+     "max": -142.097059
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.016632,
+     "max": 0.285191
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.07810100000000375,
+     "max": 0.10191199999999867
+    }
+   ],
+   "file": "traces/IMEC14pigtail__IPAcal05.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__IPAcal025_startstop.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "IPAcal025_startstop.lvm",
+   "date": "2021/05/21",
+   "time": "11:26:57",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 680000,
+   "duration": 680.0,
+   "segments": 34,
+   "t0": 0.0,
+   "bin_dt": 0.068,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -178.328873,
+     "max": -161.558655
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -178.343792,
+     "max": -161.568148
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.02121,
+     "max": 0.450294
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.04497299999999882,
+     "max": 0.059992999999991525
+    }
+   ],
+   "file": "traces/IMEC14pigtail__IPAcal025_startstop.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__IPAsequence_1.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "IPAsequence_1.lvm",
+   "date": "2021/05/21",
+   "time": "12:03:57",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1660000,
+   "duration": 1660.0,
+   "segments": 83,
+   "t0": 0.0,
+   "bin_dt": 0.166,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -5989.405077,
+     "max": 193.045112
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -5989.41166,
+     "max": 193.024553
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012055,
+     "max": 0.611429
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.10757099999999298,
+     "max": 0.1082010000000011
+    }
+   ],
+   "file": "traces/IMEC14pigtail__IPAsequence_1.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__GlycerolSequence_1.lvm",
+   "folder": "IMEC14pigtail",
+   "name": "GlycerolSequence_1.lvm",
+   "date": "2021/05/21",
+   "time": "12:42:12",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1240000,
+   "duration": 1240.0,
+   "segments": 62,
+   "t0": 0.0,
+   "bin_dt": 0.124,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -100.339193,
+     "max": 4128.479913
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -100.33631,
+     "max": 4128.455946
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.428016
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.10868900000014037,
+     "max": 0.129138999999995
+    }
+   ],
+   "file": "traces/IMEC14pigtail__GlycerolSequence_1.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__testVpp",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "testVpp",
+   "date": "2021/05/24",
+   "time": "10:39:56",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 140000,
+   "duration": 140.0,
+   "segments": 7,
+   "t0": 0.0,
+   "bin_dt": 0.014,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 83.968236,
+     "max": 839.559644
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 83.959251,
+     "max": 839.551597
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.01236,
+     "max": 0.348058
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.07212300000003324,
+     "max": 0.06909199999995508
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__testVpp.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__calibGlycerol_24maggio21.lvm",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "calibGlycerol_24maggio21.lvm",
+   "date": "2021/05/24",
+   "time": "11:08:45",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 980000,
+   "duration": 980.0,
+   "segments": 49,
+   "t0": 0.0,
+   "bin_dt": 0.098,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -530.552086,
+     "max": 7347.051473
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -530.528627,
+     "max": 7347.053244
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.405127
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.08608300000014424,
+     "max": 0.07212900000013178
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__calibGlycerol_24maggio21.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__calibGlycerol_24maggio21_1540.lvm",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "calibGlycerol_24maggio21_1540.lvm",
+   "date": "2021/05/24",
+   "time": "11:36:59",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 60000,
+   "duration": 59.99999999999999,
+   "segments": 3,
+   "t0": 0.0,
+   "bin_dt": 0.006,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -176.679493,
+     "max": -136.305001
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -176.687857,
+     "max": -136.317614
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012055,
+     "max": 0.397803
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.03900199999998222,
+     "max": 0.05093500000000972
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__calibGlycerol_24maggio21_1540.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__calibGlycerol_24maggio21_1541.lvm",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "calibGlycerol_24maggio21_1541.lvm",
+   "date": "2021/05/24",
+   "time": "11:38:24",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 60000,
+   "duration": 59.99999999999999,
+   "segments": 3,
+   "t0": 0.0,
+   "bin_dt": 0.006,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -161.477447,
+     "max": -62.086585
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -161.482244,
+     "max": -62.07228
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.397192
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.06045899999999449,
+     "max": 0.0584920000000011
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__calibGlycerol_24maggio21_1541.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__calibGlycerol_24maggio21_1542.lvm",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "calibGlycerol_24maggio21_1542.lvm",
+   "date": "2021/05/24",
+   "time": "11:39:35",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 860000,
+   "duration": 860.0,
+   "segments": 43,
+   "t0": 0.0,
+   "bin_dt": 0.08600000000000001,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -322.683978,
+     "max": -20.188988
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -322.681805,
+     "max": -20.184556
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.410925
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.06479199999999707,
+     "max": 0.06940600000001496
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__calibGlycerol_24maggio21_1542.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__testA_2",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "testA_2",
+   "date": "2021/05/24",
+   "time": "14:40:22",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 200000,
+   "duration": 200.0,
+   "segments": 10,
+   "t0": 0.0,
+   "bin_dt": 0.02,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -49.132021,
+     "max": -34.175846
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -49.14535,
+     "max": -34.168071
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.014496,
+     "max": 0.435035
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.048014999999999475,
+     "max": 0.04223299999999597
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__testA_2.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__IPA_24maggio21",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "IPA_24maggio21",
+   "date": "2021/05/24",
+   "time": "14:44:01",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1060000,
+   "duration": 1060.0,
+   "segments": 53,
+   "t0": 0.0,
+   "bin_dt": 0.106,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -214.451067,
+     "max": -21.425801
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -214.455066,
+     "max": -21.432781
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.014191,
+     "max": 0.436561
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.060787999999988074,
+     "max": 0.05771699999999669
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__IPA_24maggio21.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__IPA_24maggio21_testonoffpump",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "IPA_24maggio21_testonoffpump",
+   "date": "2021/05/24",
+   "time": "15:02:32",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 280000,
+   "duration": 280.0,
+   "segments": 14,
+   "t0": 0.0,
+   "bin_dt": 0.028,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -54.473329,
+     "max": -28.932053
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -54.480745,
+     "max": -28.925575
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.014801,
+     "max": 0.431678
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.050333999999999435,
+     "max": 0.04433800000000332
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__IPA_24maggio21_testonoffpump.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__IPA_24maggio21_b",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "IPA_24maggio21_b",
+   "date": "2021/05/24",
+   "time": "15:07:38",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 2000000,
+   "duration": 2000.0,
+   "segments": 100,
+   "t0": 0.0,
+   "bin_dt": 0.2,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -5350.742225,
+     "max": 747.498877
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -5350.758772,
+     "max": 747.474098
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.014496,
+     "max": 0.621195
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.058582000000001244,
+     "max": 0.06201500000008764
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__IPA_24maggio21_b.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__24maggio__IPA_sequence.lvm",
+   "folder": "IMEC14pigtail/24maggio",
+   "name": "IPA_sequence.lvm",
+   "date": "2021/05/24",
+   "time": "15:45:47",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 960000,
+   "duration": 960.0,
+   "segments": 48,
+   "t0": 0.0,
+   "bin_dt": 0.096,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -6036.067317,
+     "max": 10.882013
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -6036.075883,
+     "max": 10.882916
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.013275,
+     "max": 0.632486
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.06089099999996961,
+     "max": 0.05724899999999877
+    }
+   ],
+   "file": "traces/IMEC14pigtail__24maggio__IPA_sequence.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14A_sigma",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14A_sigma",
+   "date": "2021/05/25",
+   "time": "11:28:53",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 140000,
+   "duration": 140.0,
+   "segments": 7,
+   "t0": 0.0,
+   "bin_dt": 0.014,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 85.840682,
+     "max": 97.914874
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 85.833902,
+     "max": 97.925067
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.026703,
+     "max": 0.360571
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.07071399999999528,
+     "max": 0.054147999999997865
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14A_sigma.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14A_Vpp",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14A_Vpp",
+   "date": "2021/05/25",
+   "time": "11:32:42",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 160000,
+   "duration": 160.0,
+   "segments": 8,
+   "t0": 0.0,
+   "bin_dt": 0.016,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -125.204259,
+     "max": 1257.953936
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -125.228843,
+     "max": 1257.939566
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.026398,
+     "max": 0.456092
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05625600000001896,
+     "max": 0.05625299999996969
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14A_Vpp.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14D_Vpp",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14D_Vpp",
+   "date": "2021/05/25",
+   "time": "14:10:58",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 160000,
+   "duration": 160.0,
+   "segments": 8,
+   "t0": 0.0,
+   "bin_dt": 0.016,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -850.838666,
+     "max": 170.600466
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -850.834646,
+     "max": 170.633389
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.114595
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.2211679999999987,
+     "max": 0.2351109999999892
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14D_Vpp.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14D_testDIW",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14D_testDIW",
+   "date": "2021/05/25",
+   "time": "14:40:24",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 240000,
+   "duration": 240.0,
+   "segments": 12,
+   "t0": 0.0,
+   "bin_dt": 0.024,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 112.324736,
+     "max": 127.999597
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 112.404427,
+     "max": 127.850431
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.109407
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.2005060000000043,
+     "max": 0.26182900000000586
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14D_testDIW.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14D_IPA_calib.lvm",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14D_IPA_calib.lvm",
+   "date": "2021/05/25",
+   "time": "14:48:12",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1300000,
+   "duration": 1300.0,
+   "segments": 65,
+   "t0": 0.0,
+   "bin_dt": 0.13,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 113.245089,
+     "max": 4860.597006
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 113.224089,
+     "max": 4860.611242
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.148165
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.23602700000003551,
+     "max": 0.2916389999999893
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14D_IPA_calib.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14_D_IPA2.lvm",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14_D_IPA2.lvm",
+   "date": "2021/05/25",
+   "time": "15:53:53",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 660000,
+   "duration": 660.0,
+   "segments": 33,
+   "t0": 0.0,
+   "bin_dt": 0.066,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -132.085485,
+     "max": -82.266207
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -132.216848,
+     "max": -82.226786
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012665,
+     "max": 0.113375
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.25804500000000985,
+     "max": 0.2941409999999962
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14_D_IPA2.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14_A_IPAcal.lvm",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14_A_IPAcal.lvm",
+   "date": "2021/05/25",
+   "time": "16:11:01",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1880000,
+   "duration": 1880.0,
+   "segments": 94,
+   "t0": 0.0,
+   "bin_dt": 0.188,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -5976.644752,
+     "max": 511.102041
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -5976.624439,
+     "max": 511.09785
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.025788,
+     "max": 0.757916
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05920900000000984,
+     "max": 0.0532879999996112
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14_A_IPAcal.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14_A_GLYCEROLcal.lvm",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14_A_GLYCEROLcal.lvm",
+   "date": "2021/05/25",
+   "time": "16:48:05",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1000000,
+   "duration": 1000.0,
+   "segments": 50,
+   "t0": 0.0,
+   "bin_dt": 0.1,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -2179.021145,
+     "max": -29.409575
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -2179.014752,
+     "max": -29.414464
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.028229,
+     "max": 0.535439
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.05813599999999042,
+     "max": 0.049931000000000836
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14_A_GLYCEROLcal.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__25maggio__IMEC14_D_GLYCEROLcal.lvm",
+   "folder": "IMEC14pigtail/25maggio",
+   "name": "IMEC14_D_GLYCEROLcal.lvm",
+   "date": "2021/05/25",
+   "time": "17:14:44",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 980000,
+   "duration": 980.0,
+   "segments": 49,
+   "t0": 0.0,
+   "bin_dt": 0.098,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -141.654479,
+     "max": 1613.134672
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -141.611584,
+     "max": 1613.085169
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.149691
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -0.182415000000006,
+     "max": 0.18281199999999842
+    }
+   ],
+   "file": "traces/IMEC14pigtail__25maggio__IMEC14_D_GLYCEROLcal.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__26maggio__test_8.lvm",
+   "folder": "IMEC14pigtail/26maggio",
+   "name": "test_8.lvm",
+   "date": "2021/05/26",
+   "time": "15:13:34",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 740000,
+   "duration": 740.0,
+   "segments": 37,
+   "t0": 0.0,
+   "bin_dt": 0.074,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 17.479628,
+     "max": 4880.892731
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 24.338045,
+     "max": 519.736479
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.19791
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -487.85094100000003,
+     "max": 4825.021997
+    }
+   ],
+   "file": "traces/IMEC14pigtail__26maggio__test_8.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__26maggio__IPA_WaterHC.lvm",
+   "folder": "IMEC14pigtail/26maggio",
+   "name": "IPA_WaterHC.lvm",
+   "date": "2021/05/26",
+   "time": "16:55:48",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1500000,
+   "duration": 1500.0,
+   "segments": 75,
+   "t0": 0.0,
+   "bin_dt": 0.15,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -286.377122,
+     "max": 4745.880205
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -660.933966,
+     "max": 161.210157
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.191806
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -385.865627,
+     "max": 4650.926585
+    }
+   ],
+   "file": "traces/IMEC14pigtail__26maggio__IPA_WaterHC.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": ".lvm",
+   "date": "2021/05/27",
+   "time": "10:51:34",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 220000,
+   "duration": 220.0,
+   "segments": 11,
+   "t0": 0.0,
+   "bin_dt": 0.022,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -94.136022,
+     "max": -53.097417
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -155.062893,
+     "max": -85.875322
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.017243,
+     "max": 0.145418
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -7.50865499999999,
+     "max": 93.93222600000001
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__2channel_IPAcal_test2.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "2channel_IPAcal_test2.lvm",
+   "date": "2021/05/27",
+   "time": "11:02:03",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 40000,
+   "duration": 39.99999999999999,
+   "segments": 2,
+   "t0": 0.0,
+   "bin_dt": 0.004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -101.713353,
+     "max": -83.082162
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -141.339169,
+     "max": -24.695116
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.025483,
+     "max": 0.152743
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -76.481413,
+     "max": 54.827982000000006
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__2channel_IPAcal_test2.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__2channel_IPAcal_test3.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "2channel_IPAcal_test3.lvm",
+   "date": "2021/05/27",
+   "time": "11:03:01",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 460000,
+   "duration": 460.0,
+   "segments": 23,
+   "t0": 0.0,
+   "bin_dt": 0.046,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -141.131777,
+     "max": -72.123014
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -185.028384,
+     "max": 138.013382
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.015106,
+     "max": 0.150607
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -278.283828,
+     "max": 106.93408500000001
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__2channel_IPAcal_test3.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__2channel_IPAcal_test4.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "2channel_IPAcal_test4.lvm",
+   "date": "2021/05/27",
+   "time": "11:24:26",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 40000,
+   "duration": 39.99999999999999,
+   "segments": 2,
+   "t0": 0.0,
+   "bin_dt": 0.004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -153.958932,
+     "max": -84.618782
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -166.52615,
+     "max": -47.959222
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.152743
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -101.31970900000002,
+     "max": 77.05254299999999
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__2channel_IPAcal_test4.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__2channel_IPAcal_test5.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "2channel_IPAcal_test5.lvm",
+   "date": "2021/05/27",
+   "time": "11:27:22",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 260000,
+   "duration": 260.0,
+   "segments": 13,
+   "t0": 0.0,
+   "bin_dt": 0.026000000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -190.297994,
+     "max": -145.762446
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -105.26726,
+     "max": -7.922121
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.152132
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -166.06848399999998,
+     "max": -48.596733000000015
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__2channel_IPAcal_test5.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__2channel_IPAcal_test6.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "2channel_IPAcal_test6.lvm",
+   "date": "2021/05/27",
+   "time": "11:40:29",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 2400000,
+   "duration": 2400.0,
+   "segments": 120,
+   "t0": 0.0,
+   "bin_dt": 0.24,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -140.628985,
+     "max": 5085.039321
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -160.059798,
+     "max": 269.562582
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.203098
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -245.561383,
+     "max": 4991.983652999999
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__2channel_IPAcal_test6.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__IPAsensitivity.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "IPAsensitivity.lvm",
+   "date": "2021/05/27",
+   "time": "16:30:19",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 860000,
+   "duration": 860.0,
+   "segments": 43,
+   "t0": 0.0,
+   "bin_dt": 0.08600000000000001,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 124.803091,
+     "max": 1048.267033
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -1233.054531,
+     "max": -150.430849
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.155795
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 275.880198,
+     "max": 2278.463772
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__IPAsensitivity.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__IPAsensitivity_oneCh.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "IPAsensitivity_oneCh.lvm",
+   "date": "2021/05/27",
+   "time": "16:49:49",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -184.205836,
+     "max": 246.204524
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012055,
+     "max": 0.14786
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__IPAsensitivity_oneCh.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__IPAsensitivity_oneCh_1.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "IPAsensitivity_oneCh_1.lvm",
+   "date": "2021/05/27",
+   "time": "16:50:28",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1380000,
+   "duration": 1380.0,
+   "segments": 69,
+   "t0": 0.0,
+   "bin_dt": 0.138,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -813.3315,
+     "max": 15395.399845
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": -0.074922,
+     "max": 1.968261
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__IPAsensitivity_oneCh_1.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__IPAsensitivity_oneCh_postCC.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "IPAsensitivity_oneCh_postCC.lvm",
+   "date": "2021/05/27",
+   "time": "16:50:28",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1440000,
+   "duration": 1440.0,
+   "segments": 72,
+   "t0": 0.0,
+   "bin_dt": 0.14400000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -813.3315,
+     "max": 15395.399845
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": -0.140841,
+     "max": 1.968261
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__IPAsensitivity_oneCh_postCC.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__27maggio__testPostShutDown.lvm",
+   "folder": "IMEC14pigtail/27maggio",
+   "name": "testPostShutDown.lvm",
+   "date": "2021/05/27",
+   "time": "17:23:29",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 140000,
+   "duration": 140.0,
+   "segments": 7,
+   "t0": 0.0,
+   "bin_dt": 0.014,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 4.882088,
+     "max": 195.047829
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.152132
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/IMEC14pigtail__27maggio__testPostShutDown.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__28maggio__2channelGlycerol.lvm",
+   "folder": "IMEC14pigtail/28maggio",
+   "name": "2channelGlycerol.lvm",
+   "date": "2021/05/28",
+   "time": "11:26:59",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1540000,
+   "duration": 1540.0,
+   "segments": 77,
+   "t0": 0.0,
+   "bin_dt": 0.154,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 68.131494,
+     "max": 3433.974825
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -4246.450575,
+     "max": -107.238043
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.150301
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 175.729703,
+     "max": 7679.6739
+    }
+   ],
+   "file": "traces/IMEC14pigtail__28maggio__2channelGlycerol.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__28maggio__2channelGlycerol_sensitivity.lvm",
+   "folder": "IMEC14pigtail/28maggio",
+   "name": "2channelGlycerol_sensitivity.lvm",
+   "date": "2021/05/28",
+   "time": "12:02:34",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 140000,
+   "duration": 140.0,
+   "segments": 7,
+   "t0": 0.0,
+   "bin_dt": 0.014,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -892.981605,
+     "max": -16.225678
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -3478.28685,
+     "max": -13.745111
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.141146
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -8.277486000000001,
+     "max": 2587.077399
+    }
+   ],
+   "file": "traces/IMEC14pigtail__28maggio__2channelGlycerol_sensitivity.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__28maggio__2channelGlycerol_sensitivity_bis.lvm",
+   "folder": "IMEC14pigtail/28maggio",
+   "name": "2channelGlycerol_sensitivity_bis.lvm",
+   "date": "2021/05/28",
+   "time": "12:06:30",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 760000,
+   "duration": 760.0,
+   "segments": 38,
+   "t0": 0.0,
+   "bin_dt": 0.076,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -52.196974,
+     "max": -17.993391
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": 158.100945,
+     "max": 370.111504
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.136568
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -392.905659,
+     "max": -178.505273
+    }
+   ],
+   "file": "traces/IMEC14pigtail__28maggio__2channelGlycerol_sensitivity_bis.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__28maggio__2channelGlycerol_sensitivity_ter.lvm",
+   "folder": "IMEC14pigtail/28maggio",
+   "name": "2channelGlycerol_sensitivity_ter.lvm",
+   "date": "2021/05/28",
+   "time": "13:27:23",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1040000,
+   "duration": 1040.0,
+   "segments": 52,
+   "t0": 0.0,
+   "bin_dt": 0.10400000000000001,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -262.791668,
+     "max": -164.468303
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -122.627492,
+     "max": -35.096062
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.133516
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -227.14062700000002,
+     "max": -42.03980800000001
+    }
+   ],
+   "file": "traces/IMEC14pigtail__28maggio__2channelGlycerol_sensitivity_ter.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__28maggio__2channelIPA_sensitivity_ter.lvm",
+   "folder": "IMEC14pigtail/28maggio",
+   "name": "2channelIPA_sensitivity_ter.lvm",
+   "date": "2021/05/28",
+   "time": "14:06:16",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 920000,
+   "duration": 920.0,
+   "segments": 46,
+   "t0": 0.0,
+   "bin_dt": 0.092,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -703.529643,
+     "max": 16.003645
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -0.543223,
+     "max": 899.744568
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.140536
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -1602.910568,
+     "max": 16.328189000000002
+    }
+   ],
+   "file": "traces/IMEC14pigtail__28maggio__2channelIPA_sensitivity_ter.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__03giugno__GlycerolSensitivityTest.lvm",
+   "folder": "IMEC14pigtail/03giugno",
+   "name": "GlycerolSensitivityTest.lvm",
+   "date": "2021/06/03",
+   "time": "11:00:26",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 20000,
+   "duration": 20.0,
+   "segments": 1,
+   "t0": 0.0,
+   "bin_dt": 0.002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 34.866568,
+     "max": 40.806734
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -154.242016,
+     "max": -144.001712
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012055,
+     "max": 0.069734
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 178.923108,
+     "max": 194.488448
+    }
+   ],
+   "file": "traces/IMEC14pigtail__03giugno__GlycerolSensitivityTest.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__03giugno__GlycerolSensitivityTest_bis.lvm",
+   "folder": "IMEC14pigtail/03giugno",
+   "name": "GlycerolSensitivityTest_bis.lvm",
+   "date": "2021/06/03",
+   "time": "11:05:03",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 280000,
+   "duration": 280.0,
+   "segments": 14,
+   "t0": 0.0,
+   "bin_dt": 0.028,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -883.830324,
+     "max": 13.295037
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -136.554321,
+     "max": 1017.888054
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.076143
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -1901.65359,
+     "max": 149.82565200000002
+    }
+   ],
+   "file": "traces/IMEC14pigtail__03giugno__GlycerolSensitivityTest_bis.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__03giugno__DIWbaseline.lvm",
+   "folder": "IMEC14pigtail/03giugno",
+   "name": "DIWbaseline.lvm",
+   "date": "2021/06/03",
+   "time": "11:12:07",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 460000,
+   "duration": 460.0,
+   "segments": 23,
+   "t0": 0.0,
+   "bin_dt": 0.046,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 34.591559,
+     "max": 130.835477
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -1.730963,
+     "max": 77.413218
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.118563
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -42.277953999999994,
+     "max": 131.70111200000002
+    }
+   ],
+   "file": "traces/IMEC14pigtail__03giugno__DIWbaseline.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__03giugno__IPAsensitivityTEST.lvm",
+   "folder": "IMEC14pigtail/03giugno",
+   "name": "IPAsensitivityTEST.lvm",
+   "date": "2021/06/03",
+   "time": "11:35:11",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1840000,
+   "duration": 1840.0,
+   "segments": 92,
+   "t0": 0.0,
+   "bin_dt": 0.184,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -327.516099,
+     "max": 167.926076
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -197.297855,
+     "max": 336.791667
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.027008
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -662.082058,
+     "max": 360.566733
+    }
+   ],
+   "file": "traces/IMEC14pigtail__03giugno__IPAsensitivityTEST.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__03giugno__IPAsensitivityTest2_baseline10p.lvm",
+   "folder": "IMEC14pigtail/03giugno",
+   "name": "IPAsensitivityTest2_baseline10p.lvm",
+   "date": "2021/06/03",
+   "time": "14:16:39",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 120000,
+   "duration": 120.0,
+   "segments": 6,
+   "t0": 0.0,
+   "bin_dt": 0.012,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 90.129719,
+     "max": 101.820546
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -36.371442,
+     "max": -25.420006
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.136873
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 116.33098299999999,
+     "max": 136.33589
+    }
+   ],
+   "file": "traces/IMEC14pigtail__03giugno__IPAsensitivityTest2_baseline10p.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__03giugno__IPAsensitivityTest2_nc.lvm",
+   "folder": "IMEC14pigtail/03giugno",
+   "name": "IPAsensitivityTest2_nc.lvm",
+   "date": "2021/06/03",
+   "time": "14:19:07",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 560000,
+   "duration": 560.0,
+   "segments": 28,
+   "t0": 0.0,
+   "bin_dt": 0.056,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 90.568535,
+     "max": 191.832226
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -178.940115,
+     "max": -21.961644
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.158846
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 114.33227,
+     "max": 369.69692699999996
+    }
+   ],
+   "file": "traces/IMEC14pigtail__03giugno__IPAsensitivityTest2_nc.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__03giugno__IPAsensitivityTest3.lvm",
+   "folder": "IMEC14pigtail/03giugno",
+   "name": "IPAsensitivityTest3.lvm",
+   "date": "2021/06/03",
+   "time": "14:58:33",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 520000,
+   "duration": 520.0,
+   "segments": 26,
+   "t0": 0.0,
+   "bin_dt": 0.052000000000000005,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 88.20258,
+     "max": 185.020351
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -185.058758,
+     "max": -43.679633
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.156405
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 134.39248800000001,
+     "max": 368.61620000000005
+    }
+   ],
+   "file": "traces/IMEC14pigtail__03giugno__IPAsensitivityTest3.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__03giugno__IPAsensitivityTest4.lvm",
+   "folder": "IMEC14pigtail/03giugno",
+   "name": "IPAsensitivityTest4.lvm",
+   "date": "2021/06/03",
+   "time": "15:45:08",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 700000,
+   "duration": 700.0,
+   "segments": 35,
+   "t0": 0.0,
+   "bin_dt": 0.07,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -586.681038,
+     "max": 192.858379
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -204.982228,
+     "max": 837.062359
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.160983
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -1423.293283,
+     "max": 397.829241
+    }
+   ],
+   "file": "traces/IMEC14pigtail__03giugno__IPAsensitivityTest4.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__testDIW_IPA.lvm",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "testDIW_IPA.lvm",
+   "date": "2021/06/10",
+   "time": "11:25:12",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 60000,
+   "duration": 59.99999999999999,
+   "segments": 3,
+   "t0": 0.0,
+   "bin_dt": 0.006,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 10.959652,
+     "max": 7487.115039
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -747.060275,
+     "max": 149.76333
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.013581,
+     "max": 0.438392
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -135.434436,
+     "max": 7938.309206
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__testDIW_IPA.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__testDIW_IPA_50ummin.lvm",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "testDIW_IPA_50ummin.lvm",
+   "date": "2021/06/10",
+   "time": "11:29:32",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 260000,
+   "duration": 260.0,
+   "segments": 13,
+   "t0": 0.0,
+   "bin_dt": 0.026000000000000002,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -495.892895,
+     "max": 32996.31436
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -36272.270022,
+     "max": 33418.818746
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.02945,
+     "max": 0.335546
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -13022.905317999997,
+     "max": 68536.01192
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__testDIW_IPA_50ummin.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__testDIW_IPA_80ummin",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "testDIW_IPA_80ummin",
+   "date": "2021/06/10",
+   "time": "11:37:28",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 40000,
+   "duration": 39.99999999999999,
+   "segments": 2,
+   "t0": 0.0,
+   "bin_dt": 0.004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -3170.218467,
+     "max": 800025.406287
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -1663.169454,
+     "max": 573.038513
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.117342,
+     "max": 0.143282
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -2822.7335519999997,
+     "max": 801686.260656
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__testDIW_IPA_80ummin.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__testA_3",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "testA_3",
+   "date": "2021/06/10",
+   "time": "11:53:14",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 100000,
+   "duration": 100.0,
+   "segments": 5,
+   "t0": 0.0,
+   "bin_dt": 0.01,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -879.82627,
+     "max": 485458.06072
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": null,
+     "max": null
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.348974
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": null,
+     "max": null
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__testA_3.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__testA_4",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "testA_4",
+   "date": "2021/06/10",
+   "time": "11:55:12",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 40000,
+   "duration": 39.99999999999999,
+   "segments": 2,
+   "t0": 0.0,
+   "bin_dt": 0.004,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -332.480363,
+     "max": -95.699714
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -119.344433,
+     "max": 109.543122
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.020905,
+     "max": 0.364843
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -441.695457,
+     "max": 23.509304
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__testA_4.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__2ch_air_diw_ipa.lvm",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "2ch_air_diw_ipa.lvm",
+   "date": "2021/06/10",
+   "time": "11:56:51",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 7020000,
+   "duration": 7020.0,
+   "segments": 351,
+   "t0": 0.0,
+   "bin_dt": 0.7020000000000001,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -21604.137046,
+     "max": 7446.330899
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -29535.578147,
+     "max": 35363.621487
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.548257
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -39590.735519999995,
+     "max": 36021.667316
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__2ch_air_diw_ipa.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__14_testDIW.lvm",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "14_testDIW.lvm",
+   "date": "2021/06/10",
+   "time": "14:18:10",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 140000,
+   "duration": 140.0,
+   "segments": 7,
+   "t0": 0.0,
+   "bin_dt": 0.014,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": 49.260001,
+     "max": 20210.682102
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -23868.956453,
+     "max": 32.597614
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.012055,
+     "max": 0.034028
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 16.893893000000006,
+     "max": 44069.828509
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__14_testDIW.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__14_testDIW_1.lvm",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "14_testDIW_1.lvm",
+   "date": "2021/06/10",
+   "time": "14:20:39",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 200000,
+   "duration": 200.0,
+   "segments": 10,
+   "t0": 0.0,
+   "bin_dt": 0.02,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -63.268532,
+     "max": 4501.679393
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -10097.325385,
+     "max": -163.366949
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.039826
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": 193.086392,
+     "max": 14482.040801
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__14_testDIW_1.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__14_testDIW_2.lvm",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "14_testDIW_2.lvm",
+   "date": "2021/06/10",
+   "time": "14:24:23",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 500000,
+   "duration": 500.0,
+   "segments": 25,
+   "t0": 0.0,
+   "bin_dt": 0.05,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -22008.593018,
+     "max": 10274.453227
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -3790.251907,
+     "max": 3167.566622
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011749,
+     "max": 0.021515
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -23951.524235,
+     "max": 8464.622116999999
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__14_testDIW_2.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__Pb_test1",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "Pb_test1",
+   "date": "2021/06/10",
+   "time": "14:51:11",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 2220000,
+   "duration": 2220.0,
+   "segments": 111,
+   "t0": 0.0,
+   "bin_dt": 0.222,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -330.72369,
+     "max": 300.539278
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -28.115086,
+     "max": 680.983016
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.049897
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -1011.4939300000001,
+     "max": 325.66417199999995
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__Pb_test1.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__IMEC14_ipa_diw_newtest.lvm",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "IMEC14_ipa_diw_newtest.lvm",
+   "date": "2021/06/10",
+   "time": "16:20:36",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 900000,
+   "duration": 900.0,
+   "segments": 45,
+   "t0": 0.0,
+   "bin_dt": 0.09,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -402.520737,
+     "max": 4297.243573
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -5997.136245,
+     "max": 229.730896
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.011139,
+     "max": 0.066987
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -622.877574,
+     "max": 10275.481704999998
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__IMEC14_ipa_diw_newtest.lvm.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__IMEC14_ipa_diw_newtest_invPD",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "IMEC14_ipa_diw_newtest_invPD",
+   "date": "2021/06/10",
+   "time": "16:36:47",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 340000,
+   "duration": 340.0,
+   "segments": 17,
+   "t0": 0.0,
+   "bin_dt": 0.034,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -3587.679869,
+     "max": 251.530194
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -135.532348,
+     "max": 2872.222892
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.048676,
+     "max": 1.118639
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -6459.282123,
+     "max": 152.816431
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__IMEC14_ipa_diw_newtest_invPD.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__IMEC14_Pb_bis",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "IMEC14_Pb_bis",
+   "date": "2021/06/10",
+   "time": "16:44:50",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 620000,
+   "duration": 620.0,
+   "segments": 31,
+   "t0": 0.0,
+   "bin_dt": 0.062,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -302.331194,
+     "max": -83.794711
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -9.667222,
+     "max": 224.118952
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.040436,
+     "max": 1.03563
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -526.01294,
+     "max": -74.440753
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__IMEC14_Pb_bis.bin",
+   "bytes": 320000
+  },
+  {
+   "id": "IMEC14pigtail__10giugno__IMEC14_valvON.lvm",
+   "folder": "IMEC14pigtail/10giugno",
+   "name": "IMEC14_valvON.lvm",
+   "date": "2021/06/10",
+   "time": "16:57:57",
+   "operator": "FOS-RGD",
+   "fs": 1000.0,
+   "samples": 1820000,
+   "duration": 1820.0,
+   "segments": 91,
+   "t0": 0.0,
+   "bin_dt": 0.182,
+   "bins": 10000,
+   "raw": false,
+   "channels": [
+    {
+     "name": "Phase1",
+     "derived": false,
+     "min": -8191.939577,
+     "max": 455.85027
+    },
+    {
+     "name": "Phase2",
+     "derived": false,
+     "min": -557.904517,
+     "max": 7412.133249
+    },
+    {
+     "name": "PD",
+     "derived": false,
+     "min": 0.03769,
+     "max": 2.108034
+    },
+    {
+     "name": "Phase1-Phase2",
+     "derived": true,
+     "min": -15512.765589,
+     "max": 1011.2079859999999
+    }
+   ],
+   "file": "traces/IMEC14pigtail__10giugno__IMEC14_valvON.lvm.bin",
    "bytes": 320000
   },
   {
